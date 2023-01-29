@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sakirtemel/plantuml-alternative-docs/issues"
   },
-  "homepage": "https://github.com/sakirtemel/plantuml-alternative-docs#readme"
+  "homepage": "https://github.com/sakirtemel/plantuml-alternative-docs#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
 }
