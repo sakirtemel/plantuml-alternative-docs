@@ -1,0 +1,12 @@
+site:
+  title: PlantUML Alternative Docs
+  start_page: docs::index.adoc
+content:
+  sources:
+  - url: .
+    branches: HEAD
+    start_path: docs
+ui:
+  bundle:
+    url: _antora/ui-bundle.zip
+    snapshot: true

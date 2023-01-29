@@ -1,0 +1,6 @@
+name: docs
+version: 'main'
+title: Docs
+display-version: 3.0
+nav:
+  - modules/ROOT/nav.adoc
