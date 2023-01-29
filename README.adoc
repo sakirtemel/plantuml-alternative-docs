@@ -2,6 +2,8 @@
 
 PlantUML alternative docs for better readability using the alphadocs as a source.
 
+image::demo.png[]
+
 == Features
 
 - Better navigation, top for chapters, left for topics, right for subtopics
