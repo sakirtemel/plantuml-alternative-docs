@@ -18,3 +18,6 @@ ui:
 antora:
   extensions:
     - require: '@antora/lunr-extension'
+asciidoc:
+  extensions:
+    - ./_asciidoc/extensions/plantuml-source-block.js
