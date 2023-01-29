@@ -11,7 +11,7 @@ module.exports = function (registry) {
             const codeBlock = `<div class="listingblock"><div class="content"><pre class="highlightjs highlight"><code class="language-plantuml hljs" data-lang="plantuml">${lines.join("\n")}</code></pre></div></div>`
 
             const imagePath = plantumlEncoder.encode(lines.join("\n"))
-            const imageBlock = `<img loading="lazy" src="https://plantuml.com/plantuml/pmg/${imagePath}"/>`
+            const imageBlock = `<a href="https://plantuml.github.io/plantuml-wasm/#encodedString=${imagePath}" target="_blank"><img loading="lazy" src="https://plantuml.com/plantuml/pmg/${imagePath}"/></a>`
 
             const html = `<div class="paragraph plantuml-diagram">${codeBlock} ${imageBlock}</div>`
             return self.createBlock(parent, 'pass', html, {}, {})

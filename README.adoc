@@ -14,6 +14,12 @@ PlantUML alternative docs for better readability using the alphadocs as a source
 
 - Static pages, can be served on Github Pages or any CDN
 
+- Edit link taking to dokuwiki
+
+- Lazy loading diagrams
+
+- Clicking the diagram takes diagram editing
+
 == Antora structure
 
 - We have antora-playbook.yml that defines our site.
