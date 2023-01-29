@@ -10,3 +10,9 @@ ui:
   bundle:
     url: _antora/ui-bundle.zip
     snapshot: true
+  supplemental_files:
+  - path: ui.yml
+    contents: |
+      static_files:
+      - .nojekyll
+  - path: .nojekyll
