@@ -15,3 +15,6 @@ ui:
     url: _antora/ui-bundle.zip
     snapshot: true
   supplemental_files: _antora/supplemental-ui
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
