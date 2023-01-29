@@ -3,7 +3,7 @@ import fs from 'fs'
 const outputDirectory = 'docs/modules/ROOT/pages/'
 
 // clean up the pages before start
-let existingFiles
+let existingFiles = []
 try {
   existingFiles = await fs.readdirSync(outputDirectory)
 } catch (error) {
