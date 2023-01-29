@@ -12,10 +12,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '19'
-    - name: Install Antora and the Antora Lunr Extension
-      run: npm i antora @antora/lunr-extension
+    - run: npm ci
     - name: Generate Site
-      run: npx antora antora-playbook.yml
+      run: npm run build
     - name: Publish to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
