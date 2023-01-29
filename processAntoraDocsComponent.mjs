@@ -33,4 +33,3 @@ for (let filename of fs.readdirSync(sourceDirectory)){
     fs.writeFileSync(`${outputDirectory}${filename}`, content)
     console.info(`Processed ${filename}`)
 }
-
