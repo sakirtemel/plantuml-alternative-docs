@@ -9,7 +9,7 @@ for (let filename of files){
 
     let content = fs.readFileSync(`docs_from_alphadoc/${filename}`, 'utf8')
 
-    // step1: use source code blocks for plantuml parts
+    // Step1: use source code blocks for plantuml parts
     content = content.replaceAll('<plantuml>', '[source, plantuml]\n----').replaceAll('</plantuml>', '----')
 
     fs.writeFileSync(`docs/${filename}`, contentcontent)
