@@ -10,6 +10,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19
+      - run: npm ci
       - name: Fetch docs from alphadoc
         run: |
           npm run fetchDocsFromAlphadoc
@@ -20,6 +24,8 @@ jobs:
           commit-message: Fetch latest docs from alphadoc
           delete-branch: true
           title: '[Sync Docs] Fetch latest docs'
+          body: |
+            Automated sync docs from alphadoc.
           labels: |
             automated pr
           team-reviewers: |
