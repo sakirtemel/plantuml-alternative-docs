@@ -1,0 +1,27 @@
+name: Sync docs from alphadocs
+
+on:
+  workflow_dispatch:
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Fetch docs from alphadocs
+        run: |
+          npm run fetchDocsFromAlphadocs
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Fetch latest docs from alphadocs
+          delete-branch: true
+          title: '[Sync Docs] Fetch latest docs'
+          labels: |
+            automated pr
+          team-reviewers: |
+            owners
+            maintainers
