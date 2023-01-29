@@ -12,6 +12,6 @@ for (let filename of files){
     // Step1: use source code blocks for plantuml parts
     content = content.replaceAll('<plantuml>', '[source, plantuml]\n----').replaceAll('</plantuml>', '----')
 
-    fs.writeFileSync(`docs/${filename}`, contentcontent)
+    fs.writeFileSync(`docs/${filename}`, content)
     console.info(`Processed ${filename}`)
 }
