@@ -1,0 +1,19 @@
+{
+  "name": "plantuml-alternative-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetchDocsFromAlphadoc": "node fetchDocsFromAlphadoc.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakirtemel/plantuml-alternative-docs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sakirtemel/plantuml-alternative-docs/issues"
+  },
+  "homepage": "https://github.com/sakirtemel/plantuml-alternative-docs#readme"
+}
