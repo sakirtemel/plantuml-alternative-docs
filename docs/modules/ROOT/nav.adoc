@@ -35,6 +35,7 @@
     * xref::sprite.adoc[Sprite icons]
     * xref::ascii-math.adoc[AsciiMath mathematical expressions]
 
+.Extra
 * xref::guide.adoc[PlantUML Language Reference Guide]
 * xref:stdlib.adoc[stdlib]
 * xref:theme.adoc[Themes]
