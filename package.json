@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fetchDocsFromAlphadoc": "node fetchDocsFromAlphadoc.mjs"
+    "fetchDocsFromAlphadoc": "node fetchDocsFromAlphadoc.mjs",
+    "processAntoraDocsComponent": "node processDocsComponent.mjs"
   },
   "repository": {
     "type": "git",
