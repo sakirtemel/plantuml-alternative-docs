@@ -11,16 +11,16 @@ if (!fs.existsSync(outputDirectory)){
 // clean up the pages before start
 let existingFiles = []
 try {
-  existingFiles = await fs.readdirSync(outputDirectory)
+  existingFiles = fs.readdirSync(outputDirectory)
 } catch (error) {
   console.info(error)
 }
 for (const filename of existingFiles) {
-  await fs.unlink(`${outputDirectory}${filename}`)
+  fs.unlinkSync(`${outputDirectory}${filename}`)
 }
 
 // process each page
-for (let filename of await fs.readdirSync(sourceDirectory)){
+for (let filename of fs.readdirSync(sourceDirectory)){
     if (filename === '.gitkeep'){
         continue
     }
