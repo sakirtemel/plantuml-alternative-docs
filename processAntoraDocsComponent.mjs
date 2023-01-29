@@ -3,7 +3,13 @@ import fs from 'fs'
 const outputDirectory = 'docs/modules/ROOT/pages/'
 
 // clean up the pages before start
-for (const filename of await fs.readdirSync(outputDirectory)) {
+let existingFiles
+try {
+  existingFiles = await fs.readdirSync(outputDirectory)
+} catch (error) {
+  console.info(error)
+}
+for (const filename of existingFiles) {
   await fs.unlink(`${outputDirectory}${filename}`)
 }
 
