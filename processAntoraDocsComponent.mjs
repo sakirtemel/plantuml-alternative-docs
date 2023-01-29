@@ -1,6 +1,12 @@
 import fs from 'fs'
 
 const outputDirectory = 'docs/modules/ROOT/pages/'
+const sourceDirectory = 'docs_from_alphadoc/'
+
+// ensure the output directory exists
+if (!fs.existsSync(outputDirectory)){
+    fs.mkdirSync(outputDirectory, { recursive: true });
+}
 
 // clean up the pages before start
 let existingFiles = []
@@ -14,12 +20,12 @@ for (const filename of existingFiles) {
 }
 
 // process each page
-for (let filename of await fs.readdirSync('docs_from_alphadoc/')){
+for (let filename of await fs.readdirSync(sourceDirectory)){
     if (filename === '.gitkeep'){
         continue
     }
 
-    let content = fs.readFileSync(`docs_from_alphadoc/${filename}`, 'utf8')
+    let content = fs.readFileSync(`${sourceDirectory}${filename}`, 'utf8')
 
     // Step1: use source code blocks for plantuml parts
     content = content.replaceAll('<plantuml>', '[source, plantuml]\n----').replaceAll('</plantuml>', '----')
