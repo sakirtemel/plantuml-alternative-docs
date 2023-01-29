@@ -1,5 +1,19 @@
 = PlantUML Alternative Docs
 
+PlantUML alternative docs for better readability using the alphadocs as a source.
+
+== Features
+
+- Better navigation, top for chapters, left for topics, right for subtopics
+
+- Lunr search engine
+
+- Better layout for docs based on Antora
+
+- Automated sync from link:http://alphadoc.plantuml.com[alphadoc]
+
+- Static pages, can be served on Github Pages or any CDN
+
 == Antora structure
 
 - We have antora-playbook.yml that defines our site.
