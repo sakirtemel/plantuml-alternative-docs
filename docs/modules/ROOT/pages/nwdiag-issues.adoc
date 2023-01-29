@@ -6,7 +6,7 @@ This page lists issues on link::nwdiag[nwdiag].
 == Example __KO__ on group of Peer networks
 
 === Group on first
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -33,7 +33,7 @@ nwdiag {
 ----
 
 === Group on second
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -62,7 +62,7 @@ nwdiag {
 
 
 === Group on third
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -94,7 +94,7 @@ __[Ref. https://github.com/plantuml/plantuml/issues/408[Issue#408] and https://f
 . Overlap of label for folder
 . Hexagon shape is missing
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -106,7 +106,7 @@ Hexagon [shape = hexagon]
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -125,7 +125,7 @@ Hexagon [shape = hexagon, description = "Test, long long label\nTest, long long 
 
 * How many adress lines before overlap? __[Hints: 7 (tested on V1.2021.8)]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -142,7 +142,7 @@ server1 [address = "Adress_line_1\nAdress_line_2\nAdress_line_3\nAdress_line_4\n
 
 * How many adress lines before overlap? __[Hints: 7 or 16]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -157,7 +157,7 @@ server
 }
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -176,7 +176,7 @@ server
 
 == Example __KO__ with incoming server (e.g. the Internet or Web)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -186,7 +186,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -201,7 +201,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -226,7 +226,7 @@ nwdiag {
 
 == Minimal __KO__ example...
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -236,7 +236,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -246,7 +246,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -262,7 +262,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -291,7 +291,7 @@ nwdiag {
 
 == Other internal networks (stretched) examples 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -307,7 +307,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -326,7 +326,7 @@ nwdiag {
 == Example __KO__ on of Peer networks
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -338,7 +338,7 @@ nwdiag {
 
 VS
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -351,7 +351,7 @@ nwdiag {
 
 
 == OK: Example with 3 or more groups
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -389,7 +389,7 @@ nwdiag {
 ----
 __[Ref. https://forum.plantuml.net/13138[QA-13138]]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -440,7 +440,7 @@ nwdiag {
 == Example __KO__ on Goup of Peer networks between networks
 
 === Group first: OK
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -462,7 +462,7 @@ nwdiag {
 
 === Group at the end: KO
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {

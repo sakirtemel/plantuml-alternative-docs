@@ -11,7 +11,7 @@ Contents of the https://github.com/plantuml/plantuml-stdlib[library] come from t
 
 You can list standard library folders using the special diagram:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 stdlib
@@ -44,7 +44,7 @@ Sources used to build official PlantUML releases are hosted here https://github.
 This repository contains ArchiMate PlantUML macros and other includes for creating link::archimate-diagram[Archimate Diagrams] easily and consistantly.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <archimate/Archimate>
@@ -87,7 +87,7 @@ Rel_Serving_Up(webServer, internetBrowser, "")
 
 You can list all possible link::sprite[sprites] for Archimate using the following diagram:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 listsprite
@@ -187,7 +187,7 @@ With the `+AzureCommon.puml+` imported, you can use the `+NAME_OF_SPRITE(paramet
 
 Example of usage:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <azure/AzureCommon>
@@ -230,7 +230,7 @@ streamAnalytics --> outputCosmosDb
 |===
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <C4/C4_Container>
@@ -266,7 +266,7 @@ Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
 
 This repository contains PlantUML sprites generated from https://github.com/cloudinsight/cicon[Cloudinsight icons], which can easily be used in PlantUML diagrams for nice visual representation of popular technologies.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <cloudinsight/tomcat>
@@ -308,7 +308,7 @@ daemon --> cassandra
 
 The Cloudogu library provides PlantUML sprites, macros, and other includes for Cloudogu  services and resources. 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <cloudogu/common>
@@ -369,7 +369,7 @@ You may also include the `+common.puml+` file, eg: `+!include <elastic/common>+`
 With the `+common.puml+` imported, you can use the `+NAME//OF//SPRITE(parameters...)+` macro.
 
 Example of usage:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <elastic/common>
@@ -388,7 +388,7 @@ ElasticSearch -right-> Kibana: Data to View
 
 **All Elastic Sprite Set**
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 'Adapted from https://github.com/Crashedmind/PlantUML-Elastic-icons/blob/master/All.puml
@@ -472,7 +472,7 @@ With the `+common.puml+` imported, you can use the `+MA_NAME_OF_SPRITE(parameter
 
 Example of usage:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <material/common>
@@ -490,7 +490,7 @@ In those cases, add `+{+` and `+}+` after the macro to create the empty rectangl
 
 Example of usage:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <material/common>
@@ -523,7 +523,7 @@ class foo {
 
 |===
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <kubernetes/k8s-sprites-unlabeled-25pct>
@@ -555,7 +555,7 @@ package "Infrastructure" {
 
 This repository contains PlantUML sprites generated from https://github.com/gilbarbara/logos[Gil Barbara's logos], which can easily be used in PlantUML diagrams for nice visual aid.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <logos/flask>
@@ -578,7 +578,7 @@ daemon --> cassandra
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 scale 0.7
@@ -647,7 +647,7 @@ There are sprites (\*.puml) and colored png icons available. Be aware that the s
 
 Example of usage:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <tupadr3/common>
@@ -672,7 +672,7 @@ package "Sprites" {
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <tupadr3/common>
@@ -720,7 +720,7 @@ package "Different macro usages" {
 |===
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 'Adapted from https://github.com/Crashedmind/PlantUML-opensecurityarchitecture-icons/blob/master/all
@@ -795,7 +795,7 @@ rectangle "Network:\n <$network>"
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 scale .5
@@ -850,7 +850,7 @@ With the `+common.puml+` imported, you can use the `+NAME_OF_SPRITE(parameters..
 
 Example of usage:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <tupadr3/common>
@@ -877,7 +877,7 @@ web4 <--> db1
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <tupadr3/common>
@@ -924,7 +924,7 @@ With the `+common.puml+` imported, you can use the `+NAME_OF_SPRITE(parameters..
 
 Example of usage:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <aws/common>

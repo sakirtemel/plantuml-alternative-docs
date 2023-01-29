@@ -18,7 +18,7 @@ You can use `+@startdot/@enddot+` or `+@startuml/@enduml+` to delineate the diag
 and then the very first line has to be: `+digraph XYZ {+`.
 
 Here are some examples:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 digraph foo {
@@ -32,7 +32,7 @@ digraph foo {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 digraph foo {

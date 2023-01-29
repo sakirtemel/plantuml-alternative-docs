@@ -5,7 +5,7 @@ https://github.com/plantuml/plantuml/issues/423[Incubation of board diagram]
 
 == Basic component
 
-[source, plantuml]
+[plantuml]
 ----
 @startboard
 A1
@@ -17,7 +17,7 @@ A2
 @endboard
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startboard
 Activity 1

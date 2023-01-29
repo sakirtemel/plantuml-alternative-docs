@@ -99,7 +99,7 @@ With link::url-authentication[URL authentication] it is possible to provide an a
 
 A link can contain some curly brackets.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [[link{with_bracket}&id=10]]:Some activity\n(with link with brackets)\n""link{with_bracket}&id=10"";
@@ -118,7 +118,7 @@ __[Ref. https://forum.plantuml.net/13489/[QA-13489]]__
 The following example lists some links features:
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor Bob [[http://plantuml.com/sequence]]
@@ -138,7 +138,7 @@ end note
 
 
 == Links in class diagram
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class Car [[http://plantuml.com/link]]
@@ -154,7 +154,7 @@ There is a special syntax with 3 square brackets in class definition when you wa
 a link on field or method.
 For example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class Car {
@@ -164,7 +164,7 @@ class Car {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Object <|-- Foo
@@ -188,7 +188,7 @@ class Object [[http://www.yahoo.com]]
 == Links in activity diagram
 
 === On activity label
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -199,7 +199,7 @@ end
 ----
 
 === On partition
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -215,7 +215,7 @@ __[Ref. https://forum.plantuml.net/542/ability-to-define-hyperlink-on-diagram-el
 
 == Links in Network diagram (nwdiag)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -230,7 +230,7 @@ nwdiag {
 == Links in JSON/YAML diagram 
 
 === JSON
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -242,7 +242,7 @@ nwdiag {
 ----
 
 === YAML
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
 @fruit: Apple
@@ -255,7 +255,7 @@ Appli.: A [[http://plantuml.com link]] on YAML
 == Links in notes
 
 It is also possible to specify a link at the beginning of a note (the link applies to the full note), or inside a note (for a portion of the note). 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :Foo:
@@ -279,7 +279,7 @@ __[Ref. http://wiki.plantuml.net/site/incubation#url_in_diagrams[Incubation: URL
 You can use the `+url of XXX is [[yyy]]+` syntax:
 
 === On sequence diagram
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Bob -> Alice : ok
@@ -288,7 +288,7 @@ url of Bob is [[http://www.google.com]]
 ----
 
 === On class diagram
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam topurl http://www.google.com
@@ -302,7 +302,7 @@ Cat --|> Mammal
 
 
 === On usecase diagram
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor Mamal
@@ -314,7 +314,7 @@ url of Dog is [[http://www.yahoo.com{This is Dog}]]
 ----
 
 === On component or deployment diagram
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node Mamal
@@ -331,7 +331,7 @@ __[Ref. http://wiki.plantuml.net/site/incubation#url_in_diagrams[Incubation: URL
 == Links in arrow (or Hyperlinks in link or connection)
 
 === Class diagram
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class Car 
@@ -344,7 +344,7 @@ Car *-- Wheel [[http://plantuml.com/class-diagram]] : has some
 [[#FFD700#FIXME]] 🚩
 See Wanted features https://forum.plantuml.net/6397[QA-6397]
 [[#FFD700#FIXME]]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node Car 
@@ -361,7 +361,7 @@ __[Ref. https://forum.plantuml.net/6397[QA-6397]]__
 [[#FFD700#FIXME]] 🚩
 Same Issue 
 [[#FFD700#FIXME]]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 state Car
@@ -377,7 +377,7 @@ Car -> CarWithWheel [[http://plantuml.com/state-diagram]] : Add wheel to car
 
 You can change the `+color+` value of the links with the `+hyperlinkColor+` setting.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :hyperlinkColor setting, by default;
@@ -385,7 +385,7 @@ You can change the `+color+` value of the links with the `+hyperlinkColor+` sett
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam hyperlinkColor red
@@ -400,7 +400,7 @@ __[Ref. https://forum.plantuml.net/2322/increasing-visibility-of-links[QA-2322]]
 
 You can underline or not the links with the `+hyperlinkUnderline+` setting.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam hyperlinkUnderline true
@@ -408,7 +408,7 @@ skinparam hyperlinkUnderline true
 :[[http://plantuml.com]];
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam hyperlinkUnderline false
@@ -426,7 +426,7 @@ __[Ref. https://forum.plantuml.net/2866/decreasing-visibility-of-links[QA-2866],
 
 You can use `+topurl+` setting, in order to define the prefix for all the links on a PlantUML diagram, as:
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 
@@ -451,7 +451,7 @@ You can see also on:
 == Using (global) style
 
 === Without style __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title test on HyperlinkColor [[test link]]
@@ -475,7 +475,7 @@ title test on HyperlinkColor [[test link]]
 
 You can use link::style-evolution[style] to change rendering of elements.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>

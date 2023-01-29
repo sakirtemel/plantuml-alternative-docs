@@ -95,11 +95,11 @@ Just ask if you need more!
 
 === Image with source code
 
-You have to use `+[source, plantuml]
+You have to use `+[plantuml]
 ----+` and `+----+`.
 
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : Hello
@@ -107,7 +107,7 @@ Alice -> Bob : Hello
 ----
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : Hello

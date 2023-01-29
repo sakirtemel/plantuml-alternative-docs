@@ -75,7 +75,7 @@ It is also possible to store style definition in some external file and to refer
 == Basic styling for elements
 
 === Basic example of a Sequence Diagram style
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -108,7 +108,7 @@ actor Sally
 
 Let's at a different example, that of a Work Breakdown Structure:
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 <style>
@@ -148,7 +148,7 @@ We can extend these examples to start targeting not just element __types__, but 
 
 === Using user defined styles in a Sequence Diagram
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -189,7 +189,7 @@ As we are following the CSS model now, then it should be possible to use selecto
 
 === Using the depth selector in a WBS
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 <style>
@@ -249,7 +249,7 @@ Of course, sometimes you want to target all "child" (or "downstream") elements o
 
 An example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 <style>

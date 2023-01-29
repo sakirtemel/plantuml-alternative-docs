@@ -13,7 +13,7 @@ http://ditaa.sourceforge.net[Ditaa __(DIagrams Through Ascii Art)__] is an Open 
 
 So last version of **PlantUML** allows this :
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 ditaa
@@ -47,7 +47,7 @@ You can also use some option, after the `+@startditaa+` or `+ditaa+` keyword:
 * `+scale=<XYZ>+` to scale up or down the diagram
 
 === Without option
-[source, plantuml]
+[plantuml]
 ----
 @startditaa
 +---------+  /--------\   +-------+
@@ -61,7 +61,7 @@ You can also use some option, after the `+@startditaa+` or `+ditaa+` keyword:
 ----
 
 === Remove separator
-[source, plantuml]
+[plantuml]
 ----
 @startditaa -E
 +---------+  /--------\   +-------+
@@ -75,7 +75,7 @@ You can also use some option, after the `+@startditaa+` or `+ditaa+` keyword:
 ----
 
 === Remove shadow or scale diagram
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 ditaa(--no-shadows, scale=0.7)
@@ -118,7 +118,7 @@ ditaa(--no-shadows, scale=0.7)
 
 |===
 
-[source, plantuml]
+[plantuml]
 ----
 @startditaa
 +------+------+------+------+------+------+------+

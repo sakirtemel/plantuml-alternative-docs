@@ -9,7 +9,7 @@ To define a sprite, you have to use a hexadecimal digit between 0 and F per pixe
 Then you can use the sprite using `+<$XXX>+`
 where XXX is the name of the sprite.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 sprite $foo1 {
@@ -29,7 +29,7 @@ Alice -> Bob : Testing <$foo1>
 ----
 
 You can scale the sprite.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 sprite $foo1 {
@@ -57,7 +57,7 @@ Alice -> Bob : Testing <$foo1{scale=3}>
 You can also use inlined SVG for sprites.
 Only a tiny subset of SVG directives is possible, so you probably have to compress existing SVG files using https://vecta.io/nano[https://vecta.io/nano].
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 sprite foo1 <svg width="8" height="8" viewBox="0 0 8 8"><path d="M1 0l-1 1 1.5 1.5-1.5 1.5h4v-4l-1.5 1.5-1.5-1.5zm3 4v4l1.5-1.5 1.5 1.5 1-1-1.5-1.5 1.5-1.5h-4z" /></svg>
@@ -68,7 +68,7 @@ Alice->Bob : <$foo1*3>
 
 Another example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 sprite foo1 <svg viewBox="0 0 36 36">
@@ -86,7 +86,7 @@ Alice->Bob : <$foo1>
 
 Although sprites are monochrome, it's possible to change their color.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 sprite $foo1 {
@@ -140,7 +140,7 @@ displayed : you will just have to pickup the one you want.
 == Examples
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 sprite $printer [15x15/8z] NOtH3W0W208HxFz_kMAhj7lHWpa1XC716sz0Pq4MVPEWfBHIuxP3L6kbTcizR8tAhzaqFvXwvFfPEqm0
@@ -151,7 +151,7 @@ start
 
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
  sprite $bug [15x15/16z] PKzR2i0m2BFMi15p__FEjQEqB1z27aeqCqixa8S4OT7C53cKpsHpaYPDJY_12MHM-BLRyywPhrrlw3qumqNThmXgd1TOterAZmOW8sgiJafogofWRwtV3nCF
@@ -204,7 +204,7 @@ You can use the `+listsprites+` command to show available sprites:
 
 (Example from https://crashedmind.github.io/PlantUMLHitchhikersGuide/NetworkUsersMachines/NetworkUsersMachines.html#source[Hitchhikers Guide to PlantUML])
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 

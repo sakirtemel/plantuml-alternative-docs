@@ -5,7 +5,7 @@ Imagine that you could directly use PlantUML source code into HTML, something li
 
 And that will display this:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class foo

@@ -5,7 +5,7 @@ To emphasize the fact that your diagrams are still under work, you can generate 
 You have to set `+handwritten+` skinparam to `+true+` to do so.
 
 === Activity
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -21,7 +21,7 @@ stop
 ----
 
 === Board
-[source, plantuml]
+[plantuml]
 ----
 @startboard
 skinparam handwritten true
@@ -36,7 +36,7 @@ A2
 ----
 
 === Class
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -49,7 +49,7 @@ class Date extends Object
 === Deployment 
 ==== Deployment shapes
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -86,7 +86,7 @@ usecase/ "usecase/"
 
 ==== Deployment with Group
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -121,7 +121,7 @@ database "MySql" {
 ----
 
 === Gantt
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 skinparam handwritten true 
@@ -154,7 +154,7 @@ end note
 ----
 
 === MindMap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 skinparam handwritten true
@@ -171,7 +171,7 @@ skinparam handwritten true
 ----
 
 === Network
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -196,7 +196,7 @@ nwdiag {
 ----
 
 === Object
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -233,7 +233,7 @@ user1 --> CapitalCity : visits >
 ----
 
 === Salt
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 skinparam handwritten true
@@ -247,7 +247,7 @@ mainframe This is a **mainframe**
 ----
 
 === Sequence
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -258,7 +258,7 @@ note right: Not validated yet
 
 
 === State
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -284,7 +284,7 @@ join2   --> [*]     : from join\nto end
 
 
 === Timing
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -308,7 +308,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 === WBS
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 skinparam handwritten true
@@ -325,7 +325,7 @@ skinparam handwritten true
 ----
 
 === Wire
-[source, plantuml]
+[plantuml]
 ----
 @startwire
 skinparam handwritten true

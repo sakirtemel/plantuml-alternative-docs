@@ -1,7 +1,7 @@
 == Font
 To know fonts available on your system, you may use the following special syntax:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 listfonts
@@ -10,7 +10,7 @@ listfonts
 
 You can also add an optional sentence to be displayed:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 listfonts 私は申し訳ありません：私は日本語を話さない。
@@ -23,7 +23,7 @@ listfonts 私は申し訳ありません：私は日本語を話さない。
 == Examples
 Those fontname can be used in any UML diagrams.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam defaultFontName Segoe UI
@@ -31,7 +31,7 @@ Room *-- Chair : "1" has "several"
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam defaultFontName VL Gothic

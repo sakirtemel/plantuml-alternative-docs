@@ -9,7 +9,7 @@ This page lists issues on link::timing-diagram[Timing Diagram].
 == Tests of clock's pulse
 
 === No pulse
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10
@@ -18,7 +18,7 @@ clock C with period 10
 ----
 
 === pulse < period
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 0
@@ -26,7 +26,7 @@ clock C with period 10 pulse 0
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 1
@@ -34,7 +34,7 @@ clock C with period 10 pulse 1
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 5
@@ -42,7 +42,7 @@ clock C with period 10 pulse 5
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 9
@@ -51,7 +51,7 @@ clock C with period 10 pulse 9
 ----
 
 === pulse = period
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 10
@@ -60,7 +60,7 @@ clock C with period 10 pulse 10
 ----
 
 === pulse > period
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 11
@@ -68,7 +68,7 @@ clock C with period 10 pulse 11
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 15
@@ -76,7 +76,7 @@ clock C with period 10 pulse 15
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 20
@@ -85,7 +85,7 @@ clock C with period 10 pulse 20
 ----
 
 === pulse >> period
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title period 10 pulse 50

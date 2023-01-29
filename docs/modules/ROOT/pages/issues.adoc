@@ -34,17 +34,17 @@ Here is a test :
 | code | output
 
 | `+"actor"+`
-| [source, plantuml]
+| [plantuml]
 ----+++<br>+++"actor"+++<br>+++----
 
 |===
 
-the `+[source, plantuml]
+the `+[plantuml]
 ----+++<br>+++"actor"+++<br>+++----+` is not evaluate?
 
 like:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 "actor"

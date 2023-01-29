@@ -9,7 +9,7 @@ This page lists issues on:
 == Issues with hexagon 
 
 * https://forum.plantuml.net/13027/[QA-13027/link-arrow-does-not-lead-to-the-hexagon]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 hexagon H1 {
@@ -22,7 +22,7 @@ C --> H1: doesn't lead\n to hexagon H1
 ----
 
 * https://forum.plantuml.net/12835[QA-12835/accept-hexagon-element-without-overflow-deployment-diagram]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 hexagon h {
@@ -33,7 +33,7 @@ footer Observed on    : 1.2021.01beta3\n(current version: %version())
 ----
 
 * https://forum.plantuml.net/13021/accept-hexagon-with-smetana-deployment-diagram[QA-13021/accept-hexagon-with-smetana-deployment-diagram]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma layout smetana
@@ -47,7 +47,7 @@ combinatorial
 ----
 
 * https://forum.plantuml.net/13261/accept-hexagon-on-style-deployment-diagram[QA-13261/accept-hexagon-on-style-deployment-diagram] [fixed on V1.2022.01+]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -69,7 +69,7 @@ node n
 
 == Line thickness issue (from ~V1.2022.2) [fixed on 1.2022.6betaX]
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Bracketed line thickness
@@ -96,7 +96,7 @@ The issues below are fixed with:
 
 * https://forum.plantuml.net/14189/using-skinparam-fontproperties-groups-component-diagrams[QA-14189]
 * https://forum.plantuml.net/14179/style-manage-style-dashed-dotted-nested-element-deployment[QA-14179]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -127,7 +127,7 @@ footer \nObserved on    : 1.2021.9beta2\n(current version: %version())
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>

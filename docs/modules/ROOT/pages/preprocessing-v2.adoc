@@ -41,7 +41,7 @@ There are two kind of data:
 Variable created outside function are **global**, that is you can access to them from everywhere (including from functions). You can emphasize this by using the optional `+global+` keyword when defining a variable.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 '!preprocessorV2
@@ -61,7 +61,7 @@ Alice -> Bob : $ef
 * You can use expression in condition.
 * __else__ is also implemented
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 '!preprocessorV2
@@ -87,7 +87,7 @@ Alice -> Bob : B
 Example:
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !preprocessorV2
@@ -130,7 +130,7 @@ It just define a function that you can call:
 * Function name __should__ start by a `+$+`
 * Argument names __should__ start by a `+$+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 '!preprocessorV2
@@ -144,7 +144,7 @@ Alice -> Bob : The double of 3 is $double(3)
 
 It is possible to shorten simple function definition in one line:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 '!preprocessorV2
@@ -180,7 +180,7 @@ Alice -> Bob : $ijk
 
 In both return and void function, you can define default value for argument.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 '!preprocessorV2
@@ -203,7 +203,7 @@ By default, you have to put quotes when you call a function.
 It is possible to use the `+unquoted+` keyword to indicate that a function does not require quotes for its arguments.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 '!preprocessorV2
@@ -224,7 +224,7 @@ Imagine you have the very same class that appears in many
 diagrams. Instead of duplicating the description of this class, you can
 define a file that contains the description.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 '!preprocessorV2
@@ -455,7 +455,7 @@ Alice -> Bob : 4 $inc("3")
 You can put assertion in your diagram.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !preprocessorV2
@@ -511,7 +511,7 @@ after the -jar option will be used to define constants within plantuml preproces
 
 It is possible to append text to a macro argument using the `+##+` syntax.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !preprocessorV2

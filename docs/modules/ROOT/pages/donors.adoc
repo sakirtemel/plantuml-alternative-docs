@@ -3,7 +3,7 @@
 We would like to thanks http://sourceforge.net/donate/index.php?group_id=259736[our sponsors and donors].
 
 So we dedicate some special command to them:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 donors

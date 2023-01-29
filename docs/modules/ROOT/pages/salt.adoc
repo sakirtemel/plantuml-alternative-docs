@@ -17,7 +17,7 @@ A window must start and end with brackets. You can then define:
 * User text area using `+"+`.
 * Droplist using `+^+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -38,7 +38,7 @@ A window must start and end with brackets. You can then define:
 
 Here is an attempt to create a https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element[text area]:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {+
@@ -58,7 +58,7 @@ __[Ref. https://forum.plantuml.net/14765/[QA-14765]]__
 
 
 Then you can add link::salt#6b6xvjbaj4gpk362kjkx[scroll bar]:
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {SI
@@ -69,7 +69,7 @@ Then you can add link::salt#6b6xvjbaj4gpk362kjkx[scroll bar]:
 }
 @endsalt
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {S-
@@ -86,7 +86,7 @@ Then you can add link::salt#6b6xvjbaj4gpk362kjkx[scroll bar]:
 
 You can open a droplist, by adding values enclosed by `+^+`, as:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -107,7 +107,7 @@ And you have to use `+|+` to separate columns.
 
 For example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -137,7 +137,7 @@ Just after the opening bracket, you can use a character to define if you want to
 
 |===
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {+
@@ -151,7 +151,7 @@ Just after the opening bracket, you can use a character to define if you want to
 
 == Group box [^]
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {^"My group box"
@@ -169,7 +169,7 @@ __[Ref. http://forum.plantuml.net/5840/please-allow-to-create-groupboxes-in-salt
 
 You can use several horizontal lines as separator.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -191,7 +191,7 @@ You can use several horizontal lines as separator.
 
 To have a Tree, you have to start with `+{T+` and to use `+++` to denote hierarchy.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -219,7 +219,7 @@ To have a Tree, you have to start with `+{T+` and to use `+++` to denote hierarc
 You can combine trees with tables.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -244,7 +244,7 @@ You can combine trees with tables.
 
 And add lines.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -289,7 +289,7 @@ __[Ref. https://forum.plantuml.net/1265/feature-request-tree-tables[QA-1265]]__
 
 You can define subelements by opening a new opening bracket.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -306,7 +306,7 @@ Superclass:  | { "java.lang.Object " | [Browse...] }
 
 You can add tabs using `+{/+` notation. Note that you can use HTML code to have bold text.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {+
@@ -324,7 +324,7 @@ You can add tabs using `+{/+` notation. Note that you can use HTML code to have 
 
 Tab could also be vertically oriented:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {+
@@ -348,7 +348,7 @@ Saving } |
 
 You can add a menu by using `+{*+` notation.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {+
@@ -367,7 +367,7 @@ You can add a menu by using `+{*+` notation.
 
 It is also possible to open a menu:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {+
@@ -386,7 +386,7 @@ It is also possible to open a menu:
 ----
 
 Like it is possible to open a droplist:
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {+
@@ -411,7 +411,7 @@ You can use two special notations for table :
 * `+*+` to indicate that a cell with span with left
 * `+.+` to denotate an empty cell
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {#
@@ -428,7 +428,7 @@ Row header 2 | A long cell | *
 You can use `+{S+` notation for https://en.wikipedia.org/wiki/Scrollbar[scroll bar] like in following examples:
 
 * `+{S+`: for horizontal and vertical scrollbars
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {S
@@ -442,7 +442,7 @@ Message
 ----
 
 * `+{SI+` : for vertical scrollbar only
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {SI
@@ -456,7 +456,7 @@ Message
 ----
 
 * `+{S-+` : for horizontal scrollbar only
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {S-
@@ -474,7 +474,7 @@ Message
 
 It is possible to change text link::color[color] of widget.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -499,7 +499,7 @@ __[Ref. https://forum.plantuml.net/12177/change-color-of-salt-button-to-represen
 
 You can use link::creole[Creole or HTML Creole] on salt:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {{^==Creole
@@ -581,7 +581,7 @@ Enjoy!
 
 Using `+<<+` and `+>>+` you can define a pseudo-sprite or sprite-like drawing and reusing it latter.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
  {
@@ -614,7 +614,7 @@ __[Ref. https://forum.plantuml.net/5849/support-for-sprites-salt?show=5851#a5851
 https://useiconic.com/open/[OpenIconic] is a very nice open source icon set. Those icons have been integrated into the link::creole[creole parser], so you can use them out-of-the-box.
 You can use the following syntax: `+<&ICON_NAME>+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -628,7 +628,7 @@ You can use the following syntax: `+<&ICON_NAME>+`.
 The complete list is available on OpenIconic Website, or you can use the following special diagram:
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 listopeniconic
@@ -638,7 +638,7 @@ listopeniconic
 
 == Add title, header, footer, caption or legend
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 title My title
@@ -664,7 +664,7 @@ __(See also: link::commons[Common commands])__
 == Zoom, DPI
 
 === Whitout zoom (by default)
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -680,7 +680,7 @@ __(See also: link::commons[Common commands])__
 You can use the `+scale+` command to zoom the generated image.
 
 You can use either a number or a fraction to define the scale factor. You can also specify either width or height (in pixel). And you can also give both width and height: the image is scaled to fit inside the specified dimension.
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 scale 2
@@ -696,7 +696,7 @@ __(See also: link::commons#zw5yrgax40mpk362kjbn[Zoom on Common commands])__
 
 === DPI
 You can also use the `+skinparam dpi+`command to zoom the generated image.
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 skinparam dpi 200
@@ -714,7 +714,7 @@ skinparam dpi 200
 You can http://forum.plantuml.net/2427/salt-with-minimum-flowchat-capabilities?show=2427#q2427[read the following explanation].
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (*) --> "
@@ -767,7 +767,7 @@ failed, sorry
 
 It can also be combined with link::preprocessing#macro_definition[define macro].
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !unquoted procedure SALT($x)
@@ -824,7 +824,7 @@ wait -down-> SALT(error)
 
 You can include `+salt+` on while condition of activity diagram.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -849,7 +849,7 @@ __[Ref. https://forum.plantuml.net/8547/mixing-wireframes-and-activity-diagrames
 
 You can include `+salt+` on 'repeat while' condition of activity diagram.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -869,7 +869,7 @@ You can use **[only]** some link::skinparam[skinparam] command to change the ski
 
 Some example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 skinparam Backgroundcolor palegreen
@@ -881,7 +881,7 @@ skinparam Backgroundcolor palegreen
 @endsalt
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 skinparam handwritten true
@@ -896,7 +896,7 @@ skinparam handwritten true
 [[#FFD700#FIXME]] 🚩
 FYI, some other skinparam does not work with salt, as:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 skinparam defaultFontName monospaced
@@ -915,7 +915,7 @@ You can use **[only]** some link::style-evolution[style] command to change the s
 
 Some example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 <style>
@@ -935,7 +935,7 @@ saltDiagram {
 [[#FFD700#FIXME]] 🚩
 FYI, some other style does not work with salt, as:
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 <style>

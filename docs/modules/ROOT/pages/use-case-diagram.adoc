@@ -12,7 +12,7 @@ You can also use the `+usecase+` keyword to define a
 usecase.
 And you can define an alias, using the `+as+` keyword.
 This alias will be used later, when defining relations.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -33,7 +33,7 @@ You can also use the `+actor+` keyword to define an actor.
 An alias can be assigned using the `+as+` keyword and can be used later instead of the actor's name, e. g. when defining relations.
 
 You can see from the following examples, that the actor definitions are optional.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -53,7 +53,7 @@ You can change the actor style from stick man __(by default)__ to:
 * a hollow man with the `+skinparam actorStyle hollow +` command.
 
 === Stick man __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :User: --> (Use)
@@ -64,7 +64,7 @@ Admin --> (Admin the application)
 ----
 
 === Awesome man 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam actorStyle awesome
@@ -78,7 +78,7 @@ Admin --> (Admin the application)
 __[Ref. https://forum.plantuml.net/10493/how-can-i-customize-the-actor-icon-in-svg-output?show=10513#c10513[QA-10493]]__
 
 === Hollow man 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam actorStyle Hollow 
@@ -105,7 +105,7 @@ You can also use the following separators:
 
 By using them pairwise and enclosing text between them, you can created separators with titles.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -127,7 +127,7 @@ This allows large description."
 
 You can use packages to group actors or use cases.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -152,7 +152,7 @@ g --> UC3
 
 You can use `+rectangle+` to change the display of the package.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -182,7 +182,7 @@ character in the arrow definition.
 
 In this example, you see that __User__ has not been defined
 before, and is used as an actor.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -201,7 +201,7 @@ User --> (Use the application) : A small label
 
 If one actor/use case extends another one, you can use the symbol `+<|--+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :Main Admin: as Admin
@@ -224,7 +224,7 @@ define notes related to a single object.
 A note can be also define alone with the `+note+`
 keywords, then linked to other objects using the `+..+` symbol.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :Main Admin: as Admin
@@ -254,7 +254,7 @@ N2 .. (Use)
 
 You can add stereotypes while defining actors and use cases using `+<<+` and `+>>+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 User << Human >>
@@ -277,7 +277,7 @@ MySql --> (Use)
 By default, links between classes have two dashes `+--+` and are vertically oriented.
 It is possible to use horizontal link by putting a single dash (or dot) like this:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :user: --> (Use case 1)
@@ -287,7 +287,7 @@ It is possible to use horizontal link by putting a single dash (or dot) like thi
 
 You can also change directions by reversing the link:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (Use case 1) <.. :user:
@@ -298,7 +298,7 @@ You can also change directions by reversing the link:
 It is also possible to change arrow direction by adding `+left+`, `+right+`, `+up+`
 or `+down+` keywords inside the arrow:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :user: -left-> (dummyLeft)
@@ -316,7 +316,7 @@ Please note that you should not abuse this functionality : __Graphviz__ gives us
 tweaking.
 
 And with the link::use-case-diagram#d551e48d272b2b07[`+left to right direction+`] parameter: 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -331,7 +331,7 @@ left to right direction
 == Splitting diagrams
 
 The `+newpage+` keywords to split your diagram into several pages or images.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :actor1: --> (Usecase1)
@@ -345,7 +345,7 @@ newpage
 == Left to right direction
 
 The general default behavior when building diagram is **top to bottom**.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 'default
@@ -358,7 +358,7 @@ user2 --> (Usecase 2)
 You may change to **left to right** using the `+left to right direction+` command.
 The result is often better with this direction.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -384,7 +384,7 @@ You can use this command :
 
 You can define specific color and fonts for stereotyped actors and usecases.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -421,7 +421,7 @@ MySql --> (Use)
 == Complete example
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -443,7 +443,7 @@ rectangle checkout {
 You can add  `+/+` to make Business Use Case.
 
 === Business Usecase
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -456,7 +456,7 @@ usecase/ (Last\nusecase) as UC4
 ----
 
 === Business Actor
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -478,7 +478,7 @@ You can change the link::color[color] or style of individual arrows using the in
 
 * `+#color;line.[bold|dashed|dotted];text:color+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor foo
@@ -498,7 +498,7 @@ __[See similar feature on link::deployment-diagram#qjxu5xkj874qkedanfcf[deployme
 You can change the link::color[color] or style of individual element using the following notation: 
 * `+#[color|back:color];line:color;line.[bold|dashed|dotted];text:color+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor a
@@ -514,7 +514,7 @@ __[Ref. https://forum.plantuml.net/5340[QA-5340] and adapted from https://forum.
 == Display JSON Data on Usecase diagram
 
 === Simple example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 allowmixing

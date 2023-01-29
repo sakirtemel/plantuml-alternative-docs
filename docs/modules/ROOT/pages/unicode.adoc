@@ -7,7 +7,7 @@ But __letters__ are not only A-Z latin characters, it could be __any kind of let
 
 == Examples
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -39,7 +39,7 @@ deactivate A
 
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -59,7 +59,7 @@ skinparam activityBorderColor Peru
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -80,7 +80,7 @@ skinparam usecaseBorderColor DarkSlateGray
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 () "Σωκράτης\nείναι ψεύτης" as Σωκράτης

@@ -11,7 +11,7 @@ As explain on the http://modeling-languages.com/[Modeling Portal], XMI http://mo
 allows to interchange data between programs.
 
 So let's have a very simple example, with three classes:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class class1 {

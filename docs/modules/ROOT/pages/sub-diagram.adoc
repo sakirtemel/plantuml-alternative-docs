@@ -10,7 +10,7 @@ To activate this feature, the sub-diagram must:
 == Basic example
 
 Here is a basic example of sub-diagram, with adding an **Activty diagram** on a note on a **Class diagram**:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 abstract ATest {
@@ -49,7 +49,7 @@ By default the background color of a sub-diagram is white.
 This can be solved by adding `+skinparam Backgroundcolor transparent+` to the sub-diagram.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 rectangle A [
@@ -70,7 +70,7 @@ rectangle B [
 Besides being used in other elements or notes, they can also be used in messages.
 For this, the sub-diagram must be all on one line:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (A) --> (B): \tSub-diagram in a message\n{{\n(C)->(D)\n}}
@@ -82,7 +82,7 @@ For this, the sub-diagram must be all on one line:
 
 Sub-diagram can only herite of the `+handwritten+` skinparam from the hosted diagram, as:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true

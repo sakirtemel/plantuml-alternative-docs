@@ -31,7 +31,7 @@ You declare participant using the following keywords, depending on how you want 
 
 You define state change using the `+@+` notation, and the `+is+` verb.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -50,7 +50,7 @@ WB is Waiting
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 clock   "Clock_0"   as C0 with period 50
@@ -88,7 +88,7 @@ It's also possible to have binary and clock signal, using the following keywords
 * `+binary+`
 * `+clock+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 clock clk with period 1
@@ -110,7 +110,7 @@ EN is low
 
 You can add message using the following syntax.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -135,7 +135,7 @@ WB is Waiting
 == Relative time
 
 It is possible to use relative time with `+@+`.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "DNS Resolver" as DNS
@@ -175,7 +175,7 @@ Instead of using absolute or relative time on an absolute time you can define a 
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 clock clk with period 1
@@ -210,7 +210,7 @@ db is "0x0000"
 
 Rather than declare the diagram in chronological order, you can define it by participant.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -231,7 +231,7 @@ concise "Web User" as WU
 
 == Setting scale
 You can also set a specific scale.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 concise "Web User" as WU
@@ -244,7 +244,7 @@ scale 100 as 50 pixels
 ----
 
 When using absolute Times/Dates, 1 "tick" is equivalent to 1 second.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 concise "Season" as S
@@ -268,7 +268,7 @@ S is "Fall"
 
 == Initial state
 You can also define an inital state.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -295,7 +295,7 @@ WU is Absent
 A signal could be in some undefined state.
 
 === Intricated or undefined robust state
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Signal1" as S1
@@ -318,7 +318,7 @@ S2 is {0,2}
 ----
 
 === Intricated or undefined binary state
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 clock "Clock" as C with period 2
@@ -344,7 +344,7 @@ __[Ref. https://forum.plantuml.net/11936[QA-11936] and https://forum.plantuml.ne
 
 It is also possible to hide some state.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 concise "Web User" as WU
@@ -369,7 +369,7 @@ WU is {-}
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 scale 1 as 50 pixels
@@ -410,7 +410,7 @@ __[Ref. https://forum.plantuml.net/12222[QA-12222]]__
 
 It is possible to hide time axis.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 hide time-axis
@@ -430,7 +430,7 @@ WU is Absent
 It is possible to use time or date.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -451,7 +451,7 @@ WB is Waiting
 
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -476,7 +476,7 @@ WB is Waiting
 
 == Adding constraint
 It is possible to display time constraints on the diagrams.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -505,7 +505,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 You can higlight a part of diagram.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -546,7 +546,7 @@ __[Ref. https://forum.plantuml.net/10868/highlighted-periods-in-timing-diagrams[
 You can use the `+note top of+` and `+note bottom of+`
 keywords to define notes related to a single object or participant __(available only for__ `+concise+` __ object).__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -574,7 +574,7 @@ __[Ref. https://forum.plantuml.net/6877[QA-6877]]__
 
 You can optionally add a title, a header, a footer, a legend and a caption:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Title This is my title
@@ -607,7 +607,7 @@ WB is Waiting
 
 Thanks to https://twitter.com/arosien[Adam Rosien] for this example.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 concise "Client" as Client
@@ -650,7 +650,7 @@ Server -> Client@+25 : 304 Not Modified
 
 == Digital Example
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 scale 5 as 150 pixels
@@ -718,7 +718,7 @@ db@:write_beg-1 -> addr@:write_end+1 : hold
 
 You can add link::color[color].
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 concise "LR" as LR
@@ -743,7 +743,7 @@ __[Ref. https://forum.plantuml.net/5776[QA-5776]]__
 == Using (global) style
 
 === Without style __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -770,7 +770,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 You can use link::style-evolution[style] to change rendering of elements.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -811,7 +811,7 @@ __[Ref.  https://forum.plantuml.net/14340/color-of-arrow-in-timing-diagram[QA-14
 
 You can use the `+<style>+` tags and sterotyping to give a name to line attributes.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -858,7 +858,7 @@ __[https://forum.plantuml.net/15870/timing-diagram-assign-different-colors-singl
 You can use `+compact+` command to compact the timing layout.
 
 === By default
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 robust "Web Browser" as WB
@@ -886,7 +886,7 @@ WB is Idle
 ----
 
 ==== Global mode with `+mode compact+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mode compact
@@ -915,7 +915,7 @@ WB is Idle
 ----
 
 === Local mode with only `+compact+` on element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 compact robust "Web Browser" as WB

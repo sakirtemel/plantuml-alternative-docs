@@ -9,7 +9,7 @@ We reuse here the examples that Takeshi has documented.
 == Simple diagram
 
 === Define a network
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -21,7 +21,7 @@ nwdiag {
 ----
 
 === Define some elements or servers on a network
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -36,7 +36,7 @@ nwdiag {
 ----
 
 === Full example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -61,7 +61,7 @@ nwdiag {
 
 == Define multiple addresses
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -88,7 +88,7 @@ nwdiag {
 == Grouping nodes
 
 === Define group inside network definitions
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -119,7 +119,7 @@ nwdiag {
 ----
 
 === Define group outside of network definitions
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -148,7 +148,7 @@ nwdiag {
 
 === Define several groups on same network
 ==== Example with 2 group
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -182,7 +182,7 @@ nwdiag {
 __[Ref. https://forum.plantuml.net/12663[QA-12663]]__
 
 ==== Example with 3 groups
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -231,7 +231,7 @@ For network or network's component, you can add or change:
 * description;
 * link::deployment-diagram#5k3cq00k8n5ek362kjdn[shape].
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -269,7 +269,7 @@ For a group, you can add or change:
 * link::color[color];
 * description.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -304,7 +304,7 @@ You can use all link::sprite[sprites] (icons) from the link::stdlib[Standard Lib
 
 Use the notation `+<$sprite>+` to use a sprite, `+\n+` to make a new line, or any other link::creole[Creole] syntax.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <office/Servers/application_server>
@@ -340,7 +340,7 @@ You can also use the icons from link::openiconic[OpenIconic] in network or node 
 
 Use the notation `+<&icon>+` to make an icon, `+<&icon*n>+` to multiply the size by a factor `+n+`, and `+\n+` to make a newline:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -378,7 +378,7 @@ nwdiag {
 
 You can use same nodes on different networks (more than two networks); __nwdiag__ use in this case __'jump line'__ over networks.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -420,7 +420,7 @@ nwdiag {
 == Peer networks
 
 Peer networks are simple connections between two nodes, for which we don't use a horizontal "busbar" network
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -440,7 +440,7 @@ nwdiag {
 == Peer networks and group
 
 === Without group
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -460,7 +460,7 @@ nwdiag {
 ----
 
 === Group on first
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -487,7 +487,7 @@ nwdiag {
 ----
 
 === Group on second
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -516,7 +516,7 @@ nwdiag {
 
 
 === Group on third
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -547,7 +547,7 @@ __[Ref. https://github.com/plantuml/plantuml/issues/408[Issue#408] and https://f
 
 == Add title, caption, header, footer or legend on network diagram
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -577,7 +577,7 @@ __[Ref. https://forum.plantuml.net/11303/nwdiag-ignores-on-title-keyword-in-plan
 == With or without shadow
 
 === With shadow (by default)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -592,7 +592,7 @@ nwdiag {
 
 
 === Without shadow
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -619,7 +619,7 @@ You can change the width of the networks, especially in order to have the same f
 
 Here are some examples, with all the possibilities:
 * without
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -640,7 +640,7 @@ nwdiag {
 ----
 
 * only the first
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -662,7 +662,7 @@ nwdiag {
 ----
 
 * the first and the second
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -685,7 +685,7 @@ nwdiag {
 ----
 
 * all the network (with same full width)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -714,7 +714,7 @@ nwdiag {
 You can define other internal networks (TCP/IP, USB, SERIAL,...).
 
 * Without address or type
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -733,7 +733,7 @@ nwdiag {
 
 
 * With address or type
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -758,7 +758,7 @@ __[Ref. https://forum.plantuml.net/12824[QA-12824]]__
 == Using (global) style
 
 === Without style __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -789,7 +789,7 @@ nwdiag {
 
 You can use link::style-evolution[style] to change rendering of elements.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -855,7 +855,7 @@ __[Ref. https://forum.plantuml.net/14479[QA-14479]]__
 
 == Appendix: Test of all shapes on Network diagram (nwdiag)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -873,7 +873,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -891,7 +891,7 @@ nwdiag {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -914,7 +914,7 @@ nwdiag {
 . Overlap of label for folder
 . Hexagon shape is missing
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -926,7 +926,7 @@ Hexagon [shape = hexagon]
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {

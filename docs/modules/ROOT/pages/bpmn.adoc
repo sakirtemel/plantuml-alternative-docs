@@ -14,7 +14,7 @@ __[Ref. http://wiki.plantuml.net/site/bpmn[Wiki-BPMN]]__
 
 == Final examples
 
-[source, plantuml]
+[plantuml]
 ----
 @startbpm
 :login;
@@ -29,7 +29,7 @@ resume 20
 
 __[Ref. https://forum.plantuml.net/5647[QA-5647]]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startbpm
 :login;

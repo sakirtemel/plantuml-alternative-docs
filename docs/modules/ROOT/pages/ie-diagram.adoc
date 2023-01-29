@@ -33,7 +33,7 @@ Otherwise, the syntax for drawing diagrams is the same as for class diagrams.  A
 
 Examples:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Entity01 }|..|| Entity02
@@ -47,7 +47,7 @@ Entity07 |o--|| Entity08
 
 == Entities
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 entity Entity01 {
@@ -63,7 +63,7 @@ Again, this is the normal class diagram syntax (aside from use of `+entity+` ins
 
 The `+*+` visibility modifier can be used to identify mandatory attributes.  A space can be used after the modifier character to avoid conflicts with the creole bold:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 entity Entity01 {
@@ -78,7 +78,7 @@ entity Entity01 {
 
 == Complete Example
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 

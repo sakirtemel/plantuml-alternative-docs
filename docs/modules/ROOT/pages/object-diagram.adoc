@@ -7,7 +7,7 @@
 You define instances of objects using the `+object+`
 keyword.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object firstObject
@@ -47,7 +47,7 @@ For cardinality, you can use double-quotes `+""+` on
 each side of the relation.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object Object01
@@ -69,7 +69,7 @@ Object07 .. Object08 : some labels
 
 == Associations objects
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object o1
@@ -89,7 +89,7 @@ dia --> o3
 To declare fields, you can use the symbol `+:+` followed by
 the field's name.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -103,7 +103,7 @@ user : id = 123
 
 It is also possible to group all fields between brackets `+{}+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -128,7 +128,7 @@ object user {
 
 You can define a map table or https://en.wikipedia.org/wiki/Associative_array[associative array], with `+map+` keyword and `+=>+` separator.
  
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 map CapitalCity {
@@ -139,7 +139,7 @@ map CapitalCity {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 map "Map **Contry => CapitalCity**" as CC {
@@ -150,7 +150,7 @@ map "Map **Contry => CapitalCity**" as CC {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 map "map: Map<Integer, String>" as users {
@@ -163,7 +163,7 @@ map "map: Map<Integer, String>" as users {
 
 
 And add link with object.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object London
@@ -176,7 +176,7 @@ map CapitalCity {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object London
@@ -195,7 +195,7 @@ NewYork --> CapitalCity::USA
 ----
 __[Ref. https://github.com/plantuml/plantuml/issues/307[#307]]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 package foo {
@@ -214,7 +214,7 @@ A::c --> foo
 ----
 __[Ref. https://forum.plantuml.net/12934[QA-12934]]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object Foo
@@ -235,7 +235,7 @@ __[Ref. https://github.com/plantuml/plantuml/issues/307[#307]]__
 
 You can use `+map table+` in order to make https://en.wikipedia.org/wiki/Program_evaluation_and_review_technique[Program (or project) evaluation and review technique (PERT)] diagram.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml PERT
 left to right direction
@@ -275,7 +275,7 @@ __[Ref. https://forum.plantuml.net/12337/there-any-support-for-pert-style-projec
 == Display JSON Data on Class or Object diagram
 
 === Simple example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class Class

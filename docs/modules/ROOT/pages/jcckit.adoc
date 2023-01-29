@@ -13,7 +13,7 @@ the following examples. There is also a http://jcckit.sourceforge.net/UserGuide/
 
 = Example 1
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 jcckit(600,300)
@@ -65,7 +65,7 @@ plot/curveFactory/edef2/symbolFactory/size = 0
 
 = Example 2
 
-[source, plantuml]
+[plantuml]
 ----
 @startjcckit(600,300)
 data/common/x = 1995 1996 1997 1998 1999 2000 2001 2002 
@@ -109,7 +109,7 @@ plot/curveFactory/2/symbolFactory/attributes/fillColor = 0xffca00
 
 = Example 3
 
-[source, plantuml]
+[plantuml]
 ----
 @startjcckit(600,300)
 data/curves = curve1 curve2 curve3
@@ -174,7 +174,7 @@ plot/legend/lineLength = 0.035
 
 = Example 4
 
-[source, plantuml]
+[plantuml]
 ----
 @startjcckit(600,300)
 data/curves = c1 c2 c3
@@ -222,7 +222,7 @@ plot/legendVisible = false
 
 = Example 5
 
-[source, plantuml]
+[plantuml]
 ----
 @startjcckit(600,300)
 data/curves = n125 n250 n500

@@ -55,11 +55,11 @@ Here is how you can help:
 
 == Demo diagrams
 
-You can use a new special tag `+[source, plantuml]
+You can use a new special tag `+[plantuml]
 ----+` for diagrams.
 
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 ...
@@ -69,7 +69,7 @@ You can use a new special tag `+[source, plantuml]
 
 The result is that the PlantUML source is shown, followed by the diagram:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 User -> Wiki : document, document, document...

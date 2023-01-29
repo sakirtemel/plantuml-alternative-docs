@@ -9,7 +9,7 @@ To celebrate http://en.wikipedia.org/wiki/Earth_Day[Earth Day], you can use **Pl
 http://hewgill.com/xearth/original[XEarth] is a unix utility written in http://hewgill.com/xearth/original/HISTORY[1993] by Kirk Lauritz Johnson. http://www.acproductions.de/acearth[It has been ported to Java by Christian Treber]. So it was easy to integrate it into **PlantUML**, even if it won't probably help for documentation.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth
@@ -20,7 +20,7 @@ xearth
 
 == Add more stars
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth(300,300)
@@ -35,7 +35,7 @@ bigStars = 20
 == Relative view from Sun
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth(300,300)
@@ -52,7 +52,7 @@ sunPosRelLong = 40
 
 The default view is from Sun
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth(300,300)
@@ -67,7 +67,7 @@ gridPixelDivision = 8
 == Fixed position, without shading
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth(300,300)
@@ -84,7 +84,7 @@ gridP = false
 == View from Moon and changing luminosity
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth(300,300)
@@ -100,7 +100,7 @@ terminatorDiscontinuity = 50
 == View set by orbit and changing luminosity
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth(300,300)
@@ -118,7 +118,7 @@ terminatorDiscontinuity = 50
 == Zooming
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth(300,300)
@@ -137,7 +137,7 @@ sunPosRelLat = 20
 == Adding cities
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 xearth

@@ -17,7 +17,7 @@ This page is dedicated to:
 == Let's play
 
 To launch the game, you will have to use the good old `+RUN+` Basic command :
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 run oregon trail
@@ -26,7 +26,7 @@ run oregon trail
 
 Every input has to be added in the text file:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 run oregon trail
@@ -36,7 +36,7 @@ run oregon trail
 
 Every input has to be added in the text file:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 run oregon trail
@@ -52,7 +52,7 @@ run oregon trail
 For shooting, you will have to type **as fast as possible**
 the word printed on the screen (__like in the original version!__).
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 run oregon trail

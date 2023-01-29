@@ -5,7 +5,7 @@ Those icons have been integrated into the link::creole[creole parser], so you ca
 
 You can use the following syntax: `+<&ICON_NAME>+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title: <size:20><&heart>Use of OpenIconic<&heart></size>
@@ -18,7 +18,7 @@ end note
 
 
 It also works with link::salt[salt, the graphical interface designer].
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 {
@@ -33,7 +33,7 @@ The complete list is available on https://useiconic.com/open/[OpenIconic Website
 you can use the following special diagram:
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 listopeniconic

@@ -10,7 +10,7 @@ This page lists issues on link::json[JSON Diagram].
 FIXME `+\n+` and `+\+` management in PlantUML 😉
 __See https://forum.plantuml.net/13066[Report Bug on QA-13066]__
 [[#661111#FIXME]]
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 [

@@ -19,7 +19,7 @@ __(for JSON variable definition and usage, see more details on link::preprocessi
 Variables created outside function are **global**, that is you can access them from everywhere (including from functions). You can emphasize this by using the optional `+global+` keyword when defining a variable.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$a  = 42
@@ -40,7 +40,7 @@ Alice -> Bob : Do you know **$foo.name** ?
 
 You can also assign a value to a variable, only if it is not already defined, with the syntax: `+!$a ?= "foo"+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : 1. **$name** should be empty
@@ -93,7 +93,7 @@ __[See also link::preprocessing#0umqmmdy1n9yk362kjka[Builtin functions]]__
 * You can use expression in condition.
 * __else__ and __elseif__ are also implemented
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$a = 10
@@ -115,7 +115,7 @@ You can use `+!while+` and `+!endwhile+` keywords to have repeat loops.
 
 === While loop (on Activity diagram)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !procedure $foo($arg)
@@ -141,7 +141,7 @@ end
 __[Adapted from https://forum.plantuml.net/10838/there-better-way-implement-while-loop-perprocess-function?show=10870#a10870[QA-10838]]__
 
 === While loop (on Mindmap diagram)
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 !procedure $foo($arg)
@@ -164,7 +164,7 @@ $foo(2)
 
 === While loop (on Component/Deployment diagram)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !procedure $foo($arg)
@@ -193,7 +193,7 @@ __[Ref. https://forum.plantuml.net/14088/how-to-generate-a-series-of-same-compon
 Example:
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !procedure $msg($source, $destination)
@@ -234,7 +234,7 @@ It just define a function that you can call:
 * Function name __should__ start with a `+$+`
 * Argument names __should__ start with a `+$+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function $double($a)
@@ -247,7 +247,7 @@ Alice -> Bob : The double of 3 is $double(3)
 
 It is possible to shorten simple function definition in one line:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function $double($a) !return $a + $a
@@ -259,7 +259,7 @@ Alice -> Bob : $double("This work also for strings.")
 
 As in procedure (void function), variable are local by default (they are destroyed when the function is exited). However, you can access to global variables from function. However, you can use the `+local+` keyword to create a local variable if ever a global variable exists with the same name.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function $dummy()
@@ -280,7 +280,7 @@ Alice -> Bob : $ijk
 
 In both procedure and return functions, you can define default values for arguments.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function $inc($value, $step=1)
@@ -294,7 +294,7 @@ Alice -> Bob : Add two to three : $inc(3, 2)
 
 Only arguments at the end of the parameter list can have default values.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !procedure defaulttest($x, $y="DefaultY", $z="DefaultZ")
@@ -318,7 +318,7 @@ By default, you have to put quotes when you call a function or a procedure.
 It is possible to use the `+unquoted+` keyword to indicate that a function or a procedure does not require quotes for its arguments.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !unquoted function id($text1, $text2="FOO") !return $text1 + $text2
@@ -333,7 +333,7 @@ alice -> bob : id(ab,cd)
 
 Like in Python, you can use keywords arguments :
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -359,7 +359,7 @@ Imagine you have the very same class that appears in many
 diagrams. Instead of duplicating the description of this class, you can
 define a file that contains the description.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -636,7 +636,7 @@ Some functions are defined by default. Their name starts by `+%+`
 
 You can use `+!log+` to add some log output when generating the diagram. This has no impact at all on the diagram itself. However, those logs are printed in the command line's output stream. This could be useful for debug purpose.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function bold($text)
@@ -655,7 +655,7 @@ Alice -> Bob : This is bold("a second call")
 
 You can use `+!dump_memory+` to dump the full content of the memory when generating the diagram. An optional string can be put after `+!dump_memory+`. This has no impact at all on the diagram itself. This could be useful for debug purpose.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function $inc($string)
@@ -677,7 +677,7 @@ Alice -> Bob : 4 $inc("3")
 You can put assertions in your diagram.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : Hello
@@ -729,7 +729,7 @@ after the -jar option will be used to define constants within plantuml preproces
 
 It is possible to append text to a macro argument using the `+##+` syntax.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !unquoted procedure COMP_TEXTGENCOMP(name)
@@ -749,7 +749,7 @@ This procedure takes as first argument the name of the actual procedure to be ca
 
 For example, you can have:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !procedure $go()
@@ -762,7 +762,7 @@ For example, you can have:
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !procedure $go($txt)
@@ -776,7 +776,7 @@ For example, you can have:
 
 For return functions, you can use the corresponding special function `+%call_user_func()+` :
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function bold($text)
@@ -791,7 +791,7 @@ Alice -> Bob : %call_user_func("bold", "Hello") there
 == Evaluation of addition depending of data types [+]
 
 Evaluation of `+$a + $b+` depending of type of `+$a+` or `+$b+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title
@@ -834,7 +834,7 @@ __(See more details on link::preprocessing-json[Preprocessing-JSON page])__
 
 Use the `+!theme+` directive to change link::theme[the default theme of your diagram].
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !theme spacelab
@@ -868,7 +868,7 @@ Please contact us if you have any issues.
 
 == `+%Splitstr+` builtin function
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 !$list = %splitstr("abc~def~ghi", "~")

@@ -85,7 +85,7 @@ You can play with this directive:
 to find the best setting.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma svgSize <U+1F610> XX

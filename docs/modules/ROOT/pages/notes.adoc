@@ -9,7 +9,7 @@ Here are some examples of notes on diagrams.
 N/A
 
 === Class
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class a
@@ -22,7 +22,7 @@ end note
 ----
 
 === Component, Deployment
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node a
@@ -41,7 +41,7 @@ N/A
 
 
 === Object
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object a
@@ -68,7 +68,7 @@ N/A
 N/A 
 
 === State
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 state a
@@ -82,7 +82,7 @@ end note
 ----
 
 === Use-Case
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (a)
@@ -102,7 +102,7 @@ end note
 N/A
 
 === Class
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class a
@@ -127,7 +127,7 @@ end note
 ----
 
 === Component, Deployment
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node a
@@ -160,7 +160,7 @@ N/A
 
 
 === Object
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object a
@@ -201,7 +201,7 @@ N/A
 N/A 
 
 === State
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 state a
@@ -229,7 +229,7 @@ end note
 ----
 
 === Use-Case
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (a)
@@ -273,7 +273,7 @@ FIXME for Class, Objet, State
 N/A
 
 === Class
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class a
@@ -304,7 +304,7 @@ FIXME for Class
 
 
 === Component, Deployment
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node a
@@ -337,7 +337,7 @@ N/A
 
 
 === Object
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object a
@@ -383,7 +383,7 @@ N/A
 N/A 
 
 === State
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 state a
@@ -416,7 +416,7 @@ FIXME for State
 [[#FFD700#FIXME]] 
 
 === Use-Case
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (a)

@@ -13,7 +13,7 @@ In some occasion, you may want to use `+(*top)+` to force the starting point to 
 
 Use `+-->+` for arrows.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -32,7 +32,7 @@ By default, an arrow starts at the last used activity.
 
 You can put a label on an arrow using brackets `+[+` and
 `+]+` just after the arrow definition.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -54,7 +54,7 @@ force arrow's direction using the following syntax:
 * `+-left->+`
 * `+-up->+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -72,7 +72,7 @@ force arrow's direction using the following syntax:
 
 You can use `+if/then/else+` keywords to define branches.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (*) --> "Initialization"
@@ -90,7 +90,7 @@ endif
 ----
 
 Unfortunately, you will have to sometimes repeat the same activity in the diagram text:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (*)  --> "check input"
@@ -113,7 +113,7 @@ is possible to override this and to define a link with the `+if+` keywords.
 
 It is also possible to nest branches.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -151,7 +151,7 @@ endif
 
 You can use `+=== code ===+` to display synchronization bars.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -178,7 +178,7 @@ You can also give a short code to the activity with the `+as+`
 keyword.
 This code can be used latter in the diagram description.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 (*) -left-> "this <size:20>action</size>
@@ -206,7 +206,7 @@ at the very beginning of the diagram description.
 
 You can also have a note on several lines, using the
 `+endnote+` keywords.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -232,7 +232,7 @@ When you declare activities, they are automatically put in the
 last used partition.
 
 You can close the partition definition using a closing bracket `+}+`.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -274,7 +274,7 @@ You can use this command :
 * In a configuration file, provided in the link::command-line[command line] or the link::ant-task[ANT task].
 You can define specific color and fonts for stereotyped activities.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -305,7 +305,7 @@ skinparam activity {
 
 You can change the shape of activities to octagon using the `+skinparam activityShape octagon+`
 command.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 'Default is skinparam activityShape roundBox
@@ -321,7 +321,7 @@ skinparam activityShape octagon
 == Complete example
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Servlet Container

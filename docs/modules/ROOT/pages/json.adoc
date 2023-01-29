@@ -8,7 +8,7 @@ To activate this feature, the diagram must:
 * begin with `+@startjson+` keyword
 * end with `+@endjson+` keyword. 
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -24,7 +24,7 @@ To activate this feature, the diagram must:
 
 You can use complex JSON structure.
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -57,7 +57,7 @@ You can use complex JSON structure.
 
 == Highlight parts
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 #highlight "lastName"
@@ -94,7 +94,7 @@ You can use complex JSON structure.
 == JSON basic element
 
 === Synthesis of all JSON basic element
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -124,7 +124,7 @@ You can use complex JSON structure.
 == JSON array or table
 
 === Array type
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -138,7 +138,7 @@ You can use complex JSON structure.
 
 === Minimal array or table
 ==== Number array
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 [1, 2, 3]
@@ -146,7 +146,7 @@ You can use complex JSON structure.
 ----
 
 ==== String array
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 ["1a", "2b", "3c"]
@@ -154,7 +154,7 @@ You can use complex JSON structure.
 ----
 
 ==== Boolean array
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 [true, false, true]
@@ -164,7 +164,7 @@ You can use complex JSON structure.
 
 == JSON numbers
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -182,7 +182,7 @@ You can use complex JSON structure.
 
 On JSON you can use Unicode directly or by using escaped form like `+\uXXXX+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -196,7 +196,7 @@ On JSON you can use Unicode directly or by using escaped form like `+\uXXXX+`.
 
 === JSON two-character escape sequence
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -218,7 +218,7 @@ On JSON you can use Unicode directly or by using escaped form like `+\uXXXX+`.
 FIXME or not 😉, on the same item as `+\n+` management in PlantUML 😉
 __See https://forum.plantuml.net/13066[Report Bug on QA-13066]__
 [[#661111#FIXME]]
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 [
@@ -233,21 +233,21 @@ __See https://forum.plantuml.net/13066[Report Bug on QA-13066]__
 
 == Minimal JSON examples
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 "Hello world!"
 @endjson
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 42
 @endjson
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 true
@@ -259,7 +259,7 @@ __(Examples come from https://tools.ietf.org/html/std90#page-13[STD 90 - Example
 
 == Empty table or list
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -275,7 +275,7 @@ __[Ref. https://forum.plantuml.net/14397[QA-14397]]__
 == Using (global) style
 
 === Without style __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 #highlight "1" / "hr"
@@ -299,7 +299,7 @@ __[Ref. https://forum.plantuml.net/14397[QA-14397]]__
 
 You can use link::style-evolution[style] to change rendering of elements.
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 <style>
@@ -355,7 +355,7 @@ __[Adapted from https://forum.plantuml.net/13123[QA-13123] and https://forum.pla
 == Display JSON Data on Class or Object diagram
 
 === Simple example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class Class
@@ -372,7 +372,7 @@ __[Ref. https://forum.plantuml.net/15481/possible-link-elements-from-two-jsons-w
 
 === Complex example: with all JSON basic element
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 json "<b>JSON basic element" as J {
@@ -402,7 +402,7 @@ json "<b>JSON basic element" as J {
 == Display JSON Data on Deployment (Usecase, Component, Deployment) diagram
 
 === Simple example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 allowmixing
@@ -425,7 +425,7 @@ json JSON {
 __[Ref. https://forum.plantuml.net/15481/possible-link-elements-from-two-jsons-with-both-jsons-embeded?show=15567#c15567[QA-15481]]__
 
 Complex example: with arrow
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 allowmixing
@@ -449,7 +449,7 @@ J -> Database
 == Display JSON Data on State diagram
 
 === Simple example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 state "A" as stateA

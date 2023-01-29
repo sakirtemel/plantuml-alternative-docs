@@ -24,7 +24,7 @@ class Demo1 #back:lightgreen|yellow;header:blue/red;methods:red\green;fields:pin
 == Arrow head Groupinheritance bug
 
 * https://forum.plantuml.net/13532/groupinheritance-bug[QA-13532]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam groupInheritance 3
@@ -51,7 +51,7 @@ E5 --|> A4 #blue
 ----
 
 Same on element:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam groupInheritance 3
@@ -82,7 +82,7 @@ E5 --|> A4
 
 * https://github.com/plantuml/plantuml/issues/729[GH-729]
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam groupInheritance 2
@@ -95,7 +95,7 @@ Arrow --> Parent #blue
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam groupInheritance 3
@@ -111,7 +111,7 @@ Arrow --> Parent
 
 == Line thickness issue (from ~V1.2022.2) [fixed on 1.2022.6betaX]
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Bracketed line thickness
@@ -142,7 +142,7 @@ __[Ref. https://forum.plantuml.net/4949[QA-4949]]__
 
 * Error on `+##[style]color+`: error on style
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 abstract   abstract
@@ -160,7 +160,7 @@ note bottom: Why not dotted?
 
 * `+#[color|back:color];header:color;line:color;line.[bold|dashed|dotted];text:color+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 abstract   abstract
@@ -174,7 +174,7 @@ note bottom: Why not dotted?
 ----
 
 First original example:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class bar #line:green;back:lightblue

@@ -5,7 +5,7 @@
 
 == Declaring element
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor actor
@@ -41,7 +41,7 @@ usecase/ "usecase/"
 
 You can optionaly put text using bracket `+[]+` for a long description.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 folder folder [
@@ -132,7 +132,7 @@ We can declare element using some short forms.
 |===
 
 === Actor
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -145,7 +145,7 @@ actor actor1
 **NB**: __There is an old syntax for actor with guillemet which is now deprecated and will be removed some days. Please do not use in your diagram.__
 
 === Component 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -156,7 +156,7 @@ component component1
 ----
 
 === Interface 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -168,7 +168,7 @@ label "//interface example//"
 ----
 
 === Usecase 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -182,7 +182,7 @@ usecase usecase1
 == Linking or arrow
 
 You can create simple links between elements with or without labels:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -201,7 +201,7 @@ node1 == node5
 
 It is possible to use several types of links:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -230,7 +230,7 @@ artifact1 --(0 artifact10
 
 You can also have the following types:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -248,7 +248,7 @@ cloud1 -(0)- cloud5
 ----
 
 or another example:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor foo1
@@ -301,7 +301,7 @@ It's also possible to have explicitly `+bold+`, `+dashed+`, `+dotted+`, `+hidden
 
 * without label
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node foo
@@ -317,7 +317,7 @@ foo -[plain]-> bar5
 
 * with label
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Bracketed line style with label
@@ -335,7 +335,7 @@ __[Adapted from https://forum.plantuml.net/4181/how-change-width-line-in-a-relat
 
 === Line color
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Bracketed line color
@@ -350,7 +350,7 @@ foo -[#blue;#yellow;#green]-> bar4
 
 === Line thickness
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Bracketed line thickness
@@ -367,7 +367,7 @@ foo -[thickness=16]-> bar5  : [16]
 __[Adapted from https://forum.plantuml.net/4949[QA-4949]]__
 
 === Mix
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Bracketed line style mix
@@ -389,7 +389,7 @@ You can change the link::color[color] or style of individual arrows using the in
 
 * `+#color;line.[bold|dashed|dotted];text:color+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node foo
@@ -409,7 +409,7 @@ __[See similar feature on link::class-diagram#b5b0e4228f2e5022[class diagram]]__
 You can change the link::color[color] or style of individual element using the following notation: 
 * `+#[color|back:color];line:color;line.[bold|dashed|dotted];text:color+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 agent a
@@ -419,7 +419,7 @@ node  n #aliceblue;line:blue;line.dotted;text:blue
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 agent a
@@ -444,7 +444,7 @@ __[Ref. https://forum.plantuml.net/6852[QA-6852]]__
 
 Here are the nestable elements:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 artifact artifact {
@@ -484,7 +484,7 @@ storage storage {
 == Packages and nested elements
 
 === Example with one level
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 artifact    artifactVeryLOOOOOOOOOOOOOOOOOOOg    as "artifact" {
@@ -538,7 +538,7 @@ file f15
 
 === Other example
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 artifact Foo1 {
@@ -562,7 +562,7 @@ cloud vpc {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node Foo1 {
@@ -587,7 +587,7 @@ storage Foo7 {
 
 Here is all the nested elements:
 * by alphabetical order:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 artifact artifact {
@@ -624,7 +624,7 @@ storage storage {
 ----
 
 * or reverse alphabetical order
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 storage storage {
@@ -665,7 +665,7 @@ artifact artifact {
 
 === Simple alias with `+as+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node Node1 as n1
@@ -689,7 +689,7 @@ c1 -> c2
 
 === Examples of long alias
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor        "actor"       as actorVeryLOOOOOOOOOOOOOOOOOOOg
@@ -720,7 +720,7 @@ usecase      "usecase"     as usecaseVeryLOOOOOOOOOOOOOOOOOOOg
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor       actorVeryLOOOOOOOOOOOOOOOOOOOg       as "actor"
@@ -755,7 +755,7 @@ __[Ref. https://forum.plantuml.net/12082[QA-12082]]__
 
 
 == Round corner
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam rectangle {
@@ -776,7 +776,7 @@ rectangle "Another rectangle"
 == Specific SkinParameter
 
 === roundCorner 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam roundCorner 15
@@ -814,7 +814,7 @@ __[Ref. https://forum.plantuml.net/5299[QA-5299], https://forum.plantuml.net/691
 
 == Appendix: All type of arrow line
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -831,7 +831,7 @@ f0  --  b0  : ""--""\n//plain//
 == Appendix: All type of arrow head or '0' arrow
 
 === Type of arrow head
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -855,7 +855,7 @@ f0  --    b0  : ""--  ""
 ----
 
 === Type of '0' arrow or circle arrow
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -878,7 +878,7 @@ f1 --0   b1  : "" --0  ""
 == Appendix: Test of inline style on all element
 
 === Simple element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor actor             #aliceblue;line:blue;line.dotted;text:blue
@@ -915,7 +915,7 @@ usecase/ "usecase/"     #aliceblue;line:blue;line.dotted;text:blue
 === Nested element
 
 ==== Without sub-element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 artifact artifact #aliceblue;line:blue;line.dotted;text:blue {
@@ -953,7 +953,7 @@ storage storage #aliceblue;line:blue;line.dotted;text:blue {
 
 
 ==== With sub-element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 artifact    artifactVeryLOOOOOOOOOOOOOOOOOOOg    as "artifact" #aliceblue;line:blue;line.dotted;text:blue {
@@ -1009,7 +1009,7 @@ file f15
 
 === Simple element
 ==== Global style (on componentDiagram)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1054,7 +1054,7 @@ usecase/ "usecase/"
 ----
 
 ==== Style for each element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1224,7 +1224,7 @@ __[Ref. https://forum.plantuml.net/13261/[QA-13261]]__
 
 === Nested element (without level)
 ==== Global style (on componentDiagram)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1268,7 +1268,7 @@ storage storage {
 ----
 
 ==== Style for each nested element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1384,7 +1384,7 @@ storage storage {
 
 === Nested element (with one level)
 ==== Global style (on componentDiagram)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1446,7 +1446,7 @@ file f15
 ----
 
 ==== Style for each nested element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1578,7 +1578,7 @@ file f15
 == Appendix: Test of stereotype with style on all element
 
 === Simple element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1621,7 +1621,7 @@ usecase/ "usecase/" << stereo >>
 == Display JSON Data on Deployment diagram
 
 === Simple example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 allowmixing
@@ -1651,7 +1651,7 @@ For another example, see on link::json#2fyxla9p9ob6l3t3tjre[JSON page].
 In order to add a Deployment element or a State element within a Class or Object diagram, you can use the `+allowmixing+` or `+allow_mixing+` directive.
 
 === Mixing all elements
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1723,7 +1723,7 @@ __[Ref. https://forum.plantuml.net/2335/use-of-actor-inside-class-diagrams[QA-23
 You can added **port** with `+port+`, `+portin+`and `+portout+` keywords.
 
 === Port
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [c]
@@ -1743,7 +1743,7 @@ p2 --> f1
 ----
 
 === PortIn
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [c]
@@ -1763,7 +1763,7 @@ p2 --> f1
 ----
 
 === PortOut
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node node {
@@ -1781,7 +1781,7 @@ f1 --> p1
 ----
 
 === Mixing PortIn & PortOut
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [i]

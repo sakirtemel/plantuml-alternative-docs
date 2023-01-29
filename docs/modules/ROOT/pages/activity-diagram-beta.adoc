@@ -17,7 +17,7 @@ Activities label starts with `+:+` and ends with `+;+`.
 Text formatting can be done using link::creole[creole wiki syntax].
 
 They are implicitly linked in their definition order.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :Hello world;
@@ -32,7 +32,7 @@ several **lines**;
 You can use `+start+` and `+stop+` keywords to denote the
 beginning and the end of a diagram.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -44,7 +44,7 @@ stop
 ----
 
 You can also use the `+end+` keyword.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -63,7 +63,7 @@ Labels can be provided using parentheses.
 
 The 3 syntaxes are possible:
 * `+if (...) then (...)+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -82,7 +82,7 @@ stop
 ----
 
 * `+if (...) is (...) then+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 if (color?) is (<color:red>red) then
@@ -93,7 +93,7 @@ else
 ----
 
 * `+if (...) equals (...) then+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 if (counter?) equals (5) then
@@ -109,7 +109,7 @@ __[Ref. https://forum.plantuml.net/301/activity-diagram-beta?show=302#a302[QA-30
 
 You can use the `+elseif+` keyword to have several tests __(by default, it is the horizontal mode)__:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -133,7 +133,7 @@ stop
 
 You can use the command `+!pragma useVerticalIf on+` to have the tests in vertical mode:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useVerticalIf on
@@ -170,7 +170,7 @@ You can use `+switch+`, `+case+` and `+endswitch+` keywords to put switch in you
 Labels can be provided using parentheses.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -194,7 +194,7 @@ stop
 == Conditional with stop on an action [kill, detach]
 
 You can stop action on a if loop.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 if (condition?) then
@@ -208,7 +208,7 @@ endif
 But if you want to stop at the precise action, you can use the `+kill+` or `+detach+` keyword:
 
 * `+kill+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 if (condition?) then
@@ -222,7 +222,7 @@ endif
 __[Ref. https://forum.plantuml.net/265/new-activity-diagram-syntax-direction-of-links?show=306#a306[QA-265]]__
 
 * `+detach+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 if (condition?) then
@@ -238,7 +238,7 @@ endif
 
 You can use `+repeat+` and `+repeatwhile+` keywords to have repeat loops.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -256,7 +256,7 @@ stop
 
 It is also possible to use a full action as `+repeat+` target and insert an action in the return path using the `+backward+` keyword.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -277,7 +277,7 @@ stop
 == Break on a repeat loop [break]
 
 You can use the `+break+` keyword after an action on a loop.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -308,7 +308,7 @@ You can use `+label+` and `+goto+` keywords to denote goto processing, with:
 * `+label <label_name>+`
 * `+goto <label_name>+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Point two queries to same activity\nwith `goto`
@@ -339,7 +339,7 @@ __[Ref. https://forum.plantuml.net/15026/[QA-15026], https://forum.plantuml.net/
 
 You can use `+while+` and `+endwhile+` keywords to have repeat loops.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -357,7 +357,7 @@ stop
 
 It is possible to provide a label after the `+endwhile+` keyword, or using the `+is+` keyword.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 while (check filesize ?) is (not empty)
@@ -369,7 +369,7 @@ endwhile (empty)
 
 If you are using `+detach+` to form an infinite while loop, then you will want to also hide the partial arrow that results using `+-[hidden]->+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :Step 1;
@@ -392,7 +392,7 @@ endif
 You can use `+fork+`, `+fork again+` and `+end fork+` or `+end merge+` keywords to denote parallel processing.
 
 === Simple `+fork+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -406,7 +406,7 @@ stop
 ----
 
 === `+fork+` with end merge
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -420,7 +420,7 @@ stop
 ----
 __[Ref. https://forum.plantuml.net/5320/please-provide-fork-without-join-with-merge-activity-diagrams?show=5321#a5321[QA-5320]]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -437,7 +437,7 @@ stop
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -454,7 +454,7 @@ stop
 __[Ref. https://forum.plantuml.net/13731[QA-13731]]__
 
 === Label on `+end fork+` (or UML joinspec):
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -466,7 +466,7 @@ end fork {or}
 stop
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -482,7 +482,7 @@ stop
 __[Ref. https://forum.plantuml.net/5346/please-inplement-joinspec-for-join-nodes?show=5348#a5348[QA-5346]]__
 
 === Other example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -508,7 +508,7 @@ endif
 === Split
 You can use `+split+`, `+split again+` and `+end split+` keywords to denote split processing.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -529,7 +529,7 @@ end
 
 === Input split (multi-start)
 You can use `+hidden+` arrows to make an input split (multi-start):
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 split
@@ -546,7 +546,7 @@ end split
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 split
@@ -569,7 +569,7 @@ __[Ref. https://forum.plantuml.net/8662[QA-8662]]__
 
 You can use `+kill+` or `+detach+` to make an output split (multi-end):
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -585,7 +585,7 @@ split again
 end split
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -613,7 +613,7 @@ end split
 Text formatting can be done using link::creole[creole wiki syntax].
 
 A note can be floating, using  `+floating+` keyword.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -635,7 +635,7 @@ stop
 
 You can add note on backward activity:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -652,7 +652,7 @@ __[Ref. https://forum.plantuml.net/11788/is-it-possible-to-add-a-note-to-backwar
 
 
 You can add note on partition activity:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -675,7 +675,7 @@ __[Ref. https://forum.plantuml.net/2398/is-it-possible-to-add-a-comment-on-top-o
 
 You can specify a link::color[color] for some activities.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -689,7 +689,7 @@ These files should be edited at this point!;
 ----
 
 You can also use link::color[gradient color].
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -705,7 +705,7 @@ __[Ref. https://forum.plantuml.net/4906/setting-ad-hoc-gradient-backgrounds-in-a
 
 You can use `+skinparam ArrowHeadColor none+` in order to connect activities using lines only, without arrows.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam ArrowHeadColor none
@@ -718,7 +718,7 @@ stop
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam ArrowHeadColor none
@@ -739,7 +739,7 @@ their link::color[color].
 
 It's also possible to have dotted, dashed, bold or hidden arrows.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :foo1;
@@ -766,7 +766,7 @@ endif
 
 You can use parentheses to denote connector.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -784,7 +784,7 @@ detach
 
 You can add link::color[color] on connector.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -806,7 +806,7 @@ __[Ref. https://forum.plantuml.net/10077/assigning-color-to-connectors?show=1008
 
 === Group
 You can group activity together by defining group:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -826,7 +826,7 @@ stop
 === Partition
 You can group activity together by defining partition:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -846,7 +846,7 @@ stop
 
 It's also possible to change partition link::color[color]:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -865,7 +865,7 @@ stop
 __[Ref. https://forum.plantuml.net/2793/activity-beta-partition-name-more-than-one-word-does-not-work?show=2798#a2798[QA-2793]]__
 
 It's also possible to add link::link[link] to partition:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -885,7 +885,7 @@ You can group activity together by defining:
 * package;
 * rectangle;
 * card.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -923,7 +923,7 @@ end
 Using pipe `+|+`, you can define swimlanes.
 
 It's also possible to change swimlanes link::color[color].
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |Swimlane1|
@@ -941,7 +941,7 @@ stop
 ----
 
 You can add `+if+` conditional  or  `+repeat+` or `+while+` loop within swimlanes.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |#pink|Actor_For_red|
@@ -966,7 +966,7 @@ stop
 You can also use `+alias+` with swimlanes, with this syntax:
 * `+|[#<color>|]<swimlane_alias>| <swimlane_title>+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |#palegreen|f| fisherman
@@ -992,7 +992,7 @@ It's possible to remove an arrow using the `+detach+` or `+kill+` keyword:
 
 * `+detach+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
  :start;
@@ -1017,7 +1017,7 @@ It's possible to remove an arrow using the `+detach+` or `+kill+` keyword:
 * `+kill+`
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
  :start;
@@ -1050,7 +1050,7 @@ By changing the final `+;+` separator, you can set different rendering for the a
 * `+\\+`
 * `+]+`
 * `+}+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :Ready;
@@ -1084,7 +1084,7 @@ end split
 == Complete example
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1128,7 +1128,7 @@ stop
 == Condition Style 
 
 === Inside style (by default)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam conditionStyle inside
@@ -1140,7 +1140,7 @@ repeatwhile (<b>end)
 :act3;
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -1153,7 +1153,7 @@ repeatwhile (<b>end)
 ----
 
 === Diamond style 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam conditionStyle diamond
@@ -1169,7 +1169,7 @@ repeatwhile (<b>end)
 
 
 === InsideDiamond (or __Foo1__) style 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam conditionStyle InsideDiamond
@@ -1181,7 +1181,7 @@ repeatwhile (<b>end)
 :act3;
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam conditionStyle foo1
@@ -1203,7 +1203,7 @@ __[Ref. https://forum.plantuml.net/1290/plantuml-condition-rendering[QA-1290] an
 === Diamond style (by default)
 
 * With one branch
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam ConditionEndStyle diamond
@@ -1217,7 +1217,7 @@ endif
 ----
 
 * With two branches (`+B1+`, `+B2+`)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam ConditionEndStyle diamond
@@ -1234,7 +1234,7 @@ endif
 
 === Horizontal line (hline) style 
 * With one branch
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam ConditionEndStyle hline
@@ -1248,7 +1248,7 @@ endif
 ----
 
 * With two branches (`+B1+`, `+B2+`)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam ConditionEndStyle hline
@@ -1270,7 +1270,7 @@ __[Ref. https://forum.plantuml.net/4015/its-possible-to-draw-if-else-endif-witho
 == Using (global) style
 
 === Without style __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -1295,7 +1295,7 @@ end
 
 You can use link::style-evolution[style] to change rendering of elements.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>

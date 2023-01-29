@@ -11,7 +11,7 @@ To have a dotted arrow, you use `+-->+`
 It is also possible to use `+<-+` and `+<--+`.
 That does not change the drawing, but may improve readability.
 Note that this is only true for sequence diagrams, rules are different for the other diagrams.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob: Authentication Request
@@ -38,7 +38,7 @@ Using these other keywords to declare participants will **change the shape** of 
 * `+collections+`
 * `+queue+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Participant as Foo
@@ -64,7 +64,7 @@ Rename a participant using the `+as+` keyword.
 You can also change the background link::color[color] of
 actor or participant.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor Bob #red
@@ -84,7 +84,7 @@ Bob->L: Log transaction
 
 You can use the `+order+` keyword to customize the display order of participants.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Last order 30
@@ -98,7 +98,7 @@ participant First order 10
 
 You can declare participant on multi-line.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Participant [
@@ -121,7 +121,7 @@ __[Ref. https://forum.plantuml.net/15232/[QA-15232]]__
 
 You can use quotes to define participants.
 And you can use the `+as+` keyword to give an alias to those participants.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> "Bob()" : Hello
@@ -140,14 +140,14 @@ A participant can send a message to itself.
 
 It is also possible to have multi-line using `+\n+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Alice: This is a signal to self.\nIt also demonstrates\nmultiline \ntext
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice <- Alice: This is a signal to self.\nIt also demonstrates\nmultiline \ntext
@@ -162,7 +162,7 @@ Text alignment on arrows can be set to `+left+`, `+right+` or `+center+` using `
 
 You can also use `+direction+` or `+reverseDirection+` to align text depending on arrow direction. Further details and examples of this are available on the link::skinparam[skinparam] page.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam sequenceMessageAlign right
@@ -175,7 +175,7 @@ Alice -> Bob : Response
 
 You can put the text of the response message below the arrow, with the `+skinparam responseMessageBelowArrow true+` command.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam responseMessageBelowArrow true
@@ -195,7 +195,7 @@ You can change arrow style by several ways:
 * add a final "o" at arrow head
 * use bidirectional arrow `+<->+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Bob ->x Alice
@@ -218,7 +218,7 @@ Bob <->o Alice
 == Change arrow color
 
 You can change the color of individual arrows using the following notation:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Bob -[#red]> Alice : hello
@@ -234,7 +234,7 @@ Alice -[#0000FF]->Bob : ok
 The keyword `+autonumber+` is used to
 automatically add an incrementing number to messages.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 autonumber
@@ -247,7 +247,7 @@ You can specify a startnumber with `+autonumber <start>+` , and
 also an increment with `+autonumber <start> <increment>+`.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 autonumber
@@ -272,7 +272,7 @@ The formatting is done with the Java class `+DecimalFormat+`
 (`+0+` means digit, `+#+` means digit and zero if absent).
 
 You can use some html tag in the format.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 autonumber "<b>[000]"
@@ -294,7 +294,7 @@ You can also use `+autonumber stop+` and
 `+autonumber resume <increment> <format>+` to respectively pause and resume
 automatic numbering.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 autonumber 10 10 "<b>[000]"
@@ -323,7 +323,7 @@ Automatically the last digit will increment.
 
 To increment the first digit, use: `+autonumber inc A+`. To increment the second digit, use: `+autonumber inc B+`. 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 autonumber 1.1.1
@@ -351,7 +351,7 @@ Bob --> Alice: Response
 
 
 You can also use the value of `+autonumber+` with the `+%autonumber%+` variable:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 autonumber 10
@@ -372,7 +372,7 @@ The `+title+` keyword is used to add a title to the page.
 
 Pages can display headers and footers using `+header+` and `+footer+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -403,7 +403,7 @@ several pages.
 
 (Note: this really does work.  Only the first page is shown below, but it is a display artifact.)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -445,7 +445,7 @@ The `+end+` keyword is used to close the group.
 
 Note that it is possible to nest groups.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob: Authentication Request
@@ -478,7 +478,7 @@ end
 
 For `+group+`, it is possible to add, between`+[+` and `+]+`, a secondary text or label that will be displayed into the header.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob: Authentication Request
@@ -504,7 +504,7 @@ or `+note right+` keywords __just after the message__.
 You can have a multi-line note using the `+end note+`
 keywords.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice->Bob : hello
@@ -533,7 +533,7 @@ It is possible to highlight a note by changing its background link::color[color]
 
 You can also have a multi-line note using the `+end note+` keywords.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice
@@ -564,7 +564,7 @@ You can use `+hnote+` and `+rnote+` keywords
 to change note shapes :
 * `+hnote+` for hexagonal note;
 * `+rnote+` for rectangle note.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 caller -> server : conReq
@@ -595,7 +595,7 @@ __[Ref. https://forum.plantuml.net/1765/is-it-possible-to-have-different-shapes-
 You can directly make a note over all participants, with the syntax:
 * `+note across: note_description+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice->Bob:m1
@@ -614,7 +614,7 @@ __[Ref. https://forum.plantuml.net/9738[QA-9738]]__
 
 You can make several notes aligned at the same level, with the syntax `+/+`:
 * without `+/+` __(by default, the notes are not aligned)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 note over Alice : initial state of Alice
@@ -624,7 +624,7 @@ Bob -> Alice : hello
 ----
 
 * with `+/+` __(the notes are aligned)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 note over Alice : initial state of Alice
@@ -640,7 +640,7 @@ __[Ref. https://forum.plantuml.net/354[QA-354]]__
 
 link::creole[It is also possible to use creole formatting:]
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice
@@ -680,7 +680,7 @@ end note
 
 If you want, you can split a diagram using `+==+` separator to
 divide your diagram into logical steps.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -701,7 +701,7 @@ Alice <-- Bob: another authentication Response
 == Reference
 
 You can use reference in a diagram, using the keyword `+ref over+`.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice
@@ -724,7 +724,7 @@ end ref
 
 You can use `+...+` to indicate a delay in the diagram.
 And it is also possible to put a message with this delay.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -744,7 +744,7 @@ To break long messages, you can manually add `+\n+` in your text.
 
 Another option is to use `+maxMessageSize+` setting:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam maxMessageSize 50
@@ -762,7 +762,7 @@ a -> b :this is a very long message on several words
 You can use `+|||+` to indicate some spacing in the diagram.
 
 It is also possible to specify a number of pixel to be used.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -793,7 +793,7 @@ the previous message.
 The `+destroy+` denote the end of the lifeline of a
 participant.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant User
@@ -821,7 +821,7 @@ deactivate A
 
 Nested lifeline can be used, and it is possible to add a link::color[color] on the lifeline.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant User
@@ -846,7 +846,7 @@ deactivate A
 
 Autoactivation is possible and works with the return keywords:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 autoactivate on
@@ -872,7 +872,7 @@ The return point is that which caused the most recent life-line activation.
 The syntax is `+return label+` where `+label+` if provided is any string acceptable for conventional messages.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Bob -> Alice : hello
@@ -890,7 +890,7 @@ return bye
 You can use the `+create+` keyword just before the first
 reception of a message to emphasize the fact that this message is
 actually __creating__ this new object.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Bob -> Alice : hello
@@ -919,7 +919,7 @@ Immediately after specifying the target participant, the following syntax can be
 * `+**+` Create an instance of the target
 * `+!!+` Destroy an instance of the target
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 alice -> bob ++ : hello
@@ -934,7 +934,7 @@ return success
 ----
 
 Then you can mix activation and deactivation, on same line:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 alice   ->  bob     ++   : hello1
@@ -943,7 +943,7 @@ charlie --> alice   --   : ok
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 @startuml
@@ -965,7 +965,7 @@ of the diagram.
 
 Use square brackets to denote the left "`+[+`" or the
 right "`+]+`" side of the diagram.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [-> A: DoWork
@@ -986,7 +986,7 @@ deactivate A
 
 
 You can also have the following syntax:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice
@@ -1018,7 +1018,7 @@ Bob x<-]
 
 You can have **short** arrows with using `+?+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 ?-> Alice    : ""?->""\n**short** to actor1
@@ -1039,7 +1039,7 @@ __[Ref. https://forum.plantuml.net/310[QA-310]]__
 
 
 With `+teoz+` it is possible to add anchors to the diagram and use the anchors to specify duration time.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma teoz true
@@ -1070,7 +1070,7 @@ and `+>>+`.
 
 In the stereotype, you can add a spotted character
 in a colored circle using the syntax `+(X,color)+`.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1085,7 +1085,7 @@ Bob->Alice: First message
 By default, the __guillemet__ character is used to display the stereotype.
 You can change this behavious using the skinparam `+guillemet+`:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1098,7 +1098,7 @@ Bob->Alice: First message
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1116,7 +1116,7 @@ Bob->Alice: First message
 
 You can use link::creole[creole formatting] in the title.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1128,7 +1128,7 @@ Bob -> Alice: Authentication Response
 @enduml
 ----
 You can add newline using `+\n+` in the title description.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1141,7 +1141,7 @@ Bob -> Alice: Authentication Response
 ----
 You can also define title on several lines using `+title+`
 and `+end title+` keywords.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1169,7 +1169,7 @@ and `+end box+` commands.
 You can add an optional title or a
 optional background color, after the `+box+` keyword.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1188,7 +1188,7 @@ Alice -> Other : hello
 
 It is also possible to nest boxes - to draw a box within a box - when using the teoz rendering engine, for example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1216,7 +1216,7 @@ John -> Other: Hello
 You can use the `+hide footbox+` keywords to remove the foot boxes
 of the diagram.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1245,7 +1245,7 @@ You can use this command:
 
 You can also change other rendering parameter, as seen in the following examples:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam sequenceArrowThickness 2
@@ -1278,7 +1278,7 @@ deactivate A
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam backgroundColor #EEEBDC
@@ -1335,7 +1335,7 @@ deactivate A
 
 It is possible to tune some padding settings.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam ParticipantPadding 20
@@ -1360,7 +1360,7 @@ Alice1 -> Out : out
 == Appendix: Examples of all arrow type
 
 === Normal arrow
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice as a
@@ -1389,7 +1389,7 @@ a x->o   b : ""x->o ""
 ----
 
 === Itself arrow
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice as a
@@ -1419,7 +1419,7 @@ a x->o   a : ""x->o ""
 
 === Incoming and outgoing messages (with '[', ']')
 ==== Incoming messages (with '[')
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice as a
@@ -1448,7 +1448,7 @@ participant Bob   as b
 ----
 
 ==== Outgoing messages (with ']')
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice as a
@@ -1478,7 +1478,7 @@ a x->o]    : ""x->o] ""
 
 === Short incoming and outgoing messages (with '?')
 ==== Short incoming (with '?')
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice as a
@@ -1508,7 +1508,7 @@ a ->     b : //Long long label//
 ----
 
 ==== Short outgoing (with '?')
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice as a
@@ -1541,7 +1541,7 @@ a x->o?    : ""x->o? ""
 == Specific SkinParameter
 
 === By default
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Bob -> Alice : hello
@@ -1552,7 +1552,7 @@ Alice -> Bob : ok
 === LifelineStrategy 
 
 * nosolid __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam lifelineStrategy nosolid
@@ -1564,7 +1564,7 @@ __[Ref. https://forum.plantuml.net/9016/[QA-9016]]__
 
 * solid
 In order to have solid life line in sequence diagrams, you can use: `+skinparam lifelineStrategy solid+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam lifelineStrategy solid
@@ -1578,7 +1578,7 @@ __[Ref. https://forum.plantuml.net/2794[QA-2794]]__
 === style strictuml
 To be conform to strict UML (__for arrow style: emits triangle rather than sharp arrowheads__), you can use:
 * `+skinparam style strictuml+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam style strictuml
@@ -1592,7 +1592,7 @@ __[Ref. https://forum.plantuml.net/1047[QA-1047]]__
 == Hide unlinked participant 
 
 By default, all participants are displayed.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 participant Alice
@@ -1604,7 +1604,7 @@ Alice -> Bob : hello
 ----
 
 But you can `+hide unlinked+` participant.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 hide unlinked
@@ -1625,7 +1625,7 @@ __[Ref. https://forum.plantuml.net/4247[QA-4247]]__
 
 It is possible to link::color[color] a group messages:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob: Authentication Request
@@ -1641,7 +1641,7 @@ __[Ref. https://forum.plantuml.net/4750[QA-4750] and https://forum.plantuml.net/
 
 == Mainframe
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1658,7 +1658,7 @@ You can use the `+(nn)+` option (before or after arrow) to make the arrows slant
 
 __[Available only after v1.2022.6beta+]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 A ->(10) B: text 10
@@ -1669,7 +1669,7 @@ A (10)<- B: text 10
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 A ->(40) B++: Rq
@@ -1678,7 +1678,7 @@ B -->(20) A--: Rs
 ----
 __[Ref. https://forum.plantuml.net/14145/plantuml-draw-odd-line[QA-14145]]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma teoz true
@@ -1688,7 +1688,7 @@ A ->(50) C: Starts\nwhen 'B' sends
 ----
 __[Ref. https://forum.plantuml.net/6684/non-instantaneous-messages-in-sequence-diagram[QA-6684]]__
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma teoz true

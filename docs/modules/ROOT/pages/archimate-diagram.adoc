@@ -10,7 +10,7 @@ You are very welcome http://forum.plantuml.net[to create a new discussion] on th
 
 You can use the `+archimate+` keyword to define an element. Stereotype can optionally specify an additional icon. Some colors (`+Business+`, `+Application+`, `+Motivation+`, `+Strategy+`, `+Technology+`, `+Physical+`, `+Implementation+`) are also available.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 archimate #Technology "VPN Server" as vpnServerA <<technology-device>>
@@ -27,7 +27,7 @@ rectangle WAIT #orange
 
 Using the `+circle+` keyword and the link::preprocessing[preprocessor], you can also create junctions.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !define Junction_Or circle #black
@@ -53,7 +53,7 @@ WAIT -down-> JunctionAnd
 == Example 1
 
 
-[source, plantuml]
+[plantuml]
 ----
 skinparam rectangle<<behavior>> {
 	roundCorner 25
@@ -122,7 +122,7 @@ endlegend
 
 == Example 2
 
-[source, plantuml]
+[plantuml]
 ----
 skinparam roundcorner 25
 rectangle "Capture Information"  as CI <<$archimate/business-process>> #Business
@@ -133,7 +133,7 @@ rectangle "Capture Information"  as CI <<$archimate/business-process>> #Business
 
 You can list all possible sprites for Archimate using the following diagram:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 listsprite
@@ -154,7 +154,7 @@ Using the macros, creation of ArchiMate elements are done using the following fo
 
 For example:
 * To define a __Stakeholder__ element, which is part of Motivation category, the syntax will be  `+Motivation_Stakeholder(StakeholderElement, "Stakeholder Description")+`:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <archimate/Archimate>
@@ -164,7 +164,7 @@ Motivation_Stakeholder(StakeholderElement, "Stakeholder Description")
 
 
 * To define a __Business Service__ element, `+Business_Service(BService, "Business Service")+`:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <archimate/Archimate>
@@ -200,7 +200,7 @@ The `+Directions+` supported are:
 For example:
 * To denote a composition relationship between the __Stakeholder__ and __Business Service__ defined above, the syntax will be
 `+Rel_Composition(StakeholderElement, BService, "Description for the relationship")+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <archimate/Archimate>
@@ -211,7 +211,7 @@ Rel_Composition(StakeholderElement, BService, "Description for the relationship"
 ----
 * Unordered List ItemTo orient the two elements in top - down position, the syntax will be
 `+Rel_Composition_Down(StakeholderElement, BService, "Description for the relationship")+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !include <archimate/Archimate>
@@ -222,7 +222,7 @@ Rel_Composition_Down(StakeholderElement, BService, "Description for the relation
 ----
 
 === Appendice: Examples of all Archimate RelationTypes 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -246,7 +246,7 @@ Rel_Access(i1, j1, Access)
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title ArchiMate Relationships Overview

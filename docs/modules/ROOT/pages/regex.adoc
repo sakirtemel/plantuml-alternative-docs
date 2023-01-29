@@ -15,7 +15,7 @@ To activate this feature, the diagram must:
 * begin with `+@startregex+` keyword
 * end with `+@endregex+` keyword. 
 
-[source, plantuml]
+[plantuml]
 ----
 @startregex
 repetitionZeroOrMore: a*

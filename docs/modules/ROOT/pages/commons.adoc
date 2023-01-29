@@ -32,7 +32,7 @@ __[Ref. https://forum.plantuml.net/1353/is-it-possible-to-comment-out-lines-of-d
 
 Then you can also put block comment on the same line, as:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 /' case 1 '/   A -> B : AB-First step 
@@ -61,7 +61,7 @@ And you can also give both `+width+` and `+height+`: the image is scaled to fit 
 * `+scale max 1024 width+`
 * `+scale max 800 height+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 scale 180*90
@@ -75,7 +75,7 @@ The `+title+` keywords is used to put a title.
 You can add newline using `+\n+` in the title description.
 
 Some skinparam settings are available to put borders on the title.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam titleBorderRoundCorner 15
@@ -95,7 +95,7 @@ You can use link::creole[creole formatting] in the title.
 
 You can also define title on several lines using `+title+`
 and `+end title+` keywords.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -114,7 +114,7 @@ Bob -> Alice: Authentication Response
 
 == Caption
 There is also a `+caption+` keyword to put a caption under the diagram.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -137,7 +137,7 @@ As with title, it is possible to define a header or a footer on
 several lines.
 
 It is also possible to put some HTML into the header or footer.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob: Authentication Request
@@ -159,7 +159,7 @@ The `+legend+` and `+end legend+` are keywords is used to put a legend.
 
 You can optionally specify to have `+left+`, `+right+`, `+top+`, `+bottom+` or `+center+`
 alignment for the legend.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : Hello
@@ -170,7 +170,7 @@ endlegend
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : Hello
@@ -190,7 +190,7 @@ endlegend
 
 === Activity
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -216,7 +216,7 @@ stop
 
 === Archimate
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -242,7 +242,7 @@ rectangle WAIT #orange
 
 === Class
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -264,7 +264,7 @@ a -- b
 
 === Component, Deployment, Use-Case
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -288,7 +288,7 @@ node n
 === Gantt project planning
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 header some header
@@ -314,7 +314,7 @@ __[(Header, footer) corrected on https://plantuml.com/changes[V1.2020.18]]__
 
 === Object
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -339,7 +339,7 @@ object user {
 
 === MindMap
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 header some header
@@ -363,7 +363,7 @@ end legend
 
 === Network (nwdiag)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -389,7 +389,7 @@ nwdiag {
 
 === Sequence
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -410,7 +410,7 @@ a->b
 
 === State
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -433,7 +433,7 @@ State1 -> State2
 
 === Timing
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 header some header
@@ -467,7 +467,7 @@ WB is Waiting
 
 === Work Breakdown Structure (WBS)
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 header some header
@@ -495,7 +495,7 @@ __[Corrected on https://plantuml.com/changes[V1.2020.17]]__
 === Wireframe (SALT)
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 header some header
@@ -573,7 +573,7 @@ caption {
 
 === Activity
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -629,7 +629,7 @@ stop
 
 === Archimate
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -685,7 +685,7 @@ rectangle WAIT #orange
 
 === Class
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -737,7 +737,7 @@ a -- b
 
 === Component, Deployment, Use-Case
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -790,7 +790,7 @@ node n
 
 === Gantt project planning
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 <style>
@@ -844,7 +844,7 @@ end legend
 
 === Object
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -899,7 +899,7 @@ object user {
 
 === MindMap
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 <style>
@@ -953,7 +953,7 @@ end legend
 
 === Network (nwdiag)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1009,7 +1009,7 @@ nwdiag {
 
 === Sequence
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1060,7 +1060,7 @@ a->b
 
 === State
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1113,7 +1113,7 @@ State1 -> State2
 
 === Timing
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -1177,7 +1177,7 @@ WB is Waiting
 
 === Work Breakdown Structure (WBS)
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 <style>
@@ -1236,7 +1236,7 @@ end legend
 Fix all **(`+title+`, `+caption+`, `+legend+`, `+header+`, `+footer+`)** for salt.
 [[#FFD700#FIXME]] 
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 <style>
@@ -1293,7 +1293,7 @@ end legend
 
 == Mainframe
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1306,7 +1306,7 @@ __[Ref. https://forum.plantuml.net/4019[QA-4019] and https://github.com/plantuml
 
 == Appendix: Examples of Mainframe on all diagram
 === Activity
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1320,7 +1320,7 @@ stop
 ----
 
 === Archimate
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1337,7 +1337,7 @@ Cropped on the top and on the left
 [[#FFD700#FIXME]]
 
 === Class
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1351,7 +1351,7 @@ Cropped on the top and on the left
 [[#FFD700#FIXME]]
 
 === Component, Deployment, Use-Case
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1367,7 +1367,7 @@ Cropped on the top and on the left
 
 === Gantt project planning
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 mainframe This is a **mainframe**
@@ -1381,7 +1381,7 @@ Cropped on the top and on the left
 [[#FFD700#FIXME]]
 
 === Object
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1398,7 +1398,7 @@ Cropped on the top!
 [[#FFD700#FIXME]]
 
 === MindMap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 mainframe This is a **mainframe**
@@ -1410,7 +1410,7 @@ mainframe This is a **mainframe**
 ----
 
 === Network (nwdiag)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1428,7 +1428,7 @@ Cropped on the top!
 [[#FFD700#FIXME]]
 
 === Sequence
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1438,7 +1438,7 @@ a->b
 ----
 
 === State
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1453,7 +1453,7 @@ Cropped on the top and on the left
 [[#FFD700#FIXME]]
 
 === Timing
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1472,7 +1472,7 @@ WB is Waiting
 ----
 
 === Work Breakdown Structure (WBS)
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 mainframe This is a **mainframe**
@@ -1483,7 +1483,7 @@ mainframe This is a **mainframe**
 ----
 
 === Wireframe (SALT)
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 mainframe This is a **mainframe**
@@ -1500,7 +1500,7 @@ mainframe This is a **mainframe**
 
 === Activity
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1527,7 +1527,7 @@ stop
 
 === Archimate
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1554,7 +1554,7 @@ rectangle WAIT #orange
 
 === Class
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1577,7 +1577,7 @@ a -- b
 
 === Component, Deployment, Use-Case
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1601,7 +1601,7 @@ node n
 
 === Gantt project planning
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 mainframe This is a **mainframe**
@@ -1625,7 +1625,7 @@ end legend
 
 === Object
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1651,7 +1651,7 @@ object user {
 
 === MindMap
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 mainframe This is a **mainframe**
@@ -1676,7 +1676,7 @@ end legend
 
 === Network (nwdiag)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1703,7 +1703,7 @@ nwdiag {
 
 === Sequence
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1725,7 +1725,7 @@ a->b
 
 === State
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1749,7 +1749,7 @@ State1 -> State2
 
 === Timing
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 mainframe This is a **mainframe**
@@ -1784,7 +1784,7 @@ WB is Waiting
 
 === Work Breakdown Structure (WBS)
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 mainframe This is a **mainframe**
@@ -1810,7 +1810,7 @@ end legend
 
 === Wireframe (SALT)
 
-[source, plantuml]
+[plantuml]
 ----
 @startsalt
 mainframe This is a **mainframe**

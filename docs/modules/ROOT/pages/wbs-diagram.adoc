@@ -7,7 +7,7 @@ WBS diagram are still in beta: the syntax may change without notice.
 
 This syntax is compatible with OrgMode
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 * Business Process Modelling WBS
@@ -29,7 +29,7 @@ This syntax is compatible with OrgMode
 
 You can change direction using `+<+` and `+>+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 * Business Process Modelling WBS
@@ -50,7 +50,7 @@ You can change direction using `+<+` and `+>+`
 
 You can use the following notation to choose diagram side.
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 + New Job
@@ -77,7 +77,7 @@ You can use the following notation to choose diagram side.
 
 You can use `+:+` and `+;+` to have multilines box, as on link::mindmap-diagram#4ea2ymh57pwsk99qth2e[MindMap].
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 * <&flag> Debian
@@ -100,7 +100,7 @@ You can use underscore `+_+` to remove box drawing.
 
 === Boxless on Arithmetic notation
 ==== Several boxless node
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 + Project
@@ -117,7 +117,7 @@ You can use underscore `+_+` to remove box drawing.
 @endwbs
 ----
 ==== All boxless node
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 +_ Project
@@ -136,7 +136,7 @@ You can use underscore `+_+` to remove box drawing.
 
 === Boxless on OrgMode syntax
 ==== Several boxless node
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 * World
@@ -153,7 +153,7 @@ You can use underscore `+_+` to remove box drawing.
 __[Ref. https://forum.plantuml.net/13297[QA-13297]]__
 
 ==== All boxless node
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 *_ World
@@ -175,7 +175,7 @@ __[Ref. https://forum.plantuml.net/13355[QA-13355]]__
 It is possible to change node link::color[color]:
 
 * with inline color
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 *[#SkyBlue] this is the partner workpackage
@@ -183,7 +183,7 @@ It is possible to change node link::color[color]:
 ** this is another workpackage
 @endwbs
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 +[#SkyBlue] this is the partner workpackage
@@ -195,7 +195,7 @@ It is possible to change node link::color[color]:
 __[Ref. https://forum.plantuml.net/12374[QA-12374], only from v1.2020.20]__
 
 * with style color
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 <style>
@@ -213,7 +213,7 @@ wbsDiagram {
 ** this is another workpackage
 @endwbs
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 <style>
@@ -237,7 +237,7 @@ wbsDiagram {
 
 It is possible to change diagram style.
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 <style>
@@ -297,7 +297,7 @@ wbsDiagram {
 
 Using `+MaximumWidth+` setting you can control automatic word wrap. Unit used is pixel.
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 

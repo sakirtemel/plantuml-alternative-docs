@@ -20,7 +20,7 @@ Once installed, you can invoke ELK instead of GraphViz with the `+!pragma layout
 
 **Example:**
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma layout elk

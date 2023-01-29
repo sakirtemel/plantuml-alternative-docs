@@ -8,7 +8,7 @@ MindMap diagram are still in beta: the syntax may change without notice.
 
 This syntax is compatible with OrgMode
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 * Debian
@@ -31,7 +31,7 @@ This syntax is compatible with OrgMode
 
 This syntax is compatible with Markdown
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 * root node
@@ -47,7 +47,7 @@ This syntax is compatible with Markdown
 
 You can use the following notation to choose diagram side.
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 + OS
@@ -73,7 +73,7 @@ You can use the following notation to choose diagram side.
 
 You can use `+:+` and `+;+` to have multilines box.
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 * Class Templates
@@ -96,7 +96,7 @@ class cname{
 @endmindmap
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 + root
@@ -118,7 +118,7 @@ left_3.2;
 
 You can create multiroot mindmap, as:
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 * Root 1
@@ -140,7 +140,7 @@ It is possible to change node link::color[color].
 === With inline color
 
 * OrgMode syntax mindmap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 *[#Orange] Colors
@@ -151,7 +151,7 @@ It is possible to change node link::color[color].
 ----
 
 * Arithmetic notation syntax mindmap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 +[#Orange] Colors
@@ -162,7 +162,7 @@ It is possible to change node link::color[color].
 ----
 
 * Markdown syntax mindmap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 *[#Orange] root node
@@ -176,7 +176,7 @@ It is possible to change node link::color[color].
 === With style color
 
 * OrgMode syntax mindmap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 <style>
@@ -200,7 +200,7 @@ mindmapDiagram {
 ----
 
 * Arithmetic notation syntax mindmap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 <style>
@@ -224,7 +224,7 @@ mindmapDiagram {
 ----
 
 * Markdown syntax mindmap
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 <style>
@@ -253,7 +253,7 @@ mindmapDiagram {
 
 You can remove the box drawing using an underscore.
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 * root node
@@ -266,7 +266,7 @@ You can remove the box drawing using an underscore.
 ** another first level node
 @endmindmap
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 *_ root node
@@ -280,7 +280,7 @@ You can remove the box drawing using an underscore.
 @endmindmap
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 + root node
@@ -301,7 +301,7 @@ You can remove the box drawing using an underscore.
 
 It is possible to use both sides of the diagram.
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 * count
@@ -322,7 +322,7 @@ left side
 
 == Complete example
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 caption figure 1
@@ -358,7 +358,7 @@ endlegend
 == Changing style
 
 === node, depth
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 <style>
@@ -383,7 +383,7 @@ mindmapDiagram {
 ----
 
 === boxless
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 <style>
@@ -412,7 +412,7 @@ mindmapDiagram {
 
 Using `+MaximumWidth+` setting you can control automatic word wrap. Unit used is pixel.
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 

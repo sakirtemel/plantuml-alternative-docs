@@ -31,7 +31,7 @@ as alpha version in PlantUML version 8019.
 
 By default, the old "Puma" layout engine is still used, but you can turn on Teoz engine using some `+!pragma+` directive :
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma teoz true
@@ -52,7 +52,7 @@ Thanks for your feedback!
 == Anchors and Duration
 
 With `+teoz+` it is possible to add anchors to the diagram and use the anchors to specify duration time.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma teoz true
@@ -80,7 +80,7 @@ __[Ref. https://github.com/plantuml/plantuml/issues/582[GH-582]]__
 == Nested boxes for sequence diagrams
 
 With `+teoz+` it is possible to have nested boxes for sequence:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma teoz true
@@ -95,7 +95,7 @@ end box
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma teoz true

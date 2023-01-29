@@ -5,7 +5,7 @@ Extension of PlantUML __(See https://github.com/plantuml/plantuml/pull/120[Pull\
 
 == Example R1
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -34,7 +34,7 @@ __[from https://github.com/plantuml/plantuml/pull/120[Pull\_Request-120]]__
 
 == Example R1-1
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -78,7 +78,7 @@ end note
 ----
 
 Sequence:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 'skinparam backgroundColor lightblue
@@ -100,7 +100,7 @@ LB -> P: e1: save(final location)
 
 == Example R1-2
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -120,7 +120,7 @@ M -- D5:		c1
 
 == Example LiveBox 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 hide footbox
@@ -170,7 +170,7 @@ end
 
 == Example of Composition of two designed domains
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -201,7 +201,7 @@ D2 --> D5: e1
 
 == Example of Problem
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -226,7 +226,7 @@ M -- P: d
 
 == Minimal example
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Minimal example

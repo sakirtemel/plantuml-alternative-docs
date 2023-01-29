@@ -10,7 +10,7 @@ Basic support for https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_for
 
 == Minimal binary diagram
 
-[source, plantuml]
+[plantuml]
 ----
 @startebnf
 binaryDigit = "0" | "1";
@@ -22,7 +22,7 @@ binaryDigit = "0" | "1";
 
 LISP Grammar with PlantUML.
 
-[source, plantuml]
+[plantuml]
 ----
 @startebnf
 title LISP Grammar
@@ -43,7 +43,7 @@ empty = " ";
 
 EBNF elements managed by PlantUML.
 
-[source, plantuml]
+[plantuml]
 ----
 @startebnf
 title All EBNF elements managed by PlantUML
@@ -78,7 +78,7 @@ without_group = a | b , c;
 
 Notes may be added to elements of your diagram with ebnf comment tags.
 
-[source, plantuml]
+[plantuml]
 ----
 @startebnf
 title Comments
@@ -95,7 +95,7 @@ Rule2 =;
 
 EBNF allows for self description, so here it is!
 
-[source, plantuml]
+[plantuml]
 ----
 @startebnf
 grammar = { rule };

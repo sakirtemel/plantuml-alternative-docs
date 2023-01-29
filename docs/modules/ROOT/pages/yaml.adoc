@@ -8,7 +8,7 @@ To activate this feature, the diagram must:
 * begin with `+@startyaml+` keyword
 * end with `+@endyaml+` keyword. 
 
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
 fruit: Apple
@@ -22,7 +22,7 @@ color:
 
 == Complex example
 
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
 doe: "a deer, a female deer"
@@ -48,7 +48,7 @@ xmas-fifth-day:
 
 
 == Specific key (with symbols or unicode)
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
 @fruit: Apple
@@ -65,7 +65,7 @@ __[Ref. https://forum.plantuml.net/13376/[QA-13376]]__
 == Highlight parts
 
 === Normal style
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
 #highlight "french-hens"
@@ -94,7 +94,7 @@ xmas-fifth-day:
 
 
 === Customised style 
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
 <style>
@@ -135,7 +135,7 @@ __[Ref. https://forum.plantuml.net/13288/the-ability-to-customise-the-highlight-
 == Using (global) style
 
 === Without style __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
   -
@@ -154,7 +154,7 @@ __[Ref. https://forum.plantuml.net/13288/the-ability-to-customise-the-highlight-
 
 You can use link::style-evolution[style] to change rendering of elements.
 
-[source, plantuml]
+[plantuml]
 ----
 @startyaml
 <style>

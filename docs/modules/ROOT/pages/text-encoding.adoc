@@ -62,7 +62,7 @@ For PlantUML, the mapping array for values 0-63 is:
 
 The following diagram:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam backgroundColor #EEEBDC

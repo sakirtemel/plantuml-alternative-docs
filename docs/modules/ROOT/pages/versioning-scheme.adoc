@@ -52,7 +52,7 @@ java -jar plantuml.jar -version
 ----
 
 or use the following small special diagram description :
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 version

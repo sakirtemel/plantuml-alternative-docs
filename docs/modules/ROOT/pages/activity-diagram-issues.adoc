@@ -5,7 +5,7 @@ This page lists issues on link::activity-diagram-beta[Activity Diagram].
 
 == Backward Error on swim-lanes
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |Swimlane1|
@@ -21,7 +21,7 @@ stop
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |Swimlane1|
@@ -40,7 +40,7 @@ __[Ref. https://forum.plantuml.net/12427[QA-12427]]__
 
 '''
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |#AntiqueWhite|Sistem|
@@ -57,7 +57,7 @@ stop
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |Admin|
@@ -78,7 +78,7 @@ __[Ref. https://forum.plantuml.net/14473[QA-14473]]__
 
 == If test on swimlane
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |Lane 1|
@@ -97,7 +97,7 @@ endif
 
 VS 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 |Lane 2|
@@ -121,7 +121,7 @@ __[Ref. https://forum.plantuml.net/3689[QA-3689]]__
 
 The first example of `+goto+` is broken...
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Example of QA-1626
@@ -143,7 +143,7 @@ __[Ref. https://forum.plantuml.net/1626/there-refer-existing-activity-inside-act
 
 == Overlap of arrow on Switch [fixed on V1.2022.4+]
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 switch (Long long long Long long <b><color:red>long condition?)
@@ -158,7 +158,7 @@ footer \nObserved on:   1.2022.3b2\n(current version: %version())
 
 or
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>

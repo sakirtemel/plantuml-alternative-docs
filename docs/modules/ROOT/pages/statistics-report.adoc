@@ -33,7 +33,7 @@ You can retrieve it to use it as you wish.
 
 Here is a short class diagram about this API:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class StatsUtil {

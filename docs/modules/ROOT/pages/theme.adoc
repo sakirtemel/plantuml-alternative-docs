@@ -5,7 +5,7 @@ Following the work from https://github.com/bschwarz/puml-themes[Brett Schwarz], 
 Since those themes are included into the library, it is working out of the box: you don't need to install anything on your side.
 You just have to use the `+!theme+` directive:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !theme spacelab
@@ -15,7 +15,7 @@ class Example {
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !theme spacelab
@@ -35,7 +35,7 @@ Several websites are listing available themes:
 
 Finally, you can list all available themes from your PlantUML library:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 help themes
@@ -52,7 +52,7 @@ Some theme includes some procedures, to help coloring message, as:
 
 Example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !theme spacelab

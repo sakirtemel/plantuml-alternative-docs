@@ -19,7 +19,7 @@ We have made a demo with the special sentence __Write your own dedication!__
 
 It works in **each and every** deployed instance of PlantUML over the world !
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Write your own dedication!

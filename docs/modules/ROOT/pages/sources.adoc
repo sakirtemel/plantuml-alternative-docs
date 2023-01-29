@@ -66,7 +66,7 @@ Alice->Bob : hello
 ----
 
 The corresponding generated output will be:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice->Bob : TAG2
@@ -84,7 +84,7 @@ You can declare definition (`+def+`) some part on a file with an `+identifier+` 
 Then you can include, on the same file, only one definition part with `+!includedef <identifier>+` command.
 
 Example on a file named `+file.pu+`:
-[source, plantuml]
+[plantuml]
 ----
 @startdef(id=macro_def_id)
 Alice -> Bob : hello1
@@ -97,7 +97,7 @@ Alice -> Bob : hello2
 ----
 
 Then the corresponding generated output will be `+file_001.png+`, as:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : hello1

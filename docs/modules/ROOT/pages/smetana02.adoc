@@ -22,7 +22,7 @@ Smetana code has been integrated into PlantUML, so you can use the `+!pragma lay
 to force PlantUML to use https://github.com/plantuml/smetana[Smetana] (the internal Java port of GraphViz/Dot embedded in PlantUML sources) instead of the regular dot process.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma layout smetana

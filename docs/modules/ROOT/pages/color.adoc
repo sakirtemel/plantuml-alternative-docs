@@ -9,7 +9,7 @@ You can use specify fill and line colors either:
 A special color values: https://www.w3.org/TR/css-color-4/#valdef-color-transparent[`+transparent+`] can be used, synonym of https://www.w3.org/TR/css-color-4/#transparent-black[`+transparent black+`] (`+#00000000+`).
 
 Example on link::gantt-diagram[Gantt Diagram]:
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Activity1] lasts 5 days
@@ -22,7 +22,7 @@ Example on link::gantt-diagram[Gantt Diagram]:
 
 
 Example on link::sequence-diagram[Sequence Diagram]:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 actor Bob #Red/Yellow
@@ -54,7 +54,7 @@ See the previous section, and link::class-diagram#cfe920390b501516[Color gradien
 
 The special value `+automatic+` can be used for font (text foreground) color. In that case, the color is either black or white, depending on the current background.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam classFontColor automatic
@@ -115,7 +115,7 @@ You can manipulate color with link::preprocessing[Preprocessing], and the link::
 A user has recently created an image to display https://github.com/sledgeh/PlantUML-colors[all names colors used by PlantUML]. (We thank him by the way!)
 
 So a new feature has been added to print all those colors using a special diagram description:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 colors
@@ -125,7 +125,7 @@ colors
 It is also possible to print a palette of colors close to some other color (using its name or HEX value).
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 colors chocolate
@@ -146,7 +146,7 @@ link::archimate-diagram[Archimate] uses color names that reflect the purpose of 
 * Strategy
 * Technology
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam minClassWidth 125
@@ -166,7 +166,7 @@ rectangle Technology     #Technology
 
 == PlantUML colors
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam minClassWidth 200

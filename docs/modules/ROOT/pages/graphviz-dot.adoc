@@ -96,7 +96,7 @@ java -jar plantuml.jar -testdot
 
 You can also use this special diagram description:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 testdot

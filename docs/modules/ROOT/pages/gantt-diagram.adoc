@@ -11,7 +11,7 @@ Tasks defined using square bracket.
 
 Their durations are defined using the `+last+` verb:
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 15 days
@@ -31,7 +31,7 @@ A week is a synonym for how many non-closed days are in a week. So if you specif
 
 Their beginning are defined using the `+start+` verb:
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 15 days
@@ -42,7 +42,7 @@ Project starts 2020-07-01
 [Test prototype] starts 2020-07-16
 @endgantt
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 15 days
@@ -59,7 +59,7 @@ __[Ref. for `+D+nn+` form: https://forum.plantuml.net/14494/is-it-possible-to-co
 
 Their ending are defined using the `+end+` verb:
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 15 days
@@ -70,7 +70,7 @@ Project starts 2020-07-01
 [Test prototype] ends 2020-07-25
 @endgantt
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 15 days
@@ -83,7 +83,7 @@ Project starts 2020-07-01
 === Start/End
 
 It is possible to define both absolutely, by specifying dates:
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts 2020-07-01
@@ -94,7 +94,7 @@ Project starts 2020-07-01
 
 @endgantt
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] starts D+0
@@ -109,7 +109,7 @@ Project starts 2020-07-01
 
 It is possible to combine declaration on one line with the `+and+` conjunction.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts 2020-07-01
@@ -122,7 +122,7 @@ Project starts 2020-07-01
 == Adding constraints
 It is possible to add constraints between tasks.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 15 days
@@ -131,7 +131,7 @@ It is possible to add constraints between tasks.
 @endgantt
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 10 days
@@ -146,7 +146,7 @@ It is possible to add constraints between tasks.
 == Short names
 It is possible to define short name for tasks with the `+as+` keyword.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] as [D] lasts 15 days
@@ -159,7 +159,7 @@ It is possible to define short name for tasks with the `+as+` keyword.
 == Customize colors
 It is also possible to customize link::color[colors] with `+is colored in+`.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 13 days
@@ -177,7 +177,7 @@ You can set the completion status of a task, by the command:
 * `+is xx% completed+`
 * `+is xx% complete+` 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [foo] lasts 21 days
@@ -188,7 +188,7 @@ You can set the completion status of a task, by the command:
 
 === Change colour of completion (by style)
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -252,7 +252,7 @@ __[Ref. https://forum.plantuml.net/8297/plant-gantt-diagram-persentage-completed
 You can define Milestones using the `+happen+` verb.
 
 === Relative milestone (use of constraints)
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Test prototype] lasts 10 days
@@ -263,7 +263,7 @@ You can define Milestones using the `+happen+` verb.
 ----
 
 === Absolute milestone (use of fixed date)
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts 2020-07-01
@@ -276,7 +276,7 @@ Project starts 2020-07-01
 
 
 === Milestone of maximum end of tasks
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Task1] lasts 4 days
@@ -298,7 +298,7 @@ __[Ref. https://forum.plantuml.net/10764/gantt-multiple-tasks-as-prerequisite-fo
 == Hyperlinks
 You can add hyperlinks to tasks.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [task1] lasts 10 days
@@ -310,7 +310,7 @@ You can add hyperlinks to tasks.
 == Calendar
 You can specify a starting date for the whole project. By default, the first task starts at this date.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts the 20th of september 2017
@@ -324,7 +324,7 @@ Project starts the 20th of september 2017
 
 It is possible to add link::color[colors] to some days.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts the 2020/09/01 
@@ -354,7 +354,7 @@ and one of the values:
 __(See https://forum.plantuml.net/11272/gantt-keyword-printscale-should-replaced-with-projectscale?show=11274#a11274[QA-11272], https://forum.plantuml.net/9041/gantt-improvement?show=10699#a10699[QA-9041] and https://forum.plantuml.net/10948/gantt-printscale-weekly?show=10949#a10949[QA-10948])__
 
 === Daily __(by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 saturday are closed
@@ -372,7 +372,7 @@ Project starts the 1st of january 2021
 ----
 
 === Weekly
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 printscale weekly
@@ -390,7 +390,7 @@ Project starts the 1st of january 2021
 @endgantt
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 printscale weekly
@@ -406,7 +406,7 @@ Project starts the 20th of september 2020
 ----
 
 === Monthly
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale monthly
@@ -423,7 +423,7 @@ Project starts the 20th of september 2020
 
 
 === Quarterly
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale quarterly
@@ -438,7 +438,7 @@ Project starts the 20th of september 2020
 @endgantt
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale quarterly
@@ -453,7 +453,7 @@ Project starts the 1st of october 2020
 ----
 
 === Yearly
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale yearly
@@ -475,7 +475,7 @@ You can change zoom, with the parameter:
 
 === Zoom on weekly scale
 ==== Without zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 printscale daily
@@ -494,7 +494,7 @@ Project starts the 1st of january 2021
 ----
 
 ==== With zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 printscale daily zoom 2
@@ -515,7 +515,7 @@ __[Ref. https://forum.plantuml.net/13725/gantt-add-zoom-for-daily-scale[QA-13725
 
 === Zoom on weekly scale
 ==== Without zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 printscale weekly
@@ -534,7 +534,7 @@ Project starts the 1st of january 2021
 ----
 
 ==== With zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 printscale weekly zoom 4
@@ -554,7 +554,7 @@ Project starts the 1st of january 2021
 
 === Zoom on monthly scale
 ==== Without zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale monthly
@@ -570,7 +570,7 @@ Project starts the 20th of september 2020
 ----
 
 ==== With zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale monthly zoom 3
@@ -588,7 +588,7 @@ Project starts the 20th of september 2020
 
 === Zoom on quarterly scale
 ==== Without zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale quarterly
@@ -604,7 +604,7 @@ Project starts the 20th of september 2020
 ----
 
 ==== With zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale quarterly zoom 7
@@ -621,7 +621,7 @@ Project starts the 20th of september 2020
 
 === Zoom on yearly scale
 ==== Without zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale yearly
@@ -636,7 +636,7 @@ Project starts the 1st of october 2020
 ----
 
 ==== With zoom
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 projectscale yearly zoom 2
@@ -654,7 +654,7 @@ Project starts the 1st of october 2020
 == Close day
 It is possible to close some day.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 project starts the 2018/04/09
@@ -673,7 +673,7 @@ sunday are closed
 
 Then it is possible to open some closed day.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 2020-07-07 to 2020-07-17 is closed
@@ -689,7 +689,7 @@ Then [Test prototype] lasts 10 days
 == Definition of a week depending of closed days
 
 A **week** is a synonym for how many non-closed days are in a week, as:
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts 2021-03-29
@@ -700,7 +700,7 @@ Project starts 2021-03-29
 ----
 
 So if you specify __Saturday__ and __Sunday__ as closed, a **week** will be equivalent to 5 days, as:
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts 2021-03-29
@@ -718,7 +718,7 @@ __[Ref. https://forum.plantuml.net/13434/gantt-milestone-bug?show=13449#c13449[Q
 == Simplified task succession
 It's possible to use the `+then+` keyword to denote consecutive tasks.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 14 days
@@ -730,7 +730,7 @@ then [Deploy prototype] lasts 6 days
 You can also use arrow `+->+`
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 14 days
@@ -746,7 +746,7 @@ You can also use arrow `+->+`
 You can affect tasks on resources using the `+on+` keyword and brackets for resource name.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Task1] on {Alice} lasts 10 days
@@ -758,7 +758,7 @@ then [Task3] on {Alice:25%} lasts 1 days
 Multiple resources can be assigned to a task:
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Task1] on {Alice} {Bob} lasts 20 days
@@ -767,7 +767,7 @@ Multiple resources can be assigned to a task:
 
 Resources can be marked as off on specific days:
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 project starts on 2020-06-19
@@ -781,7 +781,7 @@ project starts on 2020-06-19
 
 === Without any hiding (by default)
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Task1] on {Alice} lasts 10 days
@@ -796,7 +796,7 @@ then [Task4] on {Alice:25%} {Bob} lasts 1 days
 
 You can hide ressources names and percentage, on tasks, using the `+hide ressources names+` keywords.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 hide ressources names
@@ -811,7 +811,7 @@ then [Task4] on {Alice:25%} {Bob} lasts 1 days
 
 You can also hide ressources names on bottom of the diagram using the `+ hide ressources footbox+` keywords.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 hide ressources footbox
@@ -826,7 +826,7 @@ then [Task4] on {Alice:25%} {Bob} lasts 1 days
 
 You can also hide the both.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 hide ressources names
@@ -844,7 +844,7 @@ then [Task4] on {Alice:25%} {Bob} lasts 1 days
 You can use `+--+` to separate sets of tasks.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Task1] lasts 10 days
@@ -862,7 +862,7 @@ It also possible to use the `+and+` conjunction.
 You can also add delays in constraints.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 13 days and is colored in Lavender/LightBlue
@@ -884,7 +884,7 @@ As is mentioned on link::commons#560kta2oz3a2k362kjbm[Common Commands page]:
 __(i.e.: the first character (except space character) of a comment line must be a `+simple quote '+`)__
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 ' This is a comment
@@ -902,7 +902,7 @@ is on several lines '/
 == Using style
 
 === Without style (by default)
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Task1] lasts 20 days
@@ -925,7 +925,7 @@ end note
 
 You can use link::style-evolution[style] to change rendering of elements.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 <style>
@@ -986,7 +986,7 @@ __[Ref. https://forum.plantuml.net/10835[QA-10835], https://forum.plantuml.net/1
 
 === With style (full example)
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 <style>
@@ -1077,7 +1077,7 @@ __Thanks for style for Separator and all style for Arrow (thickness...)__
 === Clean style
 
 With style, you can also clean a Gantt diagram __(showing tasks, dependencies and relative durations only - but no actual start date and no actual scale)__: 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 <style>
@@ -1105,7 +1105,7 @@ __[Ref. https://forum.plantuml.net/13971[QA-13971]]__
 
 Or:
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 <style>
@@ -1138,7 +1138,7 @@ __[Ref. https://forum.plantuml.net/13464[QA-13464]]__
 
 == Add notes
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [task01] lasts 15 days
@@ -1155,7 +1155,7 @@ end note
 ----
 
 Example with overlap.
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [task01] lasts 15 days
@@ -1173,7 +1173,7 @@ end note
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1207,7 +1207,7 @@ end note
 [[#c0ffc0#DONE]]
 __Thanks for correction (of https://github.com/plantuml/plantuml/issues/386[#386] on https://plantuml.com/changes[v1.2020.18]) when overlapping__
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1249,7 +1249,7 @@ end note
 
 == Pause tasks
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts the 5th of december 2018
@@ -1269,7 +1269,7 @@ sunday are closed
 
 You can change link colors:
 * with this syntax: `+with <color> <style> link+`
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [T1] lasts 4 days
@@ -1282,7 +1282,7 @@ You can change link colors:
 
 * or directly by using arrow style
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 <style>
@@ -1309,7 +1309,7 @@ __[Ref. https://forum.plantuml.net/13693[QA-13693]]__
 You can put Tasks or Milestones on the same line, with this syntax: 
 * `+[T|M] displays on same row as [T|M]+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 13 days
@@ -1327,7 +1327,7 @@ You can put Tasks or Milestones on the same line, with this syntax:
 
 == Highlight today
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 Project starts the 20th of september 2018
@@ -1345,7 +1345,7 @@ today is 30 days after start and is colored in #AAF
 
 == Task between two milestones
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 project starts on 2020-07-01
@@ -1372,7 +1372,7 @@ project starts on 2020-07-01
 
 == Add title, header, footer, caption or legend
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1404,7 +1404,7 @@ of the gantt diagram __(as for link::sequence-diagram[sequence diagram])__.
 Examples on:
 
 * daily scale __(without project start)__
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1417,7 +1417,7 @@ title Foot Box removed
 ----
 
 * daily scale
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1430,7 +1430,7 @@ hide footbox
 ----
 
 * weekly scale
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 hide footbox
@@ -1452,7 +1452,7 @@ Project starts the 1st of january 2021
 
 
 * monthly scale
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1471,7 +1471,7 @@ Project starts the 20th of september 2020
 ----
 
 * quarterly scale
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1489,7 +1489,7 @@ Project starts the 1st of october 2020
 ----
 
 * yearly scale
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 
@@ -1513,7 +1513,7 @@ You can choose the language of the Gantt calendar, with the `+language <xx>+` co
 
 
 === English  __(en, by default)__
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 saturday are closed
@@ -1530,7 +1530,7 @@ Project starts 2021-01-01
 ----
 
 === Deutsch (de)
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 language de
@@ -1548,7 +1548,7 @@ Project starts 2021-01-01
 ----
 
 === Japanese (ja)
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 language ja
@@ -1566,7 +1566,7 @@ Project starts 2021-01-01
 ----
 
 === Chinese (zh)
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 language zh
@@ -1584,7 +1584,7 @@ Project starts 2021-01-01
 ----
 
 === Korean (ko)
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 language ko
@@ -1606,7 +1606,7 @@ Project starts 2021-01-01
 
 You can mark some Tasks or Milestones as `+deleted+` instead of normally completed to distinguish tasks that may possibly have been discarded, postponed or whatever.
 
-[source, plantuml]
+[plantuml]
 ----
 @startgantt
 [Prototype design] lasts 1 weeks

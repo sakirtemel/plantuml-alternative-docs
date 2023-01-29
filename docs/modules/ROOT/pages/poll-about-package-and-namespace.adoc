@@ -51,7 +51,7 @@ You can use `+!pragma useNewPackage+` to enable the new behaviour.
 By default, the double colon `+::+` will be interpreted by PlantUML as a separator.
 
 Even if package are not explicitly nested, they will be printed as nested:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useNewPackage
@@ -73,7 +73,7 @@ package net::entities::sub {
 
 The following diagrams will give the same image:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useNewPackage
@@ -93,7 +93,7 @@ package net {
 
 or
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useNewPackage
@@ -119,7 +119,7 @@ What should be the default value for `+set separator+` directive:
 
 
 As said, right now, in last beta, the double colon `+::+` is the default separator. But you can change it using `+set separator+` directive.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useNewPackage
@@ -142,7 +142,7 @@ class net::entities::sub::foo4
 This separator feature would also be useful to retrieve the current behaviour, if **you don't** want the double colon `+::+` to be interpreted as a separator.
 
 For example, you could have:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useNewPackage
@@ -173,7 +173,7 @@ If using `+set separator none+` do not give you an acceptable result, http://alp
 Setting separator to `+none+` disable the merge of nested packages.
 For example, compare :
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useNewPackage
@@ -187,7 +187,7 @@ namespace f1 {
 
 and
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !pragma useNewPackage

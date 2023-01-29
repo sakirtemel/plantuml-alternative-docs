@@ -1,7 +1,7 @@
 == Maths
 
 Within PlantUML, you can use http://asciimath.org[AsciiMath] notation:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :<math>int_0^1f(x)dx</math>;
@@ -15,7 +15,7 @@ end note
 ----
 
 or https://github.com/opencollab/jlatexmath[JLaTeXMath] notation:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :<latex>\int_0^1f(x)dx</latex>;
@@ -29,7 +29,7 @@ end note
 ----
 
 Here is another example:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Bob -> Alice : Can you solve: <math>ax^2+bx+c=0</math>
@@ -43,7 +43,7 @@ Alice --> Bob: <math>x = (-b+-sqrt(b^2-4ac))/(2a)</math>
 You can also use `+@startmath+`/`+@endmath+` to create standalone http://asciimath.org[AsciiMath] formula.
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startmath
 f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)
@@ -53,7 +53,7 @@ f(t)=(a_0)/2 + sum_(n=1)^ooa_ncos((npit)/L)+sum_(n=1)^oo b_n\ sin((npit)/L)
 
 Or use `+@startlatex+`/`+@endlatex+` to create standalone https://github.com/opencollab/jlatexmath[JLaTeXMath] formula.
 
-[source, plantuml]
+[plantuml]
 ----
 @startlatex
 \sum_{i=0}^{n-1} (a_i + b_i^2)

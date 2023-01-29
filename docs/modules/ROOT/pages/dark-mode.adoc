@@ -4,7 +4,7 @@ Style support the standard `+@media (prefers-color-scheme:dark)+` directive.
 
 As you can see in  https://github.com/plantuml/plantuml/blob/master/skin/plantuml.skin[the default CSS used by PlantUML].
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>

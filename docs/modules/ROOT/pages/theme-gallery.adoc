@@ -5,7 +5,7 @@ Here is a Gallery of all the PlantUML link::theme[theme].
 
 == List of all themes
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 help themes
@@ -15,7 +15,7 @@ help themes
 
 === amiga
 ==== Activity with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -41,7 +41,7 @@ end
 ----
 
 ==== Class with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -64,7 +64,7 @@ interface       interface
 ----
 
 ==== Deployment with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -104,7 +104,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -128,7 +128,7 @@ end note
 ----
 
 ==== Mindmap with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -151,7 +151,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -183,7 +183,7 @@ nwdiag {
 ----
 
 ==== Object with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -213,7 +213,7 @@ dia --> o3
 ----
 
 ==== Salt with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -234,7 +234,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -261,7 +261,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -290,7 +290,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -318,7 +318,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+amiga+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -341,7 +341,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === aws-orange
 ==== Activity with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -367,7 +367,7 @@ end
 ----
 
 ==== Class with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -390,7 +390,7 @@ interface       interface
 ----
 
 ==== Deployment with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -430,7 +430,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -454,7 +454,7 @@ end note
 ----
 
 ==== Mindmap with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -477,7 +477,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -509,7 +509,7 @@ nwdiag {
 ----
 
 ==== Object with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -539,7 +539,7 @@ dia --> o3
 ----
 
 ==== Salt with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -560,7 +560,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -587,7 +587,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -616,7 +616,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -644,7 +644,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+aws-orange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -667,7 +667,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+black-knight+`
 ==== Activity with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -693,7 +693,7 @@ end
 ----
 
 ==== Class with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -716,7 +716,7 @@ interface       interface
 ----
 
 ==== Deployment with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -756,7 +756,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -780,7 +780,7 @@ end note
 ----
 
 ==== Mindmap with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -803,7 +803,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -835,7 +835,7 @@ nwdiag {
 ----
 
 ==== Object with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -865,7 +865,7 @@ dia --> o3
 ----
 
 ==== Salt with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -886,7 +886,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -913,7 +913,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -942,7 +942,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -970,7 +970,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+black-knight+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -993,7 +993,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+bluegray+`
 ==== Activity with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1019,7 +1019,7 @@ end
 ----
 
 ==== Class with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1042,7 +1042,7 @@ interface       interface
 ----
 
 ==== Deployment with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1082,7 +1082,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1106,7 +1106,7 @@ end note
 ----
 
 ==== Mindmap with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1129,7 +1129,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1161,7 +1161,7 @@ nwdiag {
 ----
 
 ==== Object with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1191,7 +1191,7 @@ dia --> o3
 ----
 
 ==== Salt with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1212,7 +1212,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1239,7 +1239,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1268,7 +1268,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1296,7 +1296,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+bluegray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1319,7 +1319,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+blueprint+`
 ==== Activity with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1345,7 +1345,7 @@ end
 ----
 
 ==== Class with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1368,7 +1368,7 @@ interface       interface
 ----
 
 ==== Deployment with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1408,7 +1408,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1432,7 +1432,7 @@ end note
 ----
 
 ==== Mindmap with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1455,7 +1455,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1487,7 +1487,7 @@ nwdiag {
 ----
 
 ==== Object with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1517,7 +1517,7 @@ dia --> o3
 ----
 
 ==== Salt with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1538,7 +1538,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1565,7 +1565,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1594,7 +1594,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1622,7 +1622,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+blueprint+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1645,7 +1645,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+cerulean+`
 ==== Activity with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1671,7 +1671,7 @@ end
 ----
 
 ==== Class with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1694,7 +1694,7 @@ interface       interface
 ----
 
 ==== Deployment with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1734,7 +1734,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1758,7 +1758,7 @@ end note
 ----
 
 ==== Mindmap with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1781,7 +1781,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1813,7 +1813,7 @@ nwdiag {
 ----
 
 ==== Object with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1843,7 +1843,7 @@ dia --> o3
 ----
 
 ==== Salt with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1864,7 +1864,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1891,7 +1891,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1920,7 +1920,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1948,7 +1948,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+cerulean+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1971,7 +1971,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+cerulean-outline+`
 ==== Activity with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -1997,7 +1997,7 @@ end
 ----
 
 ==== Class with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2020,7 +2020,7 @@ interface       interface
 ----
 
 ==== Deployment with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2060,7 +2060,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2084,7 +2084,7 @@ end note
 ----
 
 ==== Mindmap with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2107,7 +2107,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2139,7 +2139,7 @@ nwdiag {
 ----
 
 ==== Object with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2169,7 +2169,7 @@ dia --> o3
 ----
 
 ==== Salt with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2190,7 +2190,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2217,7 +2217,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2246,7 +2246,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2274,7 +2274,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+cerulean-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2297,7 +2297,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+crt-amber+`
 ==== Activity with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2323,7 +2323,7 @@ end
 ----
 
 ==== Class with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2346,7 +2346,7 @@ interface       interface
 ----
 
 ==== Deployment with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2386,7 +2386,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2410,7 +2410,7 @@ end note
 ----
 
 ==== Mindmap with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2433,7 +2433,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2465,7 +2465,7 @@ nwdiag {
 ----
 
 ==== Object with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2495,7 +2495,7 @@ dia --> o3
 ----
 
 ==== Salt with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2516,7 +2516,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2543,7 +2543,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2572,7 +2572,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2600,7 +2600,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+crt-amber+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2623,7 +2623,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+crt-green+`
 ==== Activity with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2649,7 +2649,7 @@ end
 ----
 
 ==== Class with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2672,7 +2672,7 @@ interface       interface
 ----
 
 ==== Deployment with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2712,7 +2712,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2736,7 +2736,7 @@ end note
 ----
 
 ==== Mindmap with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2759,7 +2759,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2791,7 +2791,7 @@ nwdiag {
 ----
 
 ==== Object with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2821,7 +2821,7 @@ dia --> o3
 ----
 
 ==== Salt with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2842,7 +2842,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2869,7 +2869,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2898,7 +2898,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2926,7 +2926,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+crt-green+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2949,7 +2949,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+cyborg+`
 ==== Activity with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2975,7 +2975,7 @@ end
 ----
 
 ==== Class with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -2998,7 +2998,7 @@ interface       interface
 ----
 
 ==== Deployment with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3038,7 +3038,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3062,7 +3062,7 @@ end note
 ----
 
 ==== Mindmap with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3085,7 +3085,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3117,7 +3117,7 @@ nwdiag {
 ----
 
 ==== Object with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3147,7 +3147,7 @@ dia --> o3
 ----
 
 ==== Salt with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3168,7 +3168,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3195,7 +3195,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3224,7 +3224,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3252,7 +3252,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+cyborg+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3275,7 +3275,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+cyborg-outline+`
 ==== Activity with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3301,7 +3301,7 @@ end
 ----
 
 ==== Class with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3324,7 +3324,7 @@ interface       interface
 ----
 
 ==== Deployment with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3364,7 +3364,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3388,7 +3388,7 @@ end note
 ----
 
 ==== Mindmap with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3411,7 +3411,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3443,7 +3443,7 @@ nwdiag {
 ----
 
 ==== Object with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3473,7 +3473,7 @@ dia --> o3
 ----
 
 ==== Salt with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3494,7 +3494,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3521,7 +3521,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3550,7 +3550,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3578,7 +3578,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+cyborg-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3601,7 +3601,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+hacker+`
 ==== Activity with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3627,7 +3627,7 @@ end
 ----
 
 ==== Class with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3650,7 +3650,7 @@ interface       interface
 ----
 
 ==== Deployment with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3690,7 +3690,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3714,7 +3714,7 @@ end note
 ----
 
 ==== Mindmap with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3737,7 +3737,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3769,7 +3769,7 @@ nwdiag {
 ----
 
 ==== Object with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3799,7 +3799,7 @@ dia --> o3
 ----
 
 ==== Salt with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3820,7 +3820,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3847,7 +3847,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3876,7 +3876,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3904,7 +3904,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+hacker+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3927,7 +3927,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+lightgray+`
 ==== Activity with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3953,7 +3953,7 @@ end
 ----
 
 ==== Class with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -3976,7 +3976,7 @@ interface       interface
 ----
 
 ==== Deployment with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4016,7 +4016,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4040,7 +4040,7 @@ end note
 ----
 
 ==== Mindmap with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4063,7 +4063,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4095,7 +4095,7 @@ nwdiag {
 ----
 
 ==== Object with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4125,7 +4125,7 @@ dia --> o3
 ----
 
 ==== Salt with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4146,7 +4146,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4173,7 +4173,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4202,7 +4202,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4230,7 +4230,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+lightgray+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4253,7 +4253,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+materia+`
 ==== Activity with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4279,7 +4279,7 @@ end
 ----
 
 ==== Class with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4302,7 +4302,7 @@ interface       interface
 ----
 
 ==== Deployment with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4342,7 +4342,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4366,7 +4366,7 @@ end note
 ----
 
 ==== Mindmap with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4389,7 +4389,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4421,7 +4421,7 @@ nwdiag {
 ----
 
 ==== Object with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4451,7 +4451,7 @@ dia --> o3
 ----
 
 ==== Salt with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4472,7 +4472,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4499,7 +4499,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4528,7 +4528,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4556,7 +4556,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+materia+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4579,7 +4579,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+materia-outline+`
 ==== Activity with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4605,7 +4605,7 @@ end
 ----
 
 ==== Class with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4628,7 +4628,7 @@ interface       interface
 ----
 
 ==== Deployment with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4668,7 +4668,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4692,7 +4692,7 @@ end note
 ----
 
 ==== Mindmap with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4715,7 +4715,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4747,7 +4747,7 @@ nwdiag {
 ----
 
 ==== Object with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4777,7 +4777,7 @@ dia --> o3
 ----
 
 ==== Salt with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4798,7 +4798,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4825,7 +4825,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4854,7 +4854,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4882,7 +4882,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+materia-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4905,7 +4905,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+metal+`
 ==== Activity with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4931,7 +4931,7 @@ end
 ----
 
 ==== Class with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4954,7 +4954,7 @@ interface       interface
 ----
 
 ==== Deployment with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -4994,7 +4994,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5018,7 +5018,7 @@ end note
 ----
 
 ==== Mindmap with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5041,7 +5041,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5073,7 +5073,7 @@ nwdiag {
 ----
 
 ==== Object with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5103,7 +5103,7 @@ dia --> o3
 ----
 
 ==== Salt with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5124,7 +5124,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5151,7 +5151,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5180,7 +5180,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5208,7 +5208,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+metal+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5231,7 +5231,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+mimeograph+`
 ==== Activity with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5257,7 +5257,7 @@ end
 ----
 
 ==== Class with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5280,7 +5280,7 @@ interface       interface
 ----
 
 ==== Deployment with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5320,7 +5320,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5344,7 +5344,7 @@ end note
 ----
 
 ==== Mindmap with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5367,7 +5367,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5399,7 +5399,7 @@ nwdiag {
 ----
 
 ==== Object with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5429,7 +5429,7 @@ dia --> o3
 ----
 
 ==== Salt with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5450,7 +5450,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5477,7 +5477,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5506,7 +5506,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5534,7 +5534,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+mimeograph+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5557,7 +5557,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+minty+`
 ==== Activity with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5583,7 +5583,7 @@ end
 ----
 
 ==== Class with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5606,7 +5606,7 @@ interface       interface
 ----
 
 ==== Deployment with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5646,7 +5646,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5670,7 +5670,7 @@ end note
 ----
 
 ==== Mindmap with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5693,7 +5693,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5725,7 +5725,7 @@ nwdiag {
 ----
 
 ==== Object with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5755,7 +5755,7 @@ dia --> o3
 ----
 
 ==== Salt with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5776,7 +5776,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5803,7 +5803,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5832,7 +5832,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5860,7 +5860,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+minty+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5883,7 +5883,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+plain+`
 ==== Activity with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5909,7 +5909,7 @@ end
 ----
 
 ==== Class with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5932,7 +5932,7 @@ interface       interface
 ----
 
 ==== Deployment with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5972,7 +5972,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -5996,7 +5996,7 @@ end note
 ----
 
 ==== Mindmap with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6019,7 +6019,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6051,7 +6051,7 @@ nwdiag {
 ----
 
 ==== Object with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6081,7 +6081,7 @@ dia --> o3
 ----
 
 ==== Salt with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6102,7 +6102,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6129,7 +6129,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6158,7 +6158,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6186,7 +6186,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+plain+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6209,7 +6209,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+resume-light+`
 ==== Activity with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6235,7 +6235,7 @@ end
 ----
 
 ==== Class with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6258,7 +6258,7 @@ interface       interface
 ----
 
 ==== Deployment with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6298,7 +6298,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6322,7 +6322,7 @@ end note
 ----
 
 ==== Mindmap with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6345,7 +6345,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6377,7 +6377,7 @@ nwdiag {
 ----
 
 ==== Object with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6407,7 +6407,7 @@ dia --> o3
 ----
 
 ==== Salt with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6428,7 +6428,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6455,7 +6455,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6484,7 +6484,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6512,7 +6512,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+resume-light+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6535,7 +6535,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+sandstone+`
 ==== Activity with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6561,7 +6561,7 @@ end
 ----
 
 ==== Class with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6584,7 +6584,7 @@ interface       interface
 ----
 
 ==== Deployment with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6624,7 +6624,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6648,7 +6648,7 @@ end note
 ----
 
 ==== Mindmap with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6671,7 +6671,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6703,7 +6703,7 @@ nwdiag {
 ----
 
 ==== Object with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6733,7 +6733,7 @@ dia --> o3
 ----
 
 ==== Salt with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6754,7 +6754,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6781,7 +6781,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6810,7 +6810,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6838,7 +6838,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+sandstone+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6861,7 +6861,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+silver+`
 ==== Activity with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6887,7 +6887,7 @@ end
 ----
 
 ==== Class with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6910,7 +6910,7 @@ interface       interface
 ----
 
 ==== Deployment with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6950,7 +6950,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6974,7 +6974,7 @@ end note
 ----
 
 ==== Mindmap with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -6997,7 +6997,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7029,7 +7029,7 @@ nwdiag {
 ----
 
 ==== Object with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7059,7 +7059,7 @@ dia --> o3
 ----
 
 ==== Salt with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7080,7 +7080,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7107,7 +7107,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7136,7 +7136,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7164,7 +7164,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+silver+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7187,7 +7187,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+sketchy+`
 ==== Activity with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7213,7 +7213,7 @@ end
 ----
 
 ==== Class with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7236,7 +7236,7 @@ interface       interface
 ----
 
 ==== Deployment with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7276,7 +7276,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7300,7 +7300,7 @@ end note
 ----
 
 ==== Mindmap with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7323,7 +7323,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7355,7 +7355,7 @@ nwdiag {
 ----
 
 ==== Object with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7385,7 +7385,7 @@ dia --> o3
 ----
 
 ==== Salt with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7406,7 +7406,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7433,7 +7433,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7462,7 +7462,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7490,7 +7490,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+sketchy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7512,7 +7512,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+sketchy-outline+`
 ==== Activity with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7540,7 +7540,7 @@ end
 
 === Theme `+sketchy-outline+`
 ==== Activity with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7566,7 +7566,7 @@ end
 ----
 
 ==== Class with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7589,7 +7589,7 @@ interface       interface
 ----
 
 ==== Deployment with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7629,7 +7629,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7653,7 +7653,7 @@ end note
 ----
 
 ==== Mindmap with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7676,7 +7676,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7708,7 +7708,7 @@ nwdiag {
 ----
 
 ==== Object with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7738,7 +7738,7 @@ dia --> o3
 ----
 
 ==== Salt with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7759,7 +7759,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7786,7 +7786,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7815,7 +7815,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7843,7 +7843,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+sketchy-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7866,7 +7866,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+spacelab+`
 ==== Activity with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7892,7 +7892,7 @@ end
 ----
 
 ==== Class with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7915,7 +7915,7 @@ interface       interface
 ----
 
 ==== Deployment with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7955,7 +7955,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -7979,7 +7979,7 @@ end note
 ----
 
 ==== Mindmap with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8002,7 +8002,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8034,7 +8034,7 @@ nwdiag {
 ----
 
 ==== Object with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8064,7 +8064,7 @@ dia --> o3
 ----
 
 ==== Salt with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8085,7 +8085,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8112,7 +8112,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8141,7 +8141,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8169,7 +8169,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+spacelab+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8192,7 +8192,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+toy+`
 ==== Activity with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8218,7 +8218,7 @@ end
 ----
 
 ==== Class with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8241,7 +8241,7 @@ interface       interface
 ----
 
 ==== Deployment with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8281,7 +8281,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8305,7 +8305,7 @@ end note
 ----
 
 ==== Mindmap with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8328,7 +8328,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8360,7 +8360,7 @@ nwdiag {
 ----
 
 ==== Object with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8390,7 +8390,7 @@ dia --> o3
 ----
 
 ==== Salt with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8411,7 +8411,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8438,7 +8438,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8467,7 +8467,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8495,7 +8495,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+toy+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8518,7 +8518,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+united+`
 ==== Activity with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8544,7 +8544,7 @@ end
 ----
 
 ==== Class with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8567,7 +8567,7 @@ interface       interface
 ----
 
 ==== Deployment with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8607,7 +8607,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8631,7 +8631,7 @@ end note
 ----
 
 ==== Mindmap with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8654,7 +8654,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8686,7 +8686,7 @@ nwdiag {
 ----
 
 ==== Object with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8716,7 +8716,7 @@ dia --> o3
 ----
 
 ==== Salt with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8737,7 +8737,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8764,7 +8764,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8793,7 +8793,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8821,7 +8821,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+united+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8844,7 +8844,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+vibrant+`
 ==== Activity with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8870,7 +8870,7 @@ end
 ----
 
 ==== Class with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8893,7 +8893,7 @@ interface       interface
 ----
 
 ==== Deployment with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8933,7 +8933,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8957,7 +8957,7 @@ end note
 ----
 
 ==== Mindmap with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -8980,7 +8980,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9012,7 +9012,7 @@ nwdiag {
 ----
 
 ==== Object with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9042,7 +9042,7 @@ dia --> o3
 ----
 
 ==== Salt with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9063,7 +9063,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9090,7 +9090,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9119,7 +9119,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9147,7 +9147,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+vibrant+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9170,7 +9170,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+superhero+`
 ==== Activity with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9196,7 +9196,7 @@ end
 ----
 
 ==== Class with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9219,7 +9219,7 @@ interface       interface
 ----
 
 ==== Deployment with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9259,7 +9259,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9283,7 +9283,7 @@ end note
 ----
 
 ==== Mindmap with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9306,7 +9306,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9338,7 +9338,7 @@ nwdiag {
 ----
 
 ==== Object with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9368,7 +9368,7 @@ dia --> o3
 ----
 
 ==== Salt with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9389,7 +9389,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9416,7 +9416,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9445,7 +9445,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9473,7 +9473,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+superhero+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9496,7 +9496,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+superhero-outline+`
 ==== Activity with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9522,7 +9522,7 @@ end
 ----
 
 ==== Class with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9545,7 +9545,7 @@ interface       interface
 ----
 
 ==== Deployment with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9585,7 +9585,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9609,7 +9609,7 @@ end note
 ----
 
 ==== Mindmap with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9632,7 +9632,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9664,7 +9664,7 @@ nwdiag {
 ----
 
 ==== Object with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9694,7 +9694,7 @@ dia --> o3
 ----
 
 ==== Salt with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9715,7 +9715,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9742,7 +9742,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9771,7 +9771,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9799,7 +9799,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+superhero-outline+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9822,7 +9822,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+reddress-darkblue+`
 ==== Activity with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9848,7 +9848,7 @@ end
 ----
 
 ==== Class with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9871,7 +9871,7 @@ interface       interface
 ----
 
 ==== Deployment with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9911,7 +9911,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9935,7 +9935,7 @@ end note
 ----
 
 ==== Mindmap with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9958,7 +9958,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -9990,7 +9990,7 @@ nwdiag {
 ----
 
 ==== Object with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10020,7 +10020,7 @@ dia --> o3
 ----
 
 ==== Salt with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10041,7 +10041,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10068,7 +10068,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10097,7 +10097,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10125,7 +10125,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+reddress-darkblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10148,7 +10148,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+reddress-darkorange+`
 ==== Activity with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10174,7 +10174,7 @@ end
 ----
 
 ==== Class with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10197,7 +10197,7 @@ interface       interface
 ----
 
 ==== Deployment with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10237,7 +10237,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10261,7 +10261,7 @@ end note
 ----
 
 ==== Mindmap with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10284,7 +10284,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10316,7 +10316,7 @@ nwdiag {
 ----
 
 ==== Object with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10346,7 +10346,7 @@ dia --> o3
 ----
 
 ==== Salt with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10367,7 +10367,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10394,7 +10394,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10423,7 +10423,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10451,7 +10451,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+reddress-darkorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10474,7 +10474,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+reddress-darkred+`
 ==== Activity with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10500,7 +10500,7 @@ end
 ----
 
 ==== Class with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10523,7 +10523,7 @@ interface       interface
 ----
 
 ==== Deployment with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10563,7 +10563,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10587,7 +10587,7 @@ end note
 ----
 
 ==== Mindmap with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10610,7 +10610,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10642,7 +10642,7 @@ nwdiag {
 ----
 
 ==== Object with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10672,7 +10672,7 @@ dia --> o3
 ----
 
 ==== Salt with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10693,7 +10693,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10720,7 +10720,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10749,7 +10749,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10777,7 +10777,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+reddress-darkred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10800,7 +10800,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+reddress-lightblue+`
 ==== Activity with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10826,7 +10826,7 @@ end
 ----
 
 ==== Class with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10849,7 +10849,7 @@ interface       interface
 ----
 
 ==== Deployment with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10889,7 +10889,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10913,7 +10913,7 @@ end note
 ----
 
 ==== Mindmap with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10936,7 +10936,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10968,7 +10968,7 @@ nwdiag {
 ----
 
 ==== Object with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -10998,7 +10998,7 @@ dia --> o3
 ----
 
 ==== Salt with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11019,7 +11019,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11046,7 +11046,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11075,7 +11075,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11103,7 +11103,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+reddress-lightblue+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11125,7 +11125,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+reddress-lightgreen+`
 ==== Activity with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11153,7 +11153,7 @@ end
 
 === Theme `+reddress-lightgreen+`
 ==== Class with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11176,7 +11176,7 @@ interface       interface
 ----
 
 ==== Deployment with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11216,7 +11216,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11240,7 +11240,7 @@ end note
 ----
 
 ==== Mindmap with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11263,7 +11263,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11295,7 +11295,7 @@ nwdiag {
 ----
 
 ==== Object with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11325,7 +11325,7 @@ dia --> o3
 ----
 
 ==== Salt with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11346,7 +11346,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11373,7 +11373,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11402,7 +11402,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11430,7 +11430,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+reddress-lightgreen+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11453,7 +11453,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+reddress-lightorange+`
 ==== Activity with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11479,7 +11479,7 @@ end
 ----
 
 ==== Class with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11502,7 +11502,7 @@ interface       interface
 ----
 
 ==== Deployment with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11542,7 +11542,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11566,7 +11566,7 @@ end note
 ----
 
 ==== Mindmap with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11589,7 +11589,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11621,7 +11621,7 @@ nwdiag {
 ----
 
 ==== Object with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11651,7 +11651,7 @@ dia --> o3
 ----
 
 ==== Salt with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11672,7 +11672,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11699,7 +11699,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11728,7 +11728,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11756,7 +11756,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+reddress-lightorange+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11779,7 +11779,7 @@ WB@0 <-> @50 : {50 ms lag}
 
 === Theme `+reddress-lightred+`
 ==== Activity with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11805,7 +11805,7 @@ end
 ----
 
 ==== Class with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11828,7 +11828,7 @@ interface       interface
 ----
 
 ==== Deployment with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11868,7 +11868,7 @@ usecase/ "usecase/"
 ----
 
 ==== Gantt with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11892,7 +11892,7 @@ end note
 ----
 
 ==== Mindmap with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11915,7 +11915,7 @@ left_3.2;
 ----
 
 ==== Nwdiag  with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11947,7 +11947,7 @@ nwdiag {
 ----
 
 ==== Object with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11977,7 +11977,7 @@ dia --> o3
 ----
 
 ==== Salt with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -11998,7 +11998,7 @@ dia --> o3
 ----
 
 ==== Sequence with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -12025,7 +12025,7 @@ Foo -> Foo7: To queue
 ----
 
 ==== State with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -12054,7 +12054,7 @@ join2   --> [*]     : from join\nto end
 ----
 
 ==== Timing with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -12082,7 +12082,7 @@ WB@0 <-> @50 : {50 ms lag}
 ----
 
 ==== WBS with `+reddress-lightred+` theme
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 

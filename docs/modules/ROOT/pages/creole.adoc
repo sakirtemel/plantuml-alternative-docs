@@ -10,7 +10,7 @@ Note that compatibility with HTML syntax is preserved.
 
 == Emphasized text
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : hello --there-- here
@@ -34,7 +34,7 @@ You can use numbered and bulleted lists in node text, notes, etc.
 
 [[#FFD700#FIXME]] 🚩 You cannot quite mix numbers and bullets in a list and its sublist.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object demo {
@@ -63,7 +63,7 @@ end legend
 == Escape character
 
 You can use the tilde `+~+` to escape special creole characters.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object demo {
@@ -78,7 +78,7 @@ object demo {
 == Headings
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 usecase UC1 as "
@@ -101,7 +101,7 @@ Information
 
 All emojis from https://twemoji.twitter.com/[Twemoji] (see https://github.com/EmojiTwo/emojitwo[EmojiTwo] on Github) are available using the following syntax:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : Hello <:1f600:>
@@ -132,7 +132,7 @@ Over 580 emojis from the following https://en.wikipedia.org/wiki/Unicode_block[U
 
 === Unicode block 26
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 emoji 26
@@ -143,7 +143,7 @@ emoji 26
 == Horizontal lines
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 database DB1 as "
@@ -188,7 +188,7 @@ URL can also be link::url-authentication[authenticated].
 You can use `+<code>+` to display some programming code in your diagram 
 (sorry, syntax highlighting is not yet supported).
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Alice -> Bob : hello
@@ -204,7 +204,7 @@ end note
 
 This is especially useful to illustrate some PlantUML code and the resulting rendering:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 hide footbox
@@ -241,7 +241,7 @@ end note
 === Create a table
 It is possible to build table, with `+|+` separator.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam titleFontSize 14
@@ -258,7 +258,7 @@ end title
 === Add color on rows or cells
 You can specify background link::color[colors] of rows and cells:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -273,7 +273,7 @@ start
 === Add color on border and text
 You can also specify link::color[colors] of text and borders.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title
@@ -288,7 +288,7 @@ __[Ref. https://forum.plantuml.net/7184/set-legendborderthickness-to-0?show=7213
 === No border or same color as the background 
 You can also set the border color to the same color as the background.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node n
@@ -303,7 +303,7 @@ __[Ref. https://forum.plantuml.net/12448/removing-hiding-borders-on-tables?show=
 
 === Bold header or not
 `+=+` as the first char of a cell indicates whether to make it bold (usually used for headers), or not.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 note as deepCSS0
@@ -336,7 +336,7 @@ __[Ref. https://forum.plantuml.net/10923/how-to-create-a-creole-table-without-a-
 You can use `+|_+` characters to build a tree.
 
 On common commands, like title:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam titleFontSize 14
@@ -356,7 +356,7 @@ end title
 On Class diagram.
 
 (Please note how we have to use an empty second compartment, else the parentheses in **(Model)** cause that text to be moved to a separate first compartment):
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 class Foo {
@@ -374,7 +374,7 @@ class Foo {
 __[Ref. https://forum.plantuml.net/3448[QA-3448]]__
 
 On Component or Deployment diagrams:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [A] as A
@@ -402,7 +402,7 @@ __[Ref. https://forum.plantuml.net/11365/creole-trees-do-not-respect-indent-leve
 It's possible to use any http://www.fileformat.info/info/unicode/category/Sm/list.htm[unicode character],
 either directly or with syntax `+&#XXX+` or `+<U+XXXX>+`:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 usecase direct as "this is ∞ long"
@@ -428,7 +428,7 @@ You can mix Creole with the following HTML tags:
 * `+<img:file>+` : the file must be accessible by the filesystem
 * `+<img:http://plantuml.com/logo3.png>+` : the URL must be available from the Internet
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :* You can change <color:red>text color</color>
@@ -443,7 +443,7 @@ You can mix Creole with the following HTML tags:
 ----
 
 === Common HTML element
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 hide footbox
@@ -488,7 +488,7 @@ end note
 __[Ref. https://forum.plantuml.net/5254[QA-5254] for `+plain+`]__
 
 === Subscript and Superscript element [sub, sup]
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 :<code>
@@ -511,7 +511,7 @@ OpenIconic is a very nice open-source icon set.
 Those icons are integrated in the creole parser, so you can use them out-of-the-box.
 
 Use the following syntax: `+<&ICON_NAME>+`.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title: <size:20><&heart>Use of OpenIconic<&heart></size>
@@ -524,7 +524,7 @@ end note
 
 The complete list is available with the following special command:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 listopeniconic
@@ -536,7 +536,7 @@ listopeniconic
 
 === Activity
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -564,7 +564,7 @@ stop
 * __Sub sub item__
 [[#FFD700#FIXME]] 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -591,7 +591,7 @@ a -- b
 
 === Component, Deployment, Use-Case
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node n [
@@ -644,7 +644,7 @@ N/A
 * __Sub sub item__
 [[#FFD700#FIXME]] 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object user {
@@ -668,7 +668,7 @@ object user {
 
 === MindMap
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 
@@ -693,7 +693,7 @@ object user {
 ----
 
 === Network (nwdiag)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -704,7 +704,7 @@ nwdiag {
 ----
 
 === Note
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 note as n
@@ -735,7 +735,7 @@ N/A __(or on note or common commands)__
 
 === WBS
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 
@@ -769,7 +769,7 @@ strong line
 `+____+`
 [[#FFD700#FIXME]] 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 start
@@ -796,7 +796,7 @@ stop
 
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -825,7 +825,7 @@ a -- b
 
 === Component, Deployment, Use-Case
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 node n [
@@ -884,7 +884,7 @@ N/A
 
 === Object
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 object user {
@@ -915,7 +915,7 @@ __[Corrected on https://plantuml.com/changes[V1.2020.18]]__
 strong line
 `+____+`
 [[#FFD700#FIXME]] 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 
@@ -938,7 +938,7 @@ Enjoy!;
 ----
 
 === Network (nwdiag)
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 nwdiag {
@@ -950,7 +950,7 @@ nwdiag {
 
 
 === Note
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 note as n
@@ -986,7 +986,7 @@ N/A __(or on note or common commands)__
 strong line
 `+____+`
 [[#FFD700#FIXME]] 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 
@@ -1041,7 +1041,7 @@ Enjoy!;
 |===
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 * Style equivalent\n(between Creole and HTML) 

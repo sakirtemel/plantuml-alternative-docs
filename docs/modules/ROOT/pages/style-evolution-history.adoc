@@ -101,7 +101,7 @@ Let's first focus on some elements (actor, boundary which can be used in several
 
 If you want use blue color for text everywhere:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -114,7 +114,7 @@ root {
 Alice -> Bob : hello
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -131,7 +131,7 @@ Internally, there is a "plantuml.skin" file stored in the plantuml.jar library t
 
 So now, imagine that you want all UML elements (so not for title, footer...) in green:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -147,7 +147,7 @@ element {
 Alice -> Bob : hello
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -167,7 +167,7 @@ The order of declaration is important: since "element" is defined after "root", 
 
 Now, you want also all actor printed in red:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -188,7 +188,7 @@ Alice -> Bob : hello
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -210,7 +210,7 @@ Alice -> Bob : hello
 ----
 Now, you want also sequence diagrams printed in purple:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -235,7 +235,7 @@ Alice -> Bob : hello
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -260,7 +260,7 @@ Alice -> Bob : hello
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -286,7 +286,7 @@ Alice -> Bob : hello
 ----
 
 Changing the order definition will only change the color of actor in sequence diagram:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -311,7 +311,7 @@ Alice -> Bob : hello
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -338,7 +338,7 @@ Alice -> Bob : hello
 
 Finally, there is also a way to change a setting for a element which have two or more precise styles:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -355,7 +355,7 @@ Alice -> Bob : hello
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -409,7 +409,7 @@ Alice->Sally: Also Hello! <<SmallFont>>
 
 Here is another example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -429,7 +429,7 @@ Bob->Alice: Hello <<BobAndAliceMessage>>
 Alice->Sally: Also Hello!
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 <style>
@@ -459,7 +459,7 @@ The idea here is to allow a style to be different in some context (for example a
 
 For example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -511,7 +511,7 @@ The only difference is that a stereotype is printed on diagrams using standard U
 
 For example, you can have:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -531,7 +531,7 @@ Alice is going to be printed in green and Bob in red. However, `+<<foo1>>+` is g
 
 Now, since stereotype are printed, you can change stereotype colors using a style named `+stereotype+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -549,7 +549,7 @@ So `+Bob+` is going to be printed in red and `+<<dummy1>>+` is going to be print
 
 Now you can also do complex stuff:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam useBetaStyle true
@@ -1054,7 +1054,7 @@ By default, all elements uses the `+root+` style, so you can change the font nam
 
 Let's say we have the following style hierarchy:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Style hierarchy cascade
@@ -1226,7 +1226,7 @@ Following the initial example, a convention could be followed such as:
 
 would result in hierarchy:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Style hierarchy cascade per type Option1
@@ -1245,7 +1245,7 @@ class "SequenceDiagram.actor" extends actor
 
 or alternately:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 title Style hierarchy cascade per type Option2

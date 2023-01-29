@@ -9,7 +9,7 @@ This page lists issues on link::state-diagram[State Diagram].
 
 With background color first (`+#color+`), then line style and line color (`+##[style]color+` ).
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 state FooGradient #red-green ##00FFFF
@@ -41,7 +41,7 @@ __[Ref. https://forum.plantuml.net/1487[QA-1487]]__
 `+text:color+` seems not to be taken into account 
 [[#FFD700#FIXME]]
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 @startuml
@@ -66,7 +66,7 @@ out -> inner2
 @enduml
 @enduml
 ----
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 state s1 : s1 description

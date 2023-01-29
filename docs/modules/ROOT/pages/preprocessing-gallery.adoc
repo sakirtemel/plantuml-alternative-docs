@@ -8,7 +8,7 @@ Gathered here all user preprocessing codes.
 
 == Template
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -22,7 +22,7 @@ __[Ref. https://forum.plantuml.net[QA-nnn]]__
 
 == Note on Member [noteMember] (Class Diagram)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 'Source: QA-10113
@@ -59,7 +59,7 @@ __[Ref. https://forum.plantuml.net/10113[QA-10113]]__
 
 == Msg (used on Sequence Diagram)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !function LineColor() return "#blue"
@@ -95,7 +95,7 @@ __[Ref. https://forum.plantuml.net/9954[QA-9954]]__
 
 == Example of date 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !THE_DATE=%date()
@@ -109,7 +109,7 @@ __[Ref. https://forum.plantuml.net/5095[QA-5095]]__
 
 == Table and Link demo using JSON and preprocessing (Class diagram)
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 'table and link demo using JSON and preprocessing

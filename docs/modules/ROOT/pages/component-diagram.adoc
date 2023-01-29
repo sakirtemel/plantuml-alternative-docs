@@ -11,7 +11,7 @@ You can also use the `+component+` keyword to define a component. In this case t
 
 You can define an alias, using the `+as+` keyword.
 This alias will be used later, when defining relations.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -25,7 +25,7 @@ component [Last\ncomponent] as Comp4
 
 === Naming exceptions
 Note that component names starting with `+$+` cannot be hidden or removed later, because `+hide+` and `+remove+` command will consider the name a `+$tag+` instead of a component name. To later remove such component they must have an alias or must be tagged.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component [$C1]
@@ -47,7 +47,7 @@ And you can define an alias, using the `+as+` keyword.
 This alias will be used latter, when defining relations.
 
 We will see latter that interface definition is optional.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -69,7 +69,7 @@ footer //Adding "component" to force diagram to be a **component diagram**//
 Links between elements are made using combinations of dotted line
 (`+..+`), straight line (`+--+`), and arrows (`+-->+`)
 symbols.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -87,7 +87,7 @@ You can use the
 `+note top of+` , `+note bottom of+`
 keywords to define notes related to a single object.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [Component] as C
@@ -110,7 +110,7 @@ note right of C: A right note
 
 A note can be also defined alone with the `+note+`
 keywords, then linked to other objects using the `+..+` symbol or whatever arrow symbol (`+-+`, `+--+`, ...).
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [Component] as C
@@ -125,7 +125,7 @@ C .. N
 ----
 
 Another note example:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -155,7 +155,7 @@ You can use several keywords to group components and interfaces together:
 * `+cloud+`
 * `+database+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -198,7 +198,7 @@ database "MySql" {
 By default, links between classes have two dashes `+--+` and are vertically oriented.
 It is possible to use horizontal link by putting a single dash (or dot) like this:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [Component] --> Interface1
@@ -208,7 +208,7 @@ It is possible to use horizontal link by putting a single dash (or dot) like thi
 
 You can also change directions by reversing the link:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 Interface1 <-- [Component]
@@ -219,7 +219,7 @@ Interface2 <- [Component]
 It is also possible to change arrow direction by adding `+left+`, `+right+`, `+up+`
 or `+down+` keywords inside the arrow:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [Component] -left-> left
@@ -237,7 +237,7 @@ Please note that you should not abuse this functionality : __Graphviz__ gives us
 
 
 And with the link::use-case-diagram#d551e48d272b2b07[`+left to right direction+`] parameter:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -253,7 +253,7 @@ left to right direction
 
 By default __(from v1.2020.13-14)__, UML2 notation is used.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -269,7 +269,7 @@ DA - [First Component]
 == Use UML1 notation
 
 The `+skinparam componentStyle uml1+` command is used to switch to UML1 notation.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam componentStyle uml1
@@ -286,7 +286,7 @@ DA - [First Component]
 == Use rectangle notation (remove UML notation)
 
 The `+skinparam componentStyle rectangle+` command is used to switch to rectangle notation __(without any UML notation)__.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam componentStyle rectangle
@@ -302,7 +302,7 @@ DA - [First Component]
 
 == Long description
 It is possible to put description on several lines using square brackets.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component comp1 [
@@ -318,7 +318,7 @@ on several lines
 
 
 You can specify a color after component definition.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component  [Web Server] #Yellow
@@ -328,7 +328,7 @@ component  [Web Server] #Yellow
 
 == Using Sprite in Stereotype
 You can use sprites within stereotype components.
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 sprite $businessProcess [16x16/16] {
@@ -373,7 +373,7 @@ You can use this command :
 
 You can define specific color and fonts for stereotyped components and interfaces.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -404,7 +404,7 @@ HTTP - WS
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -437,7 +437,7 @@ database Production
 === componentStyle 
 
 * By default (or with `+skinparam componentStyle uml2+`), you have an icon for component
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam BackgroundColor transparent
@@ -459,7 +459,7 @@ A.5]
 @enduml
 ----
 * If you want to suppress it, and to have only the rectangle, you can use `+skinparam componentStyle rectangle+`
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam BackgroundColor transparent
@@ -487,7 +487,7 @@ __[Ref. https://forum.plantuml.net/10798[10798]]__
 == Hide or Remove unlinked component
 
 By default, all components are displayed:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1
@@ -499,7 +499,7 @@ C1 -- C2
 
 But you can:
 * `+hide @unlinked+` components:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1
@@ -512,7 +512,7 @@ hide @unlinked
 ----
 
 * or `+remove @unlinked+` components:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1
@@ -533,7 +533,7 @@ __[Ref. https://forum.plantuml.net/11052[QA-11052]]__
 You can put `+$tags+` (using `+$+`) on components, then remove, hide or restore components either individually or by tags.
 
 By default, all components are displayed:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1 $tag13
@@ -545,7 +545,7 @@ C1 -- C2
 
 But you can:
 * `+hide $tag13+` components:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1 $tag13
@@ -558,7 +558,7 @@ hide $tag13
 ----
 
 * or `+remove $tag13+` components:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1 $tag13
@@ -571,7 +571,7 @@ remove $tag13
 ----
 
 * or `+remove $tag13 and restore $tag1+` components:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1 $tag13 $tag1
@@ -585,7 +585,7 @@ restore $tag1
 ----
 
 * or `+remove * and restore $tag1+` components:
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C1 $tag13 $tag1
@@ -604,7 +604,7 @@ __[Ref. https://forum.plantuml.net/7337[QA-7337] and https://forum.plantuml.net/
 == Display JSON Data on Component diagram
 
 === Simple example
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 allowmixing
@@ -630,7 +630,7 @@ For another example, see on link::json#2fyxla9p9ob6l3t3tjre[JSON page].
 You can added **port** with `+port+`, `+portin+`and `+portout+` keywords.
 
 === Port
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [c]
@@ -650,7 +650,7 @@ p2 --> c1
 ----
 
 === PortIn
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [c]
@@ -670,7 +670,7 @@ p2 --> c1
 ----
 
 === PortOut
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 component C {
@@ -688,7 +688,7 @@ c1 --> p1
 ----
 
 === Mixing PortIn & PortOut
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [i]

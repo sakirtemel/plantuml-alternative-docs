@@ -19,7 +19,7 @@ Example:
 
 Corresponding of this structure:
 
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -33,7 +33,7 @@ Corresponding of this structure:
 
 Once a variable is defined, you can access to its members:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$foo = { "name": "John", "age" : 30 }
@@ -47,7 +47,7 @@ Alice -> Bob : Do you know **$foo.name** ?
 It is possible to use complex JSON objects and arrays, with definition on several lines.
 
 Let `+$foo+`, the structure:
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -65,7 +65,7 @@ You can acess to the values:
 * `+$foo.employees[0].salary+`
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$foo = { "company": "Skynet", "employees" : [
@@ -85,7 +85,7 @@ to acess to the values:
 * `+$foo.employees[0][$attribute_1]+`
 * `+$foo.employees[0][$attribute_2]+`
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$foo = { "company": "Skynet", "employees" : [
@@ -118,7 +118,7 @@ __Available since 1.2021.15__
 
 If you define array, you can loop over.
 
-[source, plantuml]
+[plantuml]
 ----
 @startmindmap
 !$foo = { "company": "Skynet", "employees" : [
@@ -144,7 +144,7 @@ If you define array, you can loop over.
 == Full Example
 
 From a example worked in a forum question, with this JSON structure:
-[source, plantuml]
+[plantuml]
 ----
 @startjson
 {
@@ -159,7 +159,7 @@ From a example worked in a forum question, with this JSON structure:
 @endjson
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !unquoted function DRAW($x) return %set_variable_value($x, 1)
@@ -202,7 +202,7 @@ addBox2("PART25", "New Box", "white", $data)
 
 Here is a self-descriptive example:
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 left to right direction
@@ -236,7 +236,7 @@ __[Adapted from https://forum.plantuml.net/12917/how-to-mix-json-objects-into-a-
 
 You can use `+%get_json_keys+` to get all the keys of one level on a JSON structure.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$myjson = {
@@ -262,7 +262,7 @@ You can use `+%get_json_keys+` to get all the keys of one level on a JSON struct
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startwbs
 !$json_object = {
@@ -284,7 +284,7 @@ __[Ref. https://forum.plantuml.net/15360/ideas-for-2-new-json-builtins[QA-15360]
 == `+%get_json_type+` builtin function
 
 You can use `+%get_json_type+` to get the type of an element of a JSON structure (returns a string).
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$json_object = {
@@ -319,7 +319,7 @@ __[Ref. https://forum.plantuml.net/15360/ideas-for-2-new-json-builtins[QA-15360]
 
 You can use `+%json_key_exists+` to know if a key exists on a JSON structure (returns a boolean).
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$json_object= {
@@ -363,7 +363,7 @@ For each type here are the return value:
 
 |===
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 !$json_object= {

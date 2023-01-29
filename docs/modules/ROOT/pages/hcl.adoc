@@ -15,7 +15,7 @@ To activate this feature, the diagram must:
 * begin with `+@starthcl+` keyword
 * end with `+@endhcl+` keyword. 
 
-[source, plantuml]
+[plantuml]
 ----
 @starthcl
 {

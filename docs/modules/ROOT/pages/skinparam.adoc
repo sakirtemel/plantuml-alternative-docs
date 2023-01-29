@@ -47,7 +47,7 @@ skinparam xxxx {
 
 You can force the use of a black&white output using `+skinparam monochrome true+` command.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -84,7 +84,7 @@ deactivate A
 
 You can disable the shadowing using the `+skinparam shadowing false+` command.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -109,7 +109,7 @@ User -- fuc
 You can force the use of a black&white output using `+skinparam monochrome reverse+` command.
 This can be useful for black background environment.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 
@@ -147,7 +147,7 @@ deactivate A
 
 You can use either link::color[standard color name] or RGB code.
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 colors
@@ -208,7 +208,7 @@ You can also use `+direction+` or `+reverseDirection+` values to align text depe
 
 |===
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam sequenceMessageAlign center
@@ -217,7 +217,7 @@ Bob -> Alice : This is very long
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam sequenceMessageAlign right
@@ -226,7 +226,7 @@ Bob -> Alice : This is very long
 @enduml
 ----
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam sequenceMessageAlign direction
@@ -238,7 +238,7 @@ Bob -> Alice: Hi
 
 == Examples
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam backgroundColor #EEEBDC
@@ -287,7 +287,7 @@ deactivate A
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam handwritten true
@@ -322,7 +322,7 @@ MySql --> (Use)
 
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam roundcorner 20
@@ -340,7 +340,7 @@ Class03 o-- Class04 : aggregation
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparam interface {
@@ -370,7 +370,7 @@ HTTP - [Web Server]
 ----
 
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 [AA] <<static lib>>
@@ -415,7 +415,7 @@ java -jar plantuml.jar -language
 
 That will give you the following result, from this page __(code of this command)__: https://github.com/plantuml/plantuml/blob/master/src/net/sourceforge/plantuml/help/CommandHelpSkinparam.java[CommandHelpSkinparam.java]
 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 help skinparams
@@ -424,7 +424,7 @@ help skinparams
 
 
 === Command: skinparameters 
-[source, plantuml]
+[plantuml]
 ----
 @startuml
 skinparameters 
