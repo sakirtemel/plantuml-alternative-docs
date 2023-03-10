@@ -1,15 +1,19 @@
-name: Sync docs from alphadoc
+name: [Docs] Sync docs from alphadoc and process antora
 
 on:
   workflow_dispatch:
+    inputs:
+      fetch_docs:
+        description: 'Fetch docs from alphadoc?'
+        required: true
+        default: true
+        type: boolean
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Source
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v3
         with:
           node-version: 19
@@ -17,6 +21,10 @@ jobs:
       - name: Fetch docs from alphadoc
         run: |
           npm run fetchDocsFromAlphadoc
+        if:  ${{ inputs.fetch_docs }}
+      - name: Process antora docs
+        run: |
+          npm run processAntoraDocsComponent
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v4
@@ -28,6 +36,3 @@ jobs:
             Automated sync docs from alphadoc.
           labels: |
             automated pr
-          team-reviewers: |
-            owners
-            maintainers
