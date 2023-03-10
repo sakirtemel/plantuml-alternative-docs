@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-const outputDirectory = 'docs/modules/ROOT/pages/'
+const outputDirectory = 'modules/ROOT/pages/'
 const sourceDirectory = 'docs_from_alphadoc/'
 
 // ensure the output directory exists
