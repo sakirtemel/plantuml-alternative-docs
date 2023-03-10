@@ -1,4 +1,4 @@
-name: DOCS Sync docs from alphadoc and process antora
+name: PLANTUML DOCS Sync docs from alphadoc and process antora
 
 on:
   workflow_dispatch:
@@ -9,11 +9,15 @@ on:
         default: true
         type: boolean
 concurrency:
-  group: 'docs_sync_and_process'
+  group: 'plantuml_docs_sync_and_process'
   cancel-in-progress: true
 jobs:
   ci:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: plantuml-docs
     steps:
       - name: Checkout Source
         uses: actions/checkout@v3

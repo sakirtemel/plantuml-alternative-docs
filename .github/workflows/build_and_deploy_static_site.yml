@@ -26,6 +26,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: plantuml-docs
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
