@@ -1,4 +1,4 @@
-name: [Docs] Sync docs from alphadoc and process antora
+name: DOCS Sync docs from alphadoc and process antora
 
 on:
   workflow_dispatch:
