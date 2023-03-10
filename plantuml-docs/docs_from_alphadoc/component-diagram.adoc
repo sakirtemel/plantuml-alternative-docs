@@ -596,7 +596,7 @@ For another example, see on link::json#2fyxla9p9ob6l3t3tjre[JSON page].
 
 == Port [port, portIn, portOut]
 
-You can added **port** with `+port+`, `+portin+`and `+portout+` keywords.
+You can add **port** with `+port+`, `+portin+`and `+portout+` keywords.
 
 === Port
 <plantuml>
