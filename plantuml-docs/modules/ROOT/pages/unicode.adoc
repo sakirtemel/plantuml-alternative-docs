@@ -112,3 +112,10 @@ available: `+ISO-8859-1+`, `+UTF-8+`, `+UTF-16BE+`, `+UTF-16LE+`, `+UTF-16+`.
 
 
 
+== Using Unicode Character on PlantUML
+
+On PlantUML diagram, you can integrate:
+* link::creole#c5he6wa30bpsk362kjdb[Special characters] using `+&#XXXX;+` or `+<U+XXXX>+` form;
+* link::creole#2jq22b6bnqpkkwxxmwos[Emoji] using `+<:XXXXX:>+` or `+<:NameOfEmoji:>+`form.
+
+

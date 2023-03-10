@@ -443,7 +443,7 @@ You can also define a note on the last defined class using `+note left+`, `+note
 class Foo
 note left: On last defined class
 
-note top of Object
+note top of Foo
   In java, <size:18>every</size> <u>class</u>
   <b>extends</b>
   <i>this</i> one.
@@ -862,14 +862,13 @@ package "Classic Collections" #DDDDDD {
   Object <|-- ArrayList
 }
 
-package net.sourceforge.plantuml {
+package com.plantuml {
   Object <|-- Demo1
   Demo1 *- Demo2
 }
 
 @enduml
 ----
-
 
 
 == Packages style
@@ -938,59 +937,22 @@ foo1.foo2 +-- foo1.foo2.foo3
 
 == Namespaces
 
-In packages, the name of a class is the unique identifier of this class.
-It means that you cannot have two classes with the very same name in
-different packages.
+Starting with version 1.2023.2 (which is online as a beta), PlantUML handles differently namespaces and packages.
 
-In that case, you should use http://en.wikipedia.org/wiki/Namespace_%28computer_science%29[namespaces]
-instead of packages.
-
-You can refer to classes from other namespaces by fully qualify
-them. Classes from the default namespace are qualified with a starting
-dot.
-
-Note that you don't have to explicitly create namespace : a fully
-qualified class is automatically put in the right namespace.
-
-[plantuml]
-----
-@startuml
-
-class BaseClass
-
-namespace net.dummy #DDDDDD {
-    .BaseClass <|-- Person
-    Meeting o-- Person
-
-    .BaseClass <|- Meeting
-}
-
-namespace net.foo {
-  net.dummy.Person  <|- Person
-  .BaseClass <|-- Person
-
-  net.dummy.Meeting o-- Person
-}
-
-BaseClass <|-- net.unused.Person
-
-@enduml
-----
+There won't be any difference between namespaces and packages anymore: both keywords are now synonymous. 
 
 
-
-== Automatic namespace creation
-
+== Automatic package creation
 
 
 You can define another separator (other than the dot) using
-the command : `+set namespaceSeparator ???+`.
+the command : `+set separator ???+`.
 
 [plantuml]
 ----
 @startuml
 
-set namespaceSeparator ::
+set separator ::
 class X1::X2::foo {
   some info
 }
@@ -999,13 +961,13 @@ class X1::X2::foo {
 ----
 
 You can disable automatic namespace creation using the command
-`+set namespaceSeparator none+`.
+`+set separator none+`.
 
 [plantuml]
 ----
 @startuml
 
-set namespaceSeparator none
+set separator none
 class X1.X2.foo {
   some info
 }

@@ -124,6 +124,12 @@ The default header/footer (or StartTag/EndTag) are `+@startuml+`/`+@enduml+`.
 |
 | {{gantt
 
+| link::hcl[HCL+++<br>+++(🚧 __under construction__)]
+|
+| @starthcl
+|
+|
+
 | link::ie-diagram[Information Engineering (IE) / Entity Relationship (ER)]
 |
 |
@@ -157,6 +163,12 @@ The default header/footer (or StartTag/EndTag) are `+@startuml+`/`+@enduml+`.
 | link::problem-diagram[Problem diagram]
 |
 |
+|
+|
+
+| link::regex[Regex+++<br>+++(🆕 functionality 🚧 __under construction__)]
+|
+| @startregex
 |
 |
 

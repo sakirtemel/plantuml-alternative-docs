@@ -26,7 +26,7 @@ Overall, PlantUML is a powerful and versatile tool for creating professional-loo
 
 * You can use themes with PlantUML
 
-You can use link::themes[theme] with PlantUML to customize the appearance of your diagrams. PlantUML provides several built-in themes that you can use, and you can also create your own custom themes by defining link::style-evolution[your own colors and styles].
+You can use link::theme[themes] with PlantUML to customize the appearance of your diagrams. PlantUML provides several built-in themes that you can use, and you can also create your own custom themes by defining link::style-evolution[your own colors and styles].
 
 
 * PlantUML does a lot of layout work for you
@@ -318,6 +318,12 @@ sudo yum install fontconfig
 or
 
 sudo apt-get install fontconfig
+----
+
+You may also need to install
+
+----
+ttf-droid
 ----
 
 

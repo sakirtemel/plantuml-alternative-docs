@@ -512,8 +512,6 @@ nwdiag {
 }
 @enduml
 ----
-[[#FFAAAA#FIXME]] Why the line on proxy for 'db'? ('db' must be only on 'default network') [See example without group]
-
 
 === Group on third
 [plantuml]
@@ -540,9 +538,7 @@ nwdiag {
 @enduml
 ----
 
-[[#FFAAAA#FIXME]]
 __[Ref. https://github.com/plantuml/plantuml/issues/408[Issue#408] and https://forum.plantuml.net/12655/nwdiag-overlapp-problem-with-3-newtorks?show=12661#c12661[QA-12655]]__
-[[#FFAAAA#Not totally fixed]]
 
 
 == Add title, caption, header, footer or legend on network diagram

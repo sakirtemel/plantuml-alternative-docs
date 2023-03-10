@@ -31,3 +31,30 @@ Ref.:
 * https://forum.plantuml.net/17357/documentation-of-hcl-and-regex[QA-17357]
 
 
+== The example taken from the hcl website.
+
+[plantuml]
+----
+@starthcl
+{
+  "io_mode": "async",
+  "service": {
+    "http": {
+      "web_proxy": {
+        "listen_addr": "127.0.0.1:8080",
+        "process": {
+          "main": {
+            "command": ["/usr/local/bin/awesome-app", "server"]
+          },
+          "mgmt": {
+            "command": ["/usr/local/bin/awesome-app", "mgmt"]
+          },
+        }
+      }
+    }
+  }
+}
+@endhcl
+----
+
+
