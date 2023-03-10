@@ -3,7 +3,7 @@
 This page lists issues on link::nwdiag[nwdiag].
 
 
-== Example __KO__ on group of Peer networks
+== Example __KO__ on group of Peer networks [fixed on V1.2023.3beta4]
 
 === Group on first
 <plantuml>
@@ -56,8 +56,6 @@ nwdiag {
 }
 @enduml
 </plantuml>
-[[#FFAAAA#FIXME]] Why the line on proxy for 'db'? ('db' must be only on 'default network') [See example without group]
-
 
 === Group on third
 <plantuml>
@@ -166,7 +164,7 @@ server
 </plantuml>
 
 
-== Example __KO__ with incoming server (e.g. the Internet or Web)
+== Example __KO__ with incoming server (e.g. the Internet or Web) [fixed on V1.2023.3beta4]
 
 <plantuml>
 @startuml
@@ -210,10 +208,10 @@ nwdiag {
 @enduml
 </plantuml>
 
-* Q?: What is the line on the top of web2 ?
+* Q?: What is the line on the top of web2 ?  [fixed on V1.2023.3beta4]
 
 
-== Minimal __KO__ example...
+== Minimal __KO__ example... [fixed on V1.2023.3beta4]
 
 <plantuml>
 @startuml
@@ -416,8 +414,8 @@ nwdiag {
 ▶ Seems to be corrected on V1.2021.10beta4-5+ __(but only on **opposite layout**)__
 
 
-== Example __KO__ on Goup of Peer networks between networks
-
+== Example __KO__ on Goup of Peer networks between networks [fixed on V1.2023.3beta4] 
+ 
 === Group first: OK
 <plantuml>
 @startuml
@@ -438,8 +436,7 @@ nwdiag {
 @enduml
 </plantuml>
 
-=== Group at the end: KO
-
+=== Group at the end: OK (1.2023.3beta4)
 <plantuml>
 @startuml
 nwdiag {

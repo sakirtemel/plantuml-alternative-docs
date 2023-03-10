@@ -383,7 +383,7 @@ __[Ref. https://forum.plantuml.net/11365/creole-trees-do-not-respect-indent-leve
 == Special characters
 
 It's possible to use any http://www.fileformat.info/info/unicode/category/Sm/list.htm[unicode character],
-either directly or with syntax `+&#XXX+` or `+<U+XXXX>+`:
+either directly or with syntax `+&#XXXX;+` or `+<U+XXXX>+`:
 
 <plantuml>
 @startuml
