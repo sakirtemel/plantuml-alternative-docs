@@ -7,8 +7,9 @@ site:
   # url: https://plantuml.github.io/plantuml-alternative-docs/
 content:
   sources:
-  - url: .
+  - url: ..
     branches: HEAD
+    start_path: plantuml-docs
 ui:
   bundle:
     url: _antora/ui-bundle.zip
